@@ -1,0 +1,260 @@
+[
+  {
+    "product_brand": "CeraVe",
+    "product_title": "Moisturizing Cream",
+    "ingredients": [
+      {
+        "ingredient_name": "Aqua",
+        "what_it_does": "solvent",
+        "irritancy/comedogenicity": null,
+        "id_rating": ""
+      },
+      {
+        "ingredient_name": "Glycerin",
+        "what_it_does": "skin-identical ingredient,moisturizer/​humectant",
+        "irritancy/comedogenicity": "0,0",
+        "id_rating": "superstar"
+      },
+      {
+        "ingredient_name": "Cetearyl Alcohol",
+        "what_it_does": "emollient,viscosity controlling,emulsifying,surfactant/​cleansing",
+        "irritancy/comedogenicity": "1,2",
+        "id_rating": ""
+      },
+      {
+        "ingredient_name": "Caprylic/Capric Triglyceride",
+        "what_it_does": "emollient",
+        "irritancy/comedogenicity": null,
+        "id_rating": ""
+      },
+      {
+        "ingredient_name": "Cetyl Alcohol",
+        "what_it_does": "emollient,viscosity controlling",
+        "irritancy/comedogenicity": "2,2",
+        "id_rating": ""
+      },
+      {
+        "ingredient_name": "Ceteareth-20",
+        "what_it_does": "emulsifying,surfactant/​cleansing",
+        "irritancy/comedogenicity": "3,2",
+        "id_rating": ""
+      },
+      {
+        "ingredient_name": "Petrolatum",
+        "what_it_does": "emollient",
+        "irritancy/comedogenicity": null,
+        "id_rating": "goodie"
+      },
+      {
+        "ingredient_name": "Potassium Phosphate",
+        "what_it_does": "buffering",
+        "irritancy/comedogenicity": null,
+        "id_rating": ""
+      },
+      {
+        "ingredient_name": "Ceramide NP",
+        "what_it_does": "skin-identical ingredient",
+        "irritancy/comedogenicity": null,
+        "id_rating": "goodie"
+      },
+      {
+        "ingredient_name": "Ceramide AP",
+        "what_it_does": "skin-identical ingredient",
+        "irritancy/comedogenicity": null,
+        "id_rating": "goodie"
+      },
+      {
+        "ingredient_name": "Ceramide EOP",
+        "what_it_does": "skin-identical ingredient",
+        "irritancy/comedogenicity": null,
+        "id_rating": "goodie"
+      },
+      {
+        "ingredient_name": "Carbomer",
+        "what_it_does": "viscosity controlling",
+        "irritancy/comedogenicity": "0,1",
+        "id_rating": ""
+      },
+      {
+        "ingredient_name": "Dimethicone",
+        "what_it_does": "emollient",
+        "irritancy/comedogenicity": "0,1",
+        "id_rating": ""
+      },
+      {
+        "ingredient_name": "Behentrimonium Methosulfate",
+        "what_it_does": "surfactant/​cleansing",
+        "irritancy/comedogenicity": null,
+        "id_rating": ""
+      },
+      {
+        "ingredient_name": "Sodium Lauroyl Lactylate",
+        "what_it_does": "emulsifying",
+        "irritancy/comedogenicity": null,
+        "id_rating": ""
+      },
+      {
+        "ingredient_name": "Sodium Hyaluronate",
+        "what_it_does": "skin-identical ingredient,moisturizer/​humectant",
+        "irritancy/comedogenicity": "0,0",
+        "id_rating": "goodie"
+      },
+      {
+        "ingredient_name": "Cholesterol",
+        "what_it_does": "skin-identical ingredient,emollient",
+        "irritancy/comedogenicity": "0,0",
+        "id_rating": "goodie"
+      },
+      {
+        "ingredient_name": "Phenoxyethanol",
+        "what_it_does": "preservative",
+        "irritancy/comedogenicity": null,
+        "id_rating": ""
+      },
+      {
+        "ingredient_name": "Disodium EDTA",
+        "what_it_does": "chelating",
+        "irritancy/comedogenicity": null,
+        "id_rating": ""
+      },
+      {
+        "ingredient_name": "Dipotassium Phosphate",
+        "what_it_does": "buffering",
+        "irritancy/comedogenicity": null,
+        "id_rating": ""
+      },
+      {
+        "ingredient_name": "Tocopherol",
+        "what_it_does": "antioxidant",
+        "irritancy/comedogenicity": "0-3,0-3",
+        "id_rating": "goodie"
+      },
+      {
+        "ingredient_name": "Phytosphingosine",
+        "what_it_does": "skin-identical ingredient,cell-communicating ingredient,anti-acne,antimicrobial/​antibacterial",
+        "irritancy/comedogenicity": null,
+        "id_rating": "goodie"
+      },
+      {
+        "ingredient_name": "Xanthan Gum",
+        "what_it_does": "viscosity controlling",
+        "irritancy/comedogenicity": null,
+        "id_rating": ""
+      },
+      {
+        "ingredient_name": "Ethylhexylglycerin",
+        "what_it_does": "preservative",
+        "irritancy/comedogenicity": null,
+        "id_rating": ""
+      }
+    ]
+  },
+  {
+    "product_brand": "The Ordinary",
+    "product_title": "Hyaluronic Acid 2% + B5",
+    "ingredients": [
+      {
+        "ingredient_name": "Aqua (Water)",
+        "what_it_does": "solvent",
+        "irritancy/comedogenicity": null,
+        "id_rating": ""
+      },
+      {
+        "ingredient_name": "Sodium Hyaluronate",
+        "what_it_does": "skin-identical ingredient,moisturizer/​humectant",
+        "irritancy/comedogenicity": "0,0",
+        "id_rating": "goodie"
+      },
+      {
+        "ingredient_name": "Pentylene Glycol",
+        "what_it_does": "solvent,moisturizer/​humectant",
+        "irritancy/comedogenicity": null,
+        "id_rating": ""
+      },
+      {
+        "ingredient_name": "Propanediol",
+        "what_it_does": "solvent,moisturizer/​humectant",
+        "irritancy/comedogenicity": null,
+        "id_rating": ""
+      },
+      {
+        "ingredient_name": "Sodium Hyaluronate Crosspolymer",
+        "what_it_does": "skin-identical ingredient,antioxidant,moisturizer/​humectant",
+        "irritancy/comedogenicity": null,
+        "id_rating": "goodie"
+      },
+      {
+        "ingredient_name": "Panthenol",
+        "what_it_does": "soothing,moisturizer/​humectant",
+        "irritancy/comedogenicity": "0,0",
+        "id_rating": "goodie"
+      },
+      {
+        "ingredient_name": "Ahnfeltia Concinna Extract",
+        "what_it_does": "viscosity controlling",
+        "irritancy/comedogenicity": null,
+        "id_rating": "goodie"
+      },
+      {
+        "ingredient_name": "Glycerin",
+        "what_it_does": "skin-identical ingredient,moisturizer/​humectant",
+        "irritancy/comedogenicity": "0,0",
+        "id_rating": "superstar"
+      },
+      {
+        "ingredient_name": "Trisodium Ethylenediamine Disuccinate",
+        "what_it_does": "chelating",
+        "irritancy/comedogenicity": null,
+        "id_rating": ""
+      },
+      {
+        "ingredient_name": "Citric Acid",
+        "what_it_does": "buffering",
+        "irritancy/comedogenicity": null,
+        "id_rating": ""
+      },
+      {
+        "ingredient_name": "Isoceteth-20",
+        "what_it_does": "emulsifying,surfactant/​cleansing",
+        "irritancy/comedogenicity": null,
+        "id_rating": ""
+      },
+      {
+        "ingredient_name": "Ethoxydiglycol",
+        "what_it_does": "solvent,moisturizer/​humectant,perfuming",
+        "irritancy/comedogenicity": "0,0",
+        "id_rating": ""
+      },
+      {
+        "ingredient_name": "Ethylhexylglycerin",
+        "what_it_does": "preservative",
+        "irritancy/comedogenicity": null,
+        "id_rating": ""
+      },
+      {
+        "ingredient_name": "Hexylene Glycol",
+        "what_it_does": "solvent,emulsifying,perfuming,surfactant/​cleansing",
+        "irritancy/comedogenicity": "0-1,0-2",
+        "id_rating": ""
+      },
+      {
+        "ingredient_name": "1,2-Hexanediol",
+        "what_it_does": "solvent",
+        "irritancy/comedogenicity": null,
+        "id_rating": ""
+      },
+      {
+        "ingredient_name": "Phenoxyethanol",
+        "what_it_does": "preservative",
+        "irritancy/comedogenicity": null,
+        "id_rating": ""
+      },
+      {
+        "ingredient_name": "Caprylyl Glycol",
+        "what_it_does": "moisturizer/​humectant,emollient",
+        "irritancy/comedogenicity": null,
+        "id_rating": ""
+      }
+    ]
+  }
+]

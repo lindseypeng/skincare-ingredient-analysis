@@ -1,484 +1,195 @@
-import requests
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 import json
 import time
-import re
-from urllib.parse import quote_plus
-import pandas as pd
-from collections import Counter
-import nltk
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
-import os
 
 class DynamicSkincareScraper:
-    def __init__(self):
-        self.session = requests.Session()
-        self.session.headers.update({
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-        })
-        
-        # Initialize sets to collect all unique categories found during scraping
-        self.all_functions = set()
-        self.all_categories = set()
-        self.all_ingredients = set()
-        self.all_tags = set()
-        
-    def scrape_incidecoder_products(self, product_types=['cleanser', 'toner', 'serum', 'moisturizer', 'sunscreen'], max_per_type=10):
-        """Scrape products from INCIDecoder using search"""
-        all_products = []
-        
-        for product_type in product_types:
-            print(f"Scraping {product_type} products...")
-            
-            # Search for products of this type
-            search_url = f"https://incidecoder.com/search?query={product_type}"
-            
-            try:
-                response = self.session.get(search_url)
-                response.raise_for_status()
-                soup = BeautifulSoup(response.content, 'html.parser')
-                
-                # Find product links
-                product_links = soup.find_all('a', class_='klavika')
-                
-                print(f"Found {len(product_links)} {product_type} products")
-                
-                count = 0
-                for link in product_links:
-                    if count >= max_per_type:
-                        break
-                        
-                    product_name = link.get_text(strip=True)
-                    product_url = link.get('href')
-                    
-                    if product_url and 'products' in product_url:
-                        full_url = f"https://incidecoder.com{product_url}"
-                        print(f"  Scraping: {product_name}")
-                        
-                        product_data = self.scrape_product_details(full_url, product_name, product_type)
-                        
-                        if product_data:
-                            all_products.append(product_data)
-                            count += 1
-                            
-                        time.sleep(2)  # Be respectful
-                        
-            except Exception as e:
-                print(f"Error scraping {product_type}: {str(e)}")
-                continue
-                
-        return all_products
-    
-    def scrape_product_details(self, product_url, product_name, product_type):
-        """Scrape detailed product information from INCIDecoder product page"""
+    def __init__(self, driver_path=None):
+        chrome_options = Options()
+        chrome_options.add_argument("--headless=new")
+        chrome_options.add_argument("--disable-gpu")
+        chrome_options.add_argument("--no-sandbox")
+        self.driver = webdriver.Chrome(executable_path=driver_path, options=chrome_options) if driver_path else webdriver.Chrome(options=chrome_options)
+
+    def scrape_product_skim_through_table(self, product_url):
+        self.driver.get(product_url)
+        # Wait for the table to load
         try:
-            response = self.session.get(product_url)
-            response.raise_for_status()
-            soup = BeautifulSoup(response.content, 'html.parser')
-            
-            product_data = {
-                'name': product_name,
-                'brand': None,
-                'type': product_type,
-                'url': product_url,
-                'image': None,
-                'tags': [],
-                'raw_ingredients': [],
-                'ingredient_details': {},  # Store all extracted details per ingredient
-                'website_categories': {},  # Categories as defined by the website
-                'ingredient_functions': {},  # Functions as defined by the website
-                'raw_text_content': ""  # Store all text for later NLP analysis
-            }
-            
-            # Extract brand
-            brand_elements = soup.find_all(['a', 'span', 'div'], class_=['underline', 'brand', 'brand-name'])
-            for elem in brand_elements:
-                if elem.get_text(strip=True) and len(elem.get_text(strip=True)) < 50:
-                    product_data['brand'] = elem.get_text(strip=True)
-                    break
-            
-            # Extract image URL
-            img_elements = soup.find_all('img')
-            for img in img_elements:
-                src = img.get('src')
-                if src and any(keyword in src.lower() for keyword in ['product', 'bottle', 'package']):
-                    product_data['image'] = src
-                    break
-            
-            # Extract ALL tags (let the website decide what's important)
-            tag_elements = soup.find_all(['span', 'div'], class_=re.compile(r'tag|badge|label'))
-            for tag_elem in tag_elements:
-                tag_text = tag_elem.get_text(strip=True)
-                if tag_text and len(tag_text) < 100:  # Reasonable length filter
-                    product_data['tags'].append(tag_text)
-                    self.all_tags.add(tag_text.lower())
-            
-            # Extract raw ingredients list
-            ingredient_sections = soup.find_all(['div', 'section'], 
-                                              class_=re.compile(r'ingredient|inci', re.I))
-            
-            for section in ingredient_sections:
-                # Look for ingredient links/names
-                ingredient_links = section.find_all(['a', 'span'], 
-                                                  class_=re.compile(r'ingred|ingredient', re.I))
-                for link in ingredient_links:
-                    ingredient_name = link.get_text(strip=True)
-                    if ingredient_name and len(ingredient_name) < 100:
-                        product_data['raw_ingredients'].append(ingredient_name)
-                        self.all_ingredients.add(ingredient_name.lower())
-            
-            # Extract ALL structured data from tables/lists
-            tables = soup.find_all('table')
-            for table in tables:
-                self.extract_table_data(table, product_data)
-            
-            # Extract categorized information from structured sections
-            sections = soup.find_all(['div', 'section'], id=True)
-            for section in sections:
-                section_id = section.get('id', '').lower()
-                section_data = self.extract_section_data(section, section_id)
-                if section_data:
-                    product_data['website_categories'][section_id] = section_data
-            
-            # Store raw text content for later NLP analysis
-            product_data['raw_text_content'] = soup.get_text()
-            
-            # Extract ingredient details dynamically
-            product_data['ingredient_details'] = self.extract_all_ingredient_details(soup)
-
-            # Extract key ingredients by function (from first .ingredlist-by-function-block)
-            product_data['key_ingredients'] = self.extract_key_ingredients(soup)
-
-            
-            
-            print(f"    ✓ Extracted {len(product_data['raw_ingredients'])} ingredients")
-            print(f"    ✓ Found {len(product_data['key_ingredients'])} key ingredients")
-            print(f"    ✓ Found {len(product_data['website_categories'])} categories")
-            print(f"    ✓ Tags: {', '.join(product_data['tags'][:3])}{'...' if len(product_data['tags']) > 3 else ''}")
-            
-            return product_data
-            
-        except Exception as e:
-            print(f"    ✗ Error scraping {product_name}: {str(e)}")
+            WebDriverWait(self.driver, 10).until(
+                EC.presence_of_element_located((By.ID, "showmore-section-ingredlist-table"))
+            )
+        except Exception:
+            print("Skim through table did not load.")
             return None
 
-    def extract_key_ingredients(self, soup):
-        """Extract key ingredients by function from the first .ingredlist-by-function-block"""
-        block = soup.find('div', class_='ingredlist-by-function-block')
-        if not block:
-            return []
+        # Get initial number of rows
+        soup = BeautifulSoup(self.driver.page_source, 'html.parser')
+        table_section = soup.find('div', id='showmore-section-ingredlist-table')
+        table = table_section.find('table', class_='product-skim') if table_section else None
+        tbody = table.find('tbody') if table else None
+        initial_rows = len(tbody.find_all('tr')) if tbody else 0
 
-        key_ingredients = []
-        for div in block.find_all('div', recursive=False):
-            func_elem = div.find('a', class_='func-link')
-            if not func_elem:
+        # Click the "more" button if it exists and is visible
+        try:
+            more_btn = self.driver.find_element(By.CSS_SELECTOR, "#showmore-section-ingredlist-table .showmore-link")
+            if more_btn.is_displayed():
+                self.driver.execute_script("arguments[0].click();", more_btn)
+                # Wait until the number of rows increases
+                WebDriverWait(self.driver, 5).until(
+                    lambda d: (
+                        len(
+                            BeautifulSoup(
+                                d.page_source, 'html.parser'
+                            ).find('div', id='showmore-section-ingredlist-table')
+                             .find('table', class_='product-skim')
+                             .find('tbody')
+                             .find_all('tr')
+                        ) > initial_rows
+                    )
+                )
+                time.sleep(0.5)  # Give a little extra time for animation/lazy load
+        except Exception as e:
+            print(f"No or unresponsive 'more' button: {e}")
+
+        # Now parse the fully expanded table
+        soup = BeautifulSoup(self.driver.page_source, 'html.parser')
+        product_name = self.extract_product_name(soup)
+        product_type = self.extract_product_type(soup)
+        tags = self.extract_tags(soup)
+        skim_table = self.extract_skim_through_table(soup)
+        print(f"Number of chemical ingredients scraped from skim_through_table: {len(skim_table)}")
+        return {
+            "product_name": product_name,
+            "type": product_type,
+            "tags": tags,
+            "skim_through_table": skim_table
+        }
+
+    def extract_product_name(self, soup):
+        h1 = soup.find('h1')
+        if h1:
+            return h1.get_text(strip=True)
+        title = soup.find('title')
+        if title:
+            return title.get_text(strip=True)
+        return "Unknown Product"
+
+    def extract_product_type(self, soup):
+        # Try to find the type/category (e.g., cleanser, serum) from breadcrumbs or meta
+        breadcrumb = soup.find('ol', class_='breadcrumb')
+        if breadcrumb:
+            items = breadcrumb.find_all('li')
+            if len(items) > 1:
+                return items[-2].get_text(strip=True).lower()
+        # Fallback: look for meta or category tags
+        meta_type = soup.find('meta', {'property': 'og:type'})
+        if meta_type and meta_type.get('content'):
+            return meta_type['content'].lower()
+        return None
+
+    def extract_tags(self, soup):
+        # Try to find tags/highlights (e.g., alcohol-free, sulfate-free)
+        tags = []
+        tag_spans = soup.find_all('span', class_='tag')
+        for tag in tag_spans:
+            tag_text = tag.get_text(strip=True)
+            if tag_text:
+                tags.append(tag_text)
+        # Also check for badges or highlights
+        badge_spans = soup.find_all('span', class_='badge')
+        for badge in badge_spans:
+            badge_text = badge.get_text(strip=True)
+            if badge_text and badge_text not in tags:
+                tags.append(badge_text)
+        return tags if tags else None
+
+    def extract_skim_through_table(self, soup):
+        table_data = []
+        table_section = soup.find('div', id='showmore-section-ingredlist-table')
+        if not table_section:
+            print("No skim through table section found.")
+            return table_data
+        table = table_section.find('table', class_='product-skim')
+        if not table:
+            print("No skim through table found.")
+            return table_data
+        tbody = table.find('tbody')
+        if not tbody:
+            print("No table body found.")
+            return table_data
+
+        for row in tbody.find_all('tr'):
+            cells = row.find_all('td')
+            if len(cells) != 4:
                 continue
-            function = func_elem.get_text(strip=True)
 
-            ingredients = []
-            for ingred_link in div.find_all('a', class_='ingred-link'):
-                name = ingred_link.get_text(strip=True)
-                url = ingred_link.get('href')
-                if url and not url.startswith('http'):
-                    url = f"https://incidecoder.com{url}"
-                ingredients.append({'name': name, 'url': url})
+            # Ingredient name (just the name)
+            ingred_a = cells[0].find('a', class_='ingred-detail-link')
+            ingredient_name = ingred_a.get_text(strip=True) if ingred_a else cells[0].get_text(strip=True).strip() or None
+            if not ingredient_name:
+                continue
 
-            if ingredients:
-                key_ingredients.append({
-                    'function': function,
-                    'ingredients': ingredients
-                })
+            # What-it-does (list of strings)
+            what_it_does = [a.get_text(strip=True) for a in cells[1].find_all('a', class_='ingred-function-link')]
+            if not what_it_does:
+                what_it_does = None
 
-        return key_ingredients
+            # Irritancy/comedogenicity as a single string (first two values only)
+            irrcom_val = None
+            spans = cells[2].find_all('span')
+            values = []
+            if spans:
+                for s in spans:
+                    val = s.get_text(strip=True)
+                    if val:
+                        values.append(val)
+                # Only take the first two values
+                if len(values) >= 2:
+                    irrcom_val = f"{values[0]},{values[1]}"
+                elif len(values) == 1:
+                    irrcom_val = values[0]
+                else:
+                    irrcom_val = None
+            else:
+                # fallback: try to parse text
+                irrcom_text = cells[2].get_text(strip=True)
+                if irrcom_text:
+                    parts = [p.strip() for p in irrcom_text.replace('/', ',').split(',') if p.strip()]
+                    if len(parts) >= 2:
+                        irrcom_val = f"{parts[0]},{parts[1]}"
+                    elif len(parts) == 1:
+                        irrcom_val = parts[0]
+                    else:
+                        irrcom_val = None
 
-    def extract_table_data(self, table, product_data):
-        """Extract data from any table structure"""
-        rows = table.find_all('tr')
-        for row in rows:
-            cells = row.find_all(['td', 'th'])
-            if len(cells) >= 2:
-                key = cells[0].get_text(strip=True)
-                value = cells[1].get_text(strip=True)
-                if key and value:
-                    product_data['ingredient_functions'][key] = value
-                    self.all_functions.add(value.lower())
-    
-    def extract_section_data(self, section, section_id):
-        """Extract structured data from any section"""
-        section_data = {}
-        
-        # Look for lists
-        lists = section.find_all(['ul', 'ol'])
-        for lst in lists:
-            items = [li.get_text(strip=True) for li in lst.find_all('li')]
-            if items:
-                section_data['list_items'] = items
-        
-        # Look for key-value pairs
-        strong_elements = section.find_all(['strong', 'b', 'h3', 'h4', 'h5'])
-        for strong in strong_elements:
-            title = strong.get_text(strip=True)
-            if title:
-                # Get following text
-                next_text = ""
-                next_elem = strong.next_sibling
-                while next_elem and len(next_text) < 500:
-                    if hasattr(next_elem, 'get_text'):
-                        next_text += next_elem.get_text(strip=True) + " "
-                    elif isinstance(next_elem, str):
-                        next_text += next_elem.strip() + " "
-                    next_elem = next_elem.next_sibling
-                    if next_elem and next_elem.name in ['strong', 'b', 'h3', 'h4', 'h5']:
-                        break
-                
-                if next_text.strip():
-                    section_data[title] = next_text.strip()
-                    self.all_categories.add(title.lower())
-        
-        return section_data if section_data else None
-    
-    def extract_all_ingredient_details(self, soup):
-        """Extract any available details for each ingredient"""
-        ingredient_details = {}
-        
-        # Look for ingredient explanation blocks
-        ingredient_blocks = soup.find_all(['div', 'section'], 
-                                        class_=re.compile(r'ingredient|explanation', re.I))
-        
-        for block in ingredient_blocks:
-            # Try to find ingredient name
-            name_elem = block.find(['h3', 'h4', 'h5', 'strong', 'b'])
-            if name_elem:
-                ingredient_name = name_elem.get_text(strip=True)
-                
-                # Extract all text content from this block
-                block_text = block.get_text(strip=True)
-                
-                # Look for specific patterns
-                details = {
-                    'full_text': block_text,
-                    'functions': [],
-                    'benefits': [],
-                    'concerns': []
-                }
-                
-                # Simple keyword-based categorization
-                text_lower = block_text.lower()
-                
-                # Functions
-                function_keywords = ['moisturizing', 'cleansing', 'exfoliating', 'antioxidant', 
-                                   'preservative', 'emulsifier', 'surfactant', 'humectant',
-                                   'soothing', 'anti-aging', 'brightening']
-                for keyword in function_keywords:
-                    if keyword in text_lower:
-                        details['functions'].append(keyword)
-                
-                # Benefits
-                benefit_keywords = ['hydrating', 'smoothing', 'softening', 'protecting',
-                                  'healing', 'calming', 'nourishing', 'strengthening']
-                for keyword in benefit_keywords:
-                    if keyword in text_lower:
-                        details['benefits'].append(keyword)
-                
-                # Concerns
-                concern_keywords = ['irritating', 'comedogenic', 'sensitizing', 'drying']
-                for keyword in concern_keywords:
-                    if keyword in text_lower:
-                        details['concerns'].append(keyword)
-                
-                ingredient_details[ingredient_name] = details
-        
-        return ingredient_details
-    
-    def analyze_scraped_data(self, products):
-        """Analyze all scraped data to find patterns and create dynamic features"""
-        print("\n🔍 Analyzing scraped data for patterns...")
-        
-        analysis_results = {
-            'most_common_functions': Counter(),
-            'most_common_categories': Counter(), 
-            'most_common_ingredients': Counter(),
-            'most_common_tags': Counter(),
-            'product_type_patterns': {},
-            'suggested_features': []
-        }
-        
-        # Analyze patterns across all products
-        for product in products:
-            product_type = product['type']
-            
-            if product_type not in analysis_results['product_type_patterns']:
-                analysis_results['product_type_patterns'][product_type] = {
-                    'common_ingredients': Counter(),
-                    'common_functions': Counter(),
-                    'common_tags': Counter()
-                }
-            
-            # Count occurrences
-            for ingredient in product['raw_ingredients']:
-                analysis_results['most_common_ingredients'][ingredient.lower()] += 1
-                analysis_results['product_type_patterns'][product_type]['common_ingredients'][ingredient.lower()] += 1
-            
-            for func in product['ingredient_functions'].values():
-                analysis_results['most_common_functions'][func.lower()] += 1
-                analysis_results['product_type_patterns'][product_type]['common_functions'][func.lower()] += 1
-            
-            for tag in product['tags']:
-                analysis_results['most_common_tags'][tag.lower()] += 1
-                analysis_results['product_type_patterns'][product_type]['common_tags'][tag.lower()] += 1
-        
-        # Generate suggested features based on frequency
-        print("\n📊 Most common elements found:")
-        print(f"Functions: {list(analysis_results['most_common_functions'].most_common(10))}")
-        print(f"Ingredients: {list(analysis_results['most_common_ingredients'].most_common(10))}")
-        print(f"Tags: {list(analysis_results['most_common_tags'].most_common(10))}")
-        
-        # Suggest binary features for ML
-        min_frequency = max(2, len(products) * 0.1)  # At least 10% of products
-        
-        for func, count in analysis_results['most_common_functions'].most_common(20):
-            if count >= min_frequency:
-                analysis_results['suggested_features'].append(f'has_function_{func.replace(" ", "_")}')
-        
-        for ingredient, count in analysis_results['most_common_ingredients'].most_common(30):
-            if count >= min_frequency:
-                clean_name = re.sub(r'[^\w]', '_', ingredient.lower())
-                analysis_results['suggested_features'].append(f'contains_{clean_name}')
-        
-        for tag, count in analysis_results['most_common_tags'].most_common(15):
-            if count >= min_frequency:
-                clean_name = re.sub(r'[^\w]', '_', tag.lower())
-                analysis_results['suggested_features'].append(f'tagged_{clean_name}')
-        
-        return analysis_results
-    
-    def create_dynamic_features(self, products, analysis_results):
-        """Create ML features based on the analysis results"""
-        print(f"\n🤖 Creating {len(analysis_results['suggested_features'])} dynamic features...")
-        
-        featured_products = []
-        
-        for product in products:
-            featured_product = product.copy()
-            
-            # Basic numeric features
-            featured_product['total_ingredients'] = len(product['raw_ingredients'])
-            featured_product['total_functions'] = len(product['ingredient_functions'])
-            featured_product['total_tags'] = len(product['tags'])
-            featured_product['total_categories'] = len(product['website_categories'])
-            
-            # Dynamic binary features based on analysis
-            for feature in analysis_results['suggested_features']:
-                featured_product[feature] = False
-                
-                if feature.startswith('has_function_'):
-                    func_name = feature.replace('has_function_', '').replace('_', ' ')
-                    featured_product[feature] = any(func_name in func.lower() 
-                                                  for func in product['ingredient_functions'].values())
-                
-                elif feature.startswith('contains_'):
-                    ingredient_name = feature.replace('contains_', '').replace('_', ' ')
-                    featured_product[feature] = any(ingredient_name in ing.lower() 
-                                                  for ing in product['raw_ingredients'])
-                
-                elif feature.startswith('tagged_'):
-                    tag_name = feature.replace('tagged_', '').replace('_', ' ')
-                    featured_product[feature] = any(tag_name in tag.lower() 
-                                                  for tag in product['tags'])
-            
-            featured_products.append(featured_product)
-        
-        return featured_products
-    
-    def save_products(self, products, analysis_results=None, filename='skincare_products'):
-        """Save products to JSON and CSV files with analysis"""
-        # Save detailed JSON
-        save_data = {
-            'products': products,
-            'scraping_metadata': {
-                'total_products': len(products),
-                'unique_ingredients_found': len(self.all_ingredients),
-                'unique_functions_found': len(self.all_functions),
-                'unique_categories_found': len(self.all_categories),
-                'unique_tags_found': len(self.all_tags)
-            }
-        }
-        
-        if analysis_results:
-            save_data['analysis'] = analysis_results
-        
-        with open(f'{filename}.json', 'w', encoding='utf-8') as f:
-            json.dump(save_data, f, indent=2, ensure_ascii=False)
-        
-        # Create flattened version for CSV
-        flattened_products = []
-        for product in products:
-            flat_product = {}
-            
-            # Basic info
-            for key in ['name', 'brand', 'type', 'url', 'image']:
-                flat_product[key] = product.get(key)
-            
-            # Join list fields
-            flat_product['tags'] = ' | '.join(product.get('tags', []))
-            flat_product['raw_ingredients'] = ' | '.join(product.get('raw_ingredients', []))
-            
-            # Functions summary
-            func_summary = []
-            for ingredient, function in product.get('ingredient_functions', {}).items():
-                func_summary.append(f"{ingredient}: {function}")
-            flat_product['ingredient_functions'] = ' | '.join(func_summary)
-            
-            # All boolean and numeric features
-            for key, value in product.items():
-                if isinstance(value, (bool, int, float)) or key.startswith(('has_', 'is_', 'contains_', 'tagged_')) or key.endswith('_count'):
-                    flat_product[key] = value
-            
-            flattened_products.append(flat_product)
-        
-        # Save CSV
-        df = pd.DataFrame(flattened_products)
-        df.to_csv(f'{filename}.csv', index=False)
-        
-        print(f"\n✅ Saved {len(products)} products:")
-        print(f"   📄 {filename}.json (detailed data + analysis)")
-        print(f"   📊 {filename}.csv (flattened for ML)")
-        
-        if analysis_results:
-            print(f"   🎯 Generated {len(analysis_results['suggested_features'])} dynamic features")
-            print(f"   📈 Found {len(self.all_ingredients)} unique ingredients")
-            print(f"   🏷️ Found {len(self.all_tags)} unique tags")
+            # ID-Rating
+            id_rating_span = cells[3].find('span', class_='our-take')
+            id_rating = id_rating_span.get_text(strip=True) if id_rating_span else None
+
+            table_data.append({
+                "ingredient_name": ingredient_name,
+                "what_it_does": what_it_does,
+                "irritancy/comedogenicity": irrcom_val,
+                "id_rating": id_rating
+            })
+
+        return table_data
+
+    def close(self):
+        self.driver.quit()
 
 def main():
+    # If you have chromedriver in your PATH, you don't need to specify driver_path
     scraper = DynamicSkincareScraper()
-    
-    print("🧴 Starting Dynamic Skincare Product Scraping...")
-    print("This version automatically discovers categories and ingredients!")
-    print("=" * 60)
-    
-    # Scrape products
-    products = scraper.scrape_incidecoder_products(max_per_type=5)
-    
-    if products:
-        print(f"\n✅ Successfully scraped {len(products)} products")
-        
-        # Analyze the scraped data to find patterns
-        analysis_results = scraper.analyze_scraped_data(products)
-        
-        # Create dynamic features based on what we found
-        featured_products = scraper.create_dynamic_features(products, analysis_results)
-        
-        # Save everything
-        scraper.save_products(featured_products, analysis_results, 'dynamic_skincare_analysis')
-        
-        print("\n🎉 Dynamic analysis completed!")
-        print("✨ Features were automatically generated based on the actual data found")
-        print("📊 Check the JSON file for suggested features and analysis results")
-        print("🔧 You can now modify the feature generation logic based on your needs")
-        
-    else:
-        print("❌ No products were scraped successfully")
+    product_url = "https://incidecoder.com/products/eve-lom-cleanser"
+    print(f"Scraping skim_through_table for: {product_url}")
+    result = scraper.scrape_product_skim_through_table(product_url)
+    print(json.dumps(result, indent=2, ensure_ascii=False))
+    scraper.close()
 
 if __name__ == "__main__":
     main()
