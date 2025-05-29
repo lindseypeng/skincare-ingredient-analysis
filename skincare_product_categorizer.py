@@ -214,7 +214,8 @@ class SkincareProductCategorizer:
                 'category': 'Uncategorized',
                 'confidence': 0.0,
                 'scores': category_scores,
-                'reasoning': 'No clear category match found'
+                'reasoning': 'No clear category match found',
+                'ingredient_analysis': ingredient_analysis
             }
         
         best_category = max(category_scores.items(), key=lambda x: x[1])
