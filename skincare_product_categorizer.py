@@ -273,28 +273,8 @@ class SkincareProductCategorizer:
 # Example usage with your data
 def main():
     # Your sample data
-    sample_data = [
-        {
-            "product_brand": "CeraVe",
-            "product_title": "Moisturizing Cream",
-            "ingredients": [
-                {"ingredient_name": "Aqua", "what_it_does": "solvent", "id_rating": ""},
-                {"ingredient_name": "Glycerin", "what_it_does": "skin-identical ingredient,moisturizer/humectant", "id_rating": "superstar"},
-                {"ingredient_name": "Ceramide NP", "what_it_does": "skin-identical ingredient", "id_rating": "goodie"},
-                {"ingredient_name": "Sodium Hyaluronate", "what_it_does": "skin-identical ingredient,moisturizer/humectant", "id_rating": "goodie"},
-                {"ingredient_name": "Tocopherol", "what_it_does": "antioxidant", "id_rating": "goodie"}
-            ]
-        },
-        {
-            "product_brand": "The Ordinary",
-            "product_title": "Hyaluronic Acid 2% + B5",
-            "ingredients": [
-                {"ingredient_name": "Sodium Hyaluronate", "what_it_does": "skin-identical ingredient,moisturizer/humectant", "id_rating": "goodie"},
-                {"ingredient_name": "Panthenol", "what_it_does": "soothing,moisturizer/humectant", "id_rating": "goodie"},
-                {"ingredient_name": "Glycerin", "what_it_does": "skin-identical ingredient,moisturizer/humectant", "id_rating": "superstar"}
-            ]
-        }
-    ]
+    with open("data/incidecoder_function_scrape.json", "r", encoding="utf-8") as f:
+        sample_data = json.load(f)
     
     # Initialize categorizer
     categorizer = SkincareProductCategorizer()
@@ -323,6 +303,10 @@ def main():
     print(f"Category Distribution: {insights['category_distribution']}")
     print(f"Average Confidence: {insights['average_confidence']:.2f}")
     print(f"High Confidence Products: {insights['high_confidence_products']}")
+    
+    # Save results to JSON file
+    with open("categorized_products.json", "w", encoding="utf-8") as f:
+        json.dump(results, f, indent=2, ensure_ascii=False)
 
 if __name__ == "__main__":
     main()
