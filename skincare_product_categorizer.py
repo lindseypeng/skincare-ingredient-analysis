@@ -2,6 +2,7 @@ import json
 import pandas as pd
 from collections import Counter, defaultdict
 import re
+from rapidfuzz import fuzz
 
 class SkincareProductCategorizer:
     def __init__(self):
@@ -174,15 +175,22 @@ class SkincareProductCategorizer:
         
         return max(0, score)  # Don't allow negative scores
 
-    def categorize_by_name(self, product_title):
-        """Categorize based on product name patterns"""
+    def categorize_by_name(self, product_title, threshold=80):
+        """Categorize based on fuzzy matching of product name patterns"""
         title_lower = product_title.lower()
-        
+        best_category = None
+        best_score = 0
+
         for category, patterns in self.name_patterns.items():
             for pattern in patterns:
-                if pattern in title_lower:
-                    return category, 1.0
-        
+                score = fuzz.partial_ratio(pattern, title_lower)
+                if score > best_score and score >= threshold:
+                    best_score = score
+                    best_category = category
+
+        if best_category:
+            # Confidence is normalized fuzzy score (0-1)
+            return best_category, best_score / 100.0
         return None, 0
 
     def categorize_product(self, product):
