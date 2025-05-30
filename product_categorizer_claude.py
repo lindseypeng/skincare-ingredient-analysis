@@ -162,12 +162,11 @@ class NameMatcher:
                 r'\b(acne gel|anti-acne|pimple)\b'
             ],
             'Face Mask': [
-                r'\b(face mask|facial mask|sheet mask|clay mask)\b',
-                r'\b(mud mask|hydrogel mask|sleeping mask|peel-off)\b'
+                r'\b(mask|masque|sheet mask|clay mask|mud mask|sleeping mask|overnight mask|peel-off|enzyme mask|resurfacing mask|beauty mask|gel mask|hydrating mask|moisturizing mask|warming mask)\b'
             ],
             'Exfoliant/Scrub': [
-                r'\b(exfoliant|scrub|peeling|face scrub)\b',
-                r'\b(exfoliating|chemical peel)\b'
+                r'\b(exfoliant|scrub|peeling|peel|enzyme peel|enzyme|resurfacing|microdermabrasion)\b',
+                r'\b(exfoliating|chemical peel|enzyme mask)\b'
             ],
             'Sunscreen': [
                 r'\b(sunscreen|spf|sun protection|sunblock)\b',
