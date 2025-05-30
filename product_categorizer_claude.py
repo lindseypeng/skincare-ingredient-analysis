@@ -87,6 +87,8 @@ class IngredientAnalyzer:
             'retinol': ['retinyl palmitate', 'retinaldehyde', 'tretinoin'],
             'salicylic acid': ['bha', 'beta hydroxy acid'],
             'glycolic acid': ['aha', 'alpha hydroxy acid'],
+            'exfoliant/scrub': ['scrub', 'exfoliant', 'peeling', 'microbeads', 'microdermabrasion'],
+            # Add more as needed
         }
     
     def normalize_ingredient_name(self, ingredient_name: str) -> str:
@@ -347,63 +349,61 @@ class CosmeticProductCategorizer:
         return max(0, score)
     
     def categorize_product(self, product: Dict) -> CategorizationResult:
-        """Main categorization method with enhanced logic"""
-        # Analyze ingredients
         ingredient_analysis = self.ingredient_analyzer.analyze_ingredients(
             product.get('ingredients', [])
         )
-        
-        # Rule-based scoring
-        category_scores = {}
-        for category, rule in self.category_rules.items():
-            category_scores[category] = self._score_category(ingredient_analysis, rule)
-        
-        # Name-based categorization
+
+        # 1. Name-based categorization (regex/fuzzy)
         name_category, name_confidence = self.name_matcher.match_by_name(
             product.get('product_title', '')
         )
-        
-        if name_category and name_category in category_scores:
-            category_scores[name_category] += name_confidence * 3
-        
-        # Get rule-based result
-        if not category_scores or max(category_scores.values()) == 0:
-            rule_category = 'Uncategorized'
-            rule_confidence = 0.0
-        else:
-            sorted_scores = sorted(category_scores.items(), key=lambda x: x[1], reverse=True)
-            rule_category = sorted_scores[0][0]
-            rule_confidence = min(sorted_scores[0][1] / 10, 1.0)
-        
-        # NLP-based categorization
+        if name_category and name_confidence >= 0.7:
+            return CategorizationResult(
+                category=name_category,
+                confidence=name_confidence,
+                scores={name_category: name_confidence},
+                reasoning="Name-based categorization (regex/fuzzy match)",
+                ingredient_analysis=ingredient_analysis,
+                alternative_categories=[]
+            )
+
+        # 2. NLP-based categorization (zero-shot)
         nlp_category, nlp_confidence, nlp_scores = self.nlp_categorizer.categorize(
             product.get('product_title', ''), self.category_names
         )
-        
-        # Combine results intelligently
-        if nlp_confidence and nlp_confidence > rule_confidence and nlp_confidence > 0.5:
-            final_category = nlp_category
-            final_confidence = nlp_confidence
-            reasoning = "NLP zero-shot classification (high confidence)"
-            scores = nlp_scores
-        else:
-            final_category = rule_category
-            final_confidence = rule_confidence
-            reasoning = "Rule-based classification using ingredients and name"
-            scores = category_scores
-        
-        # Get alternative categories
-        all_scores = {**category_scores, **(nlp_scores or {})}
-        sorted_all = sorted(all_scores.items(), key=lambda x: x[1], reverse=True)
-        alternatives = [(cat, score) for cat, score in sorted_all[1:4] if score > 0]
-        
+        if nlp_category and nlp_confidence >= 0.3:
+            return CategorizationResult(
+                category=nlp_category,
+                confidence=nlp_confidence,
+                scores=nlp_scores,
+                reasoning="NLP zero-shot classification (title only)",
+                ingredient_analysis=ingredient_analysis,
+                alternative_categories=[(cat, score) for cat, score in nlp_scores.items() if cat != nlp_category and score > 0.1][:3]
+            )
+
+        # 3. Rule-based fallback (ingredients)
+        category_scores = {}
+        for category, rule in self.category_rules.items():
+            category_scores[category] = self._score_category(ingredient_analysis, rule)
+        if not category_scores or max(category_scores.values()) == 0:
+            return CategorizationResult(
+                category='Uncategorized',
+                confidence=0.0,
+                scores=category_scores,
+                reasoning="Uncategorized: no confident match by name, NLP, or ingredients",
+                ingredient_analysis=ingredient_analysis,
+                alternative_categories=[]
+            )
+        sorted_scores = sorted(category_scores.items(), key=lambda x: x[1], reverse=True)
+        rule_category = sorted_scores[0][0]
+        rule_confidence = min(sorted_scores[0][1] / 10, 1.0)
         return CategorizationResult(
-            category=final_category,
-            confidence=final_confidence,
-            scores=scores,
-            reasoning=reasoning,
+            category=rule_category,
+            confidence=rule_confidence,
+            scores=category_scores,
+            reasoning="Rule-based fallback (ingredients)",
             ingredient_analysis=ingredient_analysis,
-            alternative_categories=alternatives
+            alternative_categories=[(cat, score) for cat, score in sorted_scores[1:4] if score > 0]
         )
     
     def process_dataset(self, products_data: List[Dict]) -> List[Dict]:
@@ -419,7 +419,18 @@ class CosmeticProductCategorizer:
             
             try:
                 result = self.categorize_product(product)
-                
+                flagged = False
+
+                # Compare NLP and rule-based (if both available)
+                if result.reasoning == "NLP zero-shot classification (title only)":
+                    # Optionally, run rule-based as well for comparison
+                    ingredient_analysis = self.ingredient_analyzer.analyze_ingredients(product.get('ingredients', []))
+                    category_scores = {cat: self._score_category(ingredient_analysis, rule) for cat, rule in self.category_rules.items()}
+                    if category_scores:
+                        rule_category = max(category_scores, key=category_scores.get)
+                        if rule_category != result.category:
+                            flagged = True
+
                 categorized_product = {
                     'product_brand': product.get('product_brand', 'Unknown'),
                     'product_title': product.get('product_title', 'Unknown'),
@@ -431,7 +442,8 @@ class CosmeticProductCategorizer:
                     'key_functions': list(result.ingredient_analysis['function_counts'].keys())[:5],
                     'beneficial_ingredients': result.ingredient_analysis['beneficial_ingredients'],
                     'concern_ingredients': result.ingredient_analysis['concern_ingredients'],
-                    'alternative_categories': result.alternative_categories[:2] if result.alternative_categories else []
+                    'alternative_categories': result.alternative_categories[:2] if result.alternative_categories else [],
+                    'flagged_for_review': flagged
                 }
                 results.append(categorized_product)
                 
