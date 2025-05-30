@@ -5,6 +5,38 @@ from typing import Dict, List, Tuple, Optional, Any
 from dataclasses import dataclass
 import re
 
+'''Enhanced Cosmetic Product Categorizer
+
+How the Script Categorizes Products
+1. Ingredient-Based Rule Scoring
+Each category (e.g., "Face Moisturizer", "Face Cleanser", etc.) has a set of rules:
+
+*required_functions: e.g., "moisturizer/humectant", "emollient"
+*key_ingredients: e.g., "hyaluronic acid", "glycerin"
+*avoid_functions: e.g., "surfactant/cleansing" (optional)
+*weight: how important this category is
+
+For each product, the script:
+*Counts matches between the product's ingredient functions and the category's required/avoid functions.
+*Counts matches between the product's ingredient names and the category's key ingredients.
+*Applies weights and bonuses/penalties for "beneficial" or "concerning" ingredients.
+*Produces a score for each category.
+
+2. Name-Based Matching
+*Uses regex patterns and (optionally) fuzzy matching to look for category-specific keywords in the product title.
+*If a regex match is found, it gives a high confidence score (e.g., 0.95).
+*Fuzzy matching is a fallback if regex doesn't match.
+
+3. NLP Zero-Shot Classification
+*Uses a pre-trained NLP model (facebook/bart-large-mnli) to predict the category from the product title.
+*Returns the top category and its confidence.
+
+4. Combining Results
+*If the NLP model's confidence is higher than the rule-based score and above 0.5, the NLP result is used.
+*Otherwise, the rule-based result is used.
+*The script also provides alternative categories and their scores.
+'''
+
 # Optional imports with fallbacks
 try:
     from rapidfuzz import fuzz
