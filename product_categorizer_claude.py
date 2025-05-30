@@ -144,6 +144,9 @@ class NameMatcher:
     
     def __init__(self):
         self.name_patterns = {
+            'Sunscreen': [
+                r'\b(sunscreen|spf|sun protection|sunblock|uv protection|broad spectrum|pa\+{2,}|sun gel|sun milk|sun cream|sun lotion|sun essence|sun fluid|sun stick|sun spray|sun mousse|protector solar|solaire|sol|uv)\b'
+            ],
             'Face Moisturizer': [
                 r'\b(face cream|facial moisturizer|day cream|night cream)\b',
                 r'\b(hydrating cream|moisturizing cream|face lotion)\b',
@@ -151,7 +154,7 @@ class NameMatcher:
             ],
             'Face Cleanser': [
                 r'\b(face wash|facial cleanser|cleansing gel|cleansing foam)\b',
-                r'\b(micellar water|face soap|cleansing oil|makeup remover)\b'
+                r'\b(micellar water|face soap|cleansing oil|makeup remover|soap)\b'
             ],
             'Face Serum': [
                 r'\b(face serum|facial serum|serum|essence)\b',
@@ -162,15 +165,14 @@ class NameMatcher:
                 r'\b(acne gel|anti-acne|pimple)\b'
             ],
             'Face Mask': [
-                r'\b(mask|masque|sheet mask|clay mask|mud mask|sleeping mask|overnight mask|peel-off|enzyme mask|resurfacing mask|beauty mask|gel mask|hydrating mask|moisturizing mask|warming mask)\b'
+                r'\b(mask|masque|sheet mask|clay mask|mud mask|sleeping mask|overnight mask|peel-off|enzyme mask|resurfacing mask|beauty mask|gel mask|hydrating mask|moisturizing mask|warming mask|masque)\b'
             ],
             'Exfoliant/Scrub': [
                 r'\b(exfoliant|scrub|peeling|peel|enzyme peel|enzyme|resurfacing|microdermabrasion)\b',
                 r'\b(exfoliating|chemical peel|enzyme mask)\b'
             ],
             'Sunscreen': [
-                r'\b(sunscreen|spf|sun protection|sunblock)\b',
-                r'\b(uv protection|broad spectrum)\b'
+                r'\b(sunscreen|spf|sun protection|sunblock|uv protection|broad spectrum|pa\+{2,}|sun gel|sun milk|sun cream|sun lotion|sun essence|sun fluid|sun stick|sun spray|sun mousse|protector solar|solaire|sol|uv)\b'
             ],
             'Face Toner': [
                 r'\b(toner|astringent|face mist|facial mist)\b',
@@ -187,7 +189,7 @@ class NameMatcher:
             'Hair Treatment': [r'\b(hair serum|hair oil|leave-in|scalp treatment)\b'],
             # Body care
             'Body Moisturizer': [r'\b(body lotion|body cream|body butter|hand cream)\b'],
-            'Body Wash': [r'\b(body wash|shower gel|body soap|bath gel)\b']
+            'Body Wash': [r'\b(body wash|shower gel|body soap|bath gel|soap)\b']
         }
     
     def match_by_name(self, product_title: str, threshold: float = 0.8) -> Tuple[Optional[str], float]:
@@ -290,7 +292,7 @@ class CosmeticProductCategorizer:
             ),
             'Face Cleanser': CategoryRule(
                 required_functions=['surfactant/cleansing'],
-                key_ingredients=['sulfate', 'cleansing', 'foam', 'micellar'],
+                key_ingredients=['sulfate', 'cleansing', 'foam', 'micellar', 'soap'],
                 avoid_functions=['moisturizer/humectant'],
                 weight=1.2
             ),
@@ -309,6 +311,11 @@ class CosmeticProductCategorizer:
             'Acne Treatment': CategoryRule(
                 required_functions=['anti-acne', 'antimicrobial/antibacterial', 'exfoliant'],
                 key_ingredients=['salicylic acid', 'benzoyl peroxide', 'glycolic acid', 'tea tree'],
+                weight=1.3
+            ),
+            'Deodorant': CategoryRule(
+                required_functions=['deodorant', 'antiperspirant'],
+                key_ingredients=['aluminum', 'deodorant', 'antiperspirant', 'fragrance'],
                 weight=1.3
             ),
             # Add more categories as needed...
