@@ -3,6 +3,7 @@ import pandas as pd
 from collections import Counter, defaultdict
 import re
 from rapidfuzz import fuzz
+from transformers import pipeline
 
 class SkincareProductCategorizer:
     def __init__(self):
@@ -193,7 +194,7 @@ class SkincareProductCategorizer:
             return best_category, best_score / 100.0
         return None, 0
 
-    def categorize_product(self, product):
+    def categorize_product(self, product, nlp_model=None):
         """Main categorization function"""
         # Analyze ingredients
         ingredient_analysis = self.analyze_ingredients(product['ingredients'])
@@ -207,6 +208,21 @@ class SkincareProductCategorizer:
         name_category, name_confidence = self.categorize_by_name(product['product_title'])
         if name_category:
             category_scores[name_category] = category_scores.get(name_category, 0) + (2 * name_confidence)
+        
+        # NLP fallback if no confident match
+        if not category_scores or max(category_scores.values()) < 2:
+            nlp_category, nlp_conf, nlp_scores = nlp_categorize_product(
+                product['product_title'],
+                list(self.category_rules.keys()),
+                model=nlp_model
+            )
+            return {
+                'category': nlp_category,
+                'confidence': nlp_conf,
+                'scores': nlp_scores,
+                'reasoning': 'NLP zero-shot classification (title only)',
+                'ingredient_analysis': ingredient_analysis
+            }
         
         # Determine best category
         if not category_scores or max(category_scores.values()) == 0:
@@ -271,6 +287,16 @@ class SkincareProductCategorizer:
         
         return insights
 
+def nlp_categorize_product(title, categories, model=None):
+    """
+    Use zero-shot NLP to categorize a product title.
+    """
+    if model is None:
+        model = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")
+    result = model(title, categories)
+    # result['labels'] is sorted by confidence
+    return result['labels'][0], result['scores'][0], dict(zip(result['labels'], result['scores']))
+
 # Example usage with your data
 def main():
     # Your sample data
@@ -279,9 +305,27 @@ def main():
     
     # Initialize categorizer
     categorizer = SkincareProductCategorizer()
+    nlp_model = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")
     
     # Process the data
-    results = categorizer.process_dataset(sample_data)
+    results = []
+    for product in sample_data:
+        result = categorizer.categorize_product(product, nlp_model=nlp_model)
+        
+        categorized_product = {
+            'product_brand': product['product_brand'],
+            'product_title': product['product_title'],
+            'predicted_category': result['category'],
+            'confidence': result['confidence'],
+            'category_scores': result['scores'],
+            'reasoning': result['reasoning'],
+            'total_ingredients': len(product['ingredients']),
+            'key_functions': list(result['ingredient_analysis']['function_counts'].keys()),
+            'superstar_ingredients': result['ingredient_analysis']['rating_counts'].get('superstar', 0),
+            'goodie_ingredients': result['ingredient_analysis']['rating_counts'].get('goodie', 0)
+        }
+        
+        results.append(categorized_product)
     
     # Display results
     print("=== SKINCARE PRODUCT CATEGORIZATION RESULTS ===\n")
