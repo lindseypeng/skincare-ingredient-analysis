@@ -1,15 +1,14 @@
 import json
-import pandas as pd
-from collections import Counter, defaultdict
-import re
+from collections import Counter
 from rapidfuzz import fuzz
+
+# Add these imports for NLP
 from transformers import pipeline
 
 class SkincareProductCategorizer:
     def __init__(self):
         # Define categorization rules based on ingredient functionalities
         self.category_rules = {
-            # FACE CARE PRODUCTS
             'Face Moisturizer': {
                 'required_functions': ['moisturizer/humectant', 'emollient'],
                 'key_ingredients': ['hyaluronic acid', 'glycerin', 'ceramide', 'cholesterol', 'squalane'],
@@ -59,7 +58,6 @@ class SkincareProductCategorizer:
                 'key_ingredients': ['vitamin c', 'kojic acid', 'arbutin', 'niacinamide'],
                 'weight': 1.2
             },
-            
             # HAIR CARE PRODUCTS
             'Shampoo': {
                 'required_functions': ['surfactant/cleansing', 'deodorant'],
@@ -83,7 +81,6 @@ class SkincareProductCategorizer:
                 'key_ingredients': ['serum', 'oil', 'leave-in', 'treatment'],
                 'weight': 1.2
             },
-            
             # BODY CARE PRODUCTS
             'Body Moisturizer': {
                 'required_functions': ['moisturizer/humectant', 'emollient'],
@@ -96,10 +93,8 @@ class SkincareProductCategorizer:
                 'weight': 1.1
             }
         }
-        
-        # Additional categorization based on product names
+
         self.name_patterns = {
-            # FACE CARE
             'Face Moisturizer': ['face cream', 'facial moisturizer', 'day cream', 'night cream', 
                                'hydrating cream', 'moisturizing cream', 'face lotion'],
             'Face Cleanser': ['face wash', 'facial cleanser', 'cleansing gel', 'cleansing foam', 
@@ -113,14 +108,12 @@ class SkincareProductCategorizer:
             'Face Toner': ['toner', 'astringent', 'face mist', 'facial mist', 'essence water'],
             'Brightening Treatment': ['brightening', 'whitening', 'dark spot', 'pigmentation', 
                                     'vitamin c serum'],
-            
             # HAIR CARE
             'Shampoo': ['shampoo', 'hair wash', 'cleansing shampoo'],
             'Conditioner': ['conditioner', 'hair conditioner', 'rinse'],
             'Hair Mask': ['hair mask', 'hair treatment mask', 'deep conditioning', 'hair pack'],
             'Hair Treatment': ['hair serum', 'hair oil', 'leave-in', 'hair treatment', 
                              'hair essence', 'scalp treatment'],
-            
             # BODY CARE
             'Body Moisturizer': ['body lotion', 'body cream', 'body butter', 'body oil', 
                                'hand cream', 'foot cream'],
@@ -128,24 +121,16 @@ class SkincareProductCategorizer:
         }
 
     def analyze_ingredients(self, ingredients):
-        """Analyze ingredients to extract key features for categorization"""
         functions = []
         key_ingredients = []
         ratings = []
-        
         for ingredient in ingredients:
-            # Extract functions
             if ingredient.get('what_it_does'):
                 functions.extend([f.strip() for f in ingredient['what_it_does'].split(',')])
-            
-            # Extract ingredient names
             ingredient_name = ingredient.get('ingredient_name', '').lower()
             key_ingredients.append(ingredient_name)
-            
-            # Extract ratings
             if ingredient.get('id_rating'):
                 ratings.append(ingredient['id_rating'])
-        
         return {
             'functions': functions,
             'ingredients': key_ingredients,
@@ -155,67 +140,57 @@ class SkincareProductCategorizer:
         }
 
     def score_category(self, product_analysis, category_name, category_rules):
-        """Score how well a product fits a category"""
         score = 0
-        
-        # Check required functions
         for required_func in category_rules['required_functions']:
             if any(required_func in func for func in product_analysis['functions']):
                 score += 2 * category_rules['weight']
-        
-        # Check key ingredients
         for key_ingredient in category_rules['key_ingredients']:
             if any(key_ingredient in ingredient for ingredient in product_analysis['ingredients']):
                 score += 1.5 * category_rules['weight']
-        
-        # Penalize if avoid_functions are present (important for distinguishing categories)
         if 'avoid_functions' in category_rules:
             for avoid_func in category_rules['avoid_functions']:
                 if any(avoid_func in func for func in product_analysis['functions']):
                     score -= 1.0 * category_rules['weight']
-        
-        return max(0, score)  # Don't allow negative scores
+        return max(0, score)
 
     def categorize_by_name(self, product_title, threshold=80):
-        """Categorize based on fuzzy matching of product name patterns"""
         title_lower = product_title.lower()
         best_category = None
         best_score = 0
-
         for category, patterns in self.name_patterns.items():
             for pattern in patterns:
                 score = fuzz.partial_ratio(pattern, title_lower)
                 if score > best_score and score >= threshold:
                     best_score = score
                     best_category = category
-
         if best_category:
-            # Confidence is normalized fuzzy score (0-1)
             return best_category, best_score / 100.0
         return None, 0
 
     def categorize_product(self, product, nlp_model=None):
-        """Main categorization function"""
-        # Analyze ingredients
         ingredient_analysis = self.analyze_ingredients(product['ingredients'])
-        
-        # Score each category based on ingredients
         category_scores = {}
         for category, rules in self.category_rules.items():
             category_scores[category] = self.score_category(ingredient_analysis, category, rules)
-        
-        # Check name-based categorization
         name_category, name_confidence = self.categorize_by_name(product['product_title'])
         if name_category:
             category_scores[name_category] = category_scores.get(name_category, 0) + (2 * name_confidence)
-        
-        # NLP fallback if no confident match
-        if not category_scores or max(category_scores.values()) < 2:
-            nlp_category, nlp_conf, nlp_scores = nlp_categorize_product(
-                product['product_title'],
-                list(self.category_rules.keys()),
-                model=nlp_model
-            )
+        # Rule-based result
+        if not category_scores or max(category_scores.values()) == 0:
+            rule_category = 'Uncategorized'
+            rule_confidence = 0.0
+        else:
+            best_category = max(category_scores.items(), key=lambda x: x[1])
+            rule_category = best_category[0]
+            rule_confidence = min(best_category[1] / 10, 1.0)
+        # NLP result
+        nlp_category, nlp_conf, nlp_scores = nlp_categorize_product(
+            product['product_title'],
+            list(self.category_rules.keys()),
+            model=nlp_model
+        )
+        # Use NLP if its confidence is higher
+        if nlp_conf > rule_confidence:
             return {
                 'category': nlp_category,
                 'confidence': nlp_conf,
@@ -223,36 +198,19 @@ class SkincareProductCategorizer:
                 'reasoning': 'NLP zero-shot classification (title only)',
                 'ingredient_analysis': ingredient_analysis
             }
-        
-        # Determine best category
-        if not category_scores or max(category_scores.values()) == 0:
+        else:
             return {
-                'category': 'Uncategorized',
-                'confidence': 0.0,
+                'category': rule_category,
+                'confidence': rule_confidence,
                 'scores': category_scores,
-                'reasoning': 'No clear category match found',
+                'reasoning': f"Classified based on ingredient functions and product name",
                 'ingredient_analysis': ingredient_analysis
             }
-        
-        best_category = max(category_scores.items(), key=lambda x: x[1])
-        max_score = best_category[1]
-        total_possible_score = 10  # Rough estimate for normalization
-        
-        return {
-            'category': best_category[0],
-            'confidence': min(max_score / total_possible_score, 1.0),
-            'scores': category_scores,
-            'reasoning': f"Classified based on ingredient functions and product name",
-            'ingredient_analysis': ingredient_analysis
-        }
 
-    def process_dataset(self, products_data):
-        """Process entire dataset and return categorized products"""
+    def process_dataset(self, products_data, nlp_model=None):
         results = []
-        
         for product in products_data:
-            result = self.categorize_product(product)
-            
+            result = self.categorize_product(product, nlp_model=nlp_model)
             categorized_product = {
                 'product_brand': product['product_brand'],
                 'product_title': product['product_title'],
@@ -265,18 +223,13 @@ class SkincareProductCategorizer:
                 'superstar_ingredients': result['ingredient_analysis']['rating_counts'].get('superstar', 0),
                 'goodie_ingredients': result['ingredient_analysis']['rating_counts'].get('goodie', 0)
             }
-            
             results.append(categorized_product)
-        
         return results
 
     def generate_insights(self, results):
-        """Generate insights about the categorization results"""
         categories = [r['predicted_category'] for r in results]
         category_counts = Counter(categories)
-        
         avg_confidence = sum(r['confidence'] for r in results) / len(results)
-        
         insights = {
             'total_products': len(results),
             'category_distribution': dict(category_counts),
@@ -284,72 +237,39 @@ class SkincareProductCategorizer:
             'high_confidence_products': len([r for r in results if r['confidence'] > 0.7]),
             'uncategorized_products': category_counts.get('Uncategorized', 0)
         }
-        
         return insights
 
+# NLP helper function
 def nlp_categorize_product(title, categories, model=None):
-    """
-    Use zero-shot NLP to categorize a product title.
-    """
     if model is None:
         model = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")
     result = model(title, categories)
-    # result['labels'] is sorted by confidence
     return result['labels'][0], result['scores'][0], dict(zip(result['labels'], result['scores']))
 
-# Example usage with your data
 def main():
-    # Your sample data
     with open("data/incidecoder_function_scrape.json", "r", encoding="utf-8") as f:
         sample_data = json.load(f)
-    
-    # Initialize categorizer
     categorizer = SkincareProductCategorizer()
+    print("Loading NLP model (this may take a minute)...")
     nlp_model = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")
-    
-    # Process the data
-    results = []
-    for product in sample_data:
-        result = categorizer.categorize_product(product, nlp_model=nlp_model)
-        
-        categorized_product = {
-            'product_brand': product['product_brand'],
-            'product_title': product['product_title'],
-            'predicted_category': result['category'],
-            'confidence': result['confidence'],
-            'category_scores': result['scores'],
-            'reasoning': result['reasoning'],
-            'total_ingredients': len(product['ingredients']),
-            'key_functions': list(result['ingredient_analysis']['function_counts'].keys()),
-            'superstar_ingredients': result['ingredient_analysis']['rating_counts'].get('superstar', 0),
-            'goodie_ingredients': result['ingredient_analysis']['rating_counts'].get('goodie', 0)
-        }
-        
-        results.append(categorized_product)
-    
-    # Display results
+    results = categorizer.process_dataset(sample_data, nlp_model=nlp_model)
     print("=== SKINCARE PRODUCT CATEGORIZATION RESULTS ===\n")
-    
     for result in results:
         print(f"Brand: {result['product_brand']}")
         print(f"Product: {result['product_title']}")
         print(f"Predicted Category: {result['predicted_category']}")
         print(f"Confidence: {result['confidence']:.2f}")
-        print(f"Key Functions: {', '.join(result['key_functions'][:5])}")  # Show top 5
+        print(f"Key Functions: {', '.join(result['key_functions'][:5])}")
         print(f"Superstar Ingredients: {result['superstar_ingredients']}")
         print(f"Goodie Ingredients: {result['goodie_ingredients']}")
         print(f"Reasoning: {result['reasoning']}")
         print("-" * 50)
-    
-    # Generate insights
     insights = categorizer.generate_insights(results)
     print("\n=== DATASET INSIGHTS ===")
     print(f"Total Products: {insights['total_products']}")
     print(f"Category Distribution: {insights['category_distribution']}")
     print(f"Average Confidence: {insights['average_confidence']:.2f}")
     print(f"High Confidence Products: {insights['high_confidence_products']}")
-    
-    # Save results to JSON file
     with open("categorized_products.json", "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
 
