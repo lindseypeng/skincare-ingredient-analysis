@@ -232,23 +232,25 @@ class NLPCategorizer:
         self.model_loaded = False
     
     def load_model(self):
-        """Lazy loading of NLP model"""
+        """Lazy loading of NLP model with timeout"""
         if not TRANSFORMERS_AVAILABLE:
-            logger.warning("Transformers not available, skipping NLP categorization")
+            logger.warning("Transformers not available, using rule-based only")
             return False
         
         if not self.model_loaded:
             try:
-                logger.info("Loading NLP model...")
+                logger.info("Loading NLP model (timeout: 30s)...")
+                # Set shorter timeout and smaller model
                 self.model = pipeline(
-                    "zero-shot-classification", 
-                    model="facebook/bart-large-mnli",
-                    device=0 if torch.cuda.is_available() else -1
+                    "zero-shot-classification",
+                    model="facebook/bart-base",  # Smaller model
+                    device=-1,  # Force CPU
+                    model_kwargs={"timeout": 30}
                 )
                 self.model_loaded = True
                 logger.info("NLP model loaded successfully")
             except Exception as e:
-                logger.error(f"Failed to load NLP model: {e}")
+                logger.warning(f"NLP model loading failed, using rule-based only: {e}")
                 return False
         return True
     
@@ -268,10 +270,10 @@ class NLPCategorizer:
 class CosmeticProductCategorizer:
     """Main categorizer class with improved architecture"""
     
-    def __init__(self, config_file: Optional[str] = None):
+    def __init__(self, config_file: Optional[str] = None, use_nlp: bool = True):
         self.ingredient_analyzer = IngredientAnalyzer()
         self.name_matcher = NameMatcher()
-        self.nlp_categorizer = NLPCategorizer()
+        self.nlp_categorizer = NLPCategorizer() if use_nlp else None
         
         # Load category rules
         if config_file:
@@ -354,7 +356,10 @@ class CosmeticProductCategorizer:
         
         return max(0, score)
     
-    def categorize_product(self, product: Dict) -> CategorizationResult:
+    def categorize_product(self, product: Dict, nlp_model=None) -> CategorizationResult:
+        """
+        Categorize a single product. Now accepts optional nlp_model parameter.
+        """
         ingredient_analysis = self.ingredient_analyzer.analyze_ingredients(
             product.get('ingredients', [])
         )
@@ -374,6 +379,8 @@ class CosmeticProductCategorizer:
             )
 
         # 2. NLP-based categorization (zero-shot)
+        if nlp_model:
+            self.nlp_categorizer.model = nlp_model
         nlp_category, nlp_confidence, nlp_scores = self.nlp_categorizer.categorize(
             product.get('product_title', ''), self.category_names
         )
@@ -412,59 +419,40 @@ class CosmeticProductCategorizer:
             alternative_categories=[(cat, score) for cat, score in sorted_scores[1:4] if score > 0]
         )
     
-    def process_dataset(self, products_data: List[Dict]) -> List[Dict]:
-        """Process entire dataset with progress tracking"""
+    def process_dataset(self, products_data, nlp_model=None):
+        """Process multiple products. Preserves all ingredient information."""
         results = []
-        total = len(products_data)
-        
-        logger.info(f"Processing {total} products...")
-        
-        for i, product in enumerate(products_data):
-            if i % 50 == 0:
-                logger.info(f"Processed {i}/{total} products")
+        for product in products_data:
+            result = self.categorize_product(product, nlp_model)
             
-            try:
-                result = self.categorize_product(product)
-                flagged = False
-
-                # Compare NLP and rule-based (if both available)
-                if result.reasoning == "NLP zero-shot classification (title only)":
-                    # Optionally, run rule-based as well for comparison
-                    ingredient_analysis = self.ingredient_analyzer.analyze_ingredients(product.get('ingredients', []))
-                    category_scores = {cat: self._score_category(ingredient_analysis, rule) for cat, rule in self.category_rules.items()}
-                    if category_scores:
-                        rule_category = max(category_scores, key=category_scores.get)
-                        if rule_category != result.category:
-                            flagged = True
-
-                categorized_product = {
-                    'product_brand': product.get('product_brand', 'Unknown'),
-                    'product_title': product.get('product_title', 'Unknown'),
-                    'predicted_category': result.category,
-                    'confidence': round(result.confidence, 3),
-                    'category_scores': {k: round(v, 3) for k, v in result.scores.items()},
-                    'reasoning': result.reasoning,
-                    'total_ingredients': result.ingredient_analysis['total_ingredients'],
-                    'key_functions': list(result.ingredient_analysis['function_counts'].keys())[:5],
-                    'beneficial_ingredients': result.ingredient_analysis['beneficial_ingredients'],
-                    'concern_ingredients': result.ingredient_analysis['concern_ingredients'],
-                    'alternative_categories': result.alternative_categories[:2] if result.alternative_categories else [],
-                    'flagged_for_review': flagged
-                }
-                results.append(categorized_product)
+            categorized_product = {
+                'product_brand': product['product_brand'],
+                'product_title': product['product_title'],
+                'predicted_category': result.category,  # Changed from result['category']
+                'confidence': result.confidence,        # Changed from result['confidence']
+                'category_scores': result.scores,       # Changed from result['scores']
+                'reasoning': result.reasoning,          # Changed from result['reasoning']
+                'total_ingredients': len(product['ingredients']),
                 
-            except Exception as e:
-                logger.error(f"Error processing product {i}: {e}")
-                # Add error entry
-                results.append({
-                    'product_brand': product.get('product_brand', 'Unknown'),
-                    'product_title': product.get('product_title', 'Unknown'),
-                    'predicted_category': 'Error',
-                    'confidence': 0.0,
-                    'error': str(e)
-                })
-        
-        logger.info(f"Completed processing {len(results)} products")
+                # Full ingredient information
+                'ingredients': [
+                    {
+                        'name': ingredient.get('ingredient_name', ''),
+                        'functions': ingredient.get('what_it_does', '').split(',') if ingredient.get('what_it_does') else [],
+                        'irritancy_comedogenicity': ingredient.get('irritancy/comedogenicity', ''),
+                        'id_rating': ingredient.get('id_rating', '')
+                    }
+                    for ingredient in product['ingredients']
+                ],
+                
+                # Summary fields
+                'key_functions': list(result.ingredient_analysis['function_counts'].keys()),
+                'beneficial_ingredients': result.ingredient_analysis['rating_counts'].get('superstar', 0),
+                'concern_ingredients': result.ingredient_analysis.get('concern_ingredients', 0),
+                'alternative_categories': result.alternative_categories or [],
+                'flagged_for_review': False
+            }
+            results.append(categorized_product)
         return results
     
     def generate_insights(self, results: List[Dict]) -> Dict[str, Any]:
@@ -500,6 +488,53 @@ class CosmeticProductCategorizer:
         }
         
         return insights
+
+    def extract_and_save_ingredients(self, products_data: List[Dict]) -> None:
+        """Extract and save unique ingredients with their properties"""
+        unique_ingredients = {}
+        
+        for product in products_data:
+            for ingredient in product.get('ingredients', []):
+                name = ingredient.get('ingredient_name', '').strip()
+                if not name:
+                    continue
+                    
+                if name not in unique_ingredients:
+                    unique_ingredients[name] = {
+                        'functions': set(),
+                        'irritancy_comedogenicity': set(),
+                        'id_ratings': set()
+                    }
+                
+                # Add functions
+                if ingredient.get('what_it_does'):
+                    unique_ingredients[name]['functions'].update(
+                        [f.strip() for f in ingredient['what_it_does'].split(',')]
+                    )
+                
+                # Add other properties
+                if ingredient.get('irritancy/comedogenicity'):
+                    unique_ingredients[name]['irritancy_comedogenicity'].add(
+                        ingredient['irritancy/comedogenicity']
+                    )
+                if ingredient.get('id_rating'):
+                    unique_ingredients[name]['id_ratings'].add(ingredient['id_rating'])
+    
+        # Convert sets to lists for JSON serialization
+        processed_ingredients = {
+            name: {
+                'functions': list(data['functions']),
+                'irritancy_comedogenicity': list(data['irritancy_comedogenicity']),
+                'id_ratings': list(data['id_ratings'])
+            }
+            for name, data in unique_ingredients.items()
+        }
+        
+        # Save to file
+        with open('unique_ingredients.json', 'w', encoding='utf-8') as f:
+            json.dump(processed_ingredients, f, indent=2, ensure_ascii=False)
+        
+        logger.info(f"Saved {len(processed_ingredients)} unique ingredients to unique_ingredients.json")
 
 def main():
     """Enhanced main function with better error handling"""
