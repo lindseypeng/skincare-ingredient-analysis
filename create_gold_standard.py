@@ -29,36 +29,86 @@ def create_gold_standard_sample(input_file='categorized_products_enhanced.json',
         for product in data['results']:
             products_by_category[product['predicted_category']].append(product)
         
-        # Get all unique categories
         categories = list(products_by_category.keys())
         logger.info(f"Found {len(categories)} unique categories: {', '.join(categories)}")
         
-        # Calculate samples per category
-        samples_per_category = sample_size // len(categories)
-        remainder = sample_size % len(categories)
-        logger.info(f"Will sample approximately {samples_per_category} products per category")
+        # Calculate minimum samples per category to reach total sample_size
+        base_samples = sample_size // len(categories)
+        extra_samples = sample_size % len(categories)
         
-        # Sample products from each category
         gold_standard = []
         category_counts = {}
         
+        # Sample products from each category
         for category in categories:
             category_products = products_by_category[category]
-            # Take minimum between available products and desired samples
-            n_samples = min(samples_per_category + (1 if remainder > 0 else 0), 
-                          len(category_products))
-            remainder = max(0, remainder - 1)
+            n_samples = base_samples + (1 if extra_samples > 0 else 0)
+            extra_samples = max(0, extra_samples - 1)
             
+            # Ensure we don't try to sample more than available
+            n_samples = min(n_samples, len(category_products))
             sampled_products = random.sample(category_products, n_samples)
             category_counts[category] = n_samples
             
-            # Add manual_category field while preserving all original fields
             for product in sampled_products:
-                product_copy = dict(product)  # Create a copy to avoid modifying original
-                product_copy['manual_category'] = ""  # Add empty manual_category field
-                gold_standard.append(product_copy)
+                # Create new product dict with reordered fields
+                new_product = {
+                    'product_brand': product['product_brand'],
+                    'product_title': product['product_title'],
+                    'predicted_category': product['predicted_category'],
+                    'manual_category': "",  # Place manual_category right after predicted_category
+                    'confidence': product['confidence'],
+                    'category_scores': product['category_scores'],
+                    'reasoning': product['reasoning'],
+                    'total_ingredients': product['total_ingredients'],
+                    'ingredients': product['ingredients'],
+                    'key_functions': product['key_functions'],
+                    'beneficial_ingredients': product.get('beneficial_ingredients', 0),
+                    'concern_ingredients': product.get('concern_ingredients', 0),
+                    'alternative_categories': product.get('alternative_categories', []),
+                    'flagged_for_review': product.get('flagged_for_review', False)
+                }
+                gold_standard.append(new_product)
         
-        # Save to new file with metadata
+        # If we still need more samples to reach 75, add from categories with most products
+        remaining = sample_size - len(gold_standard)
+        if remaining > 0:
+            # Sort categories by number of remaining products
+            categories_by_size = sorted(
+                [(cat, len(products_by_category[cat])) for cat in categories],
+                key=lambda x: x[1],
+                reverse=True
+            )
+            
+            for category, _ in categories_by_size:
+                if remaining <= 0:
+                    break
+                    
+                unused_products = [p for p in products_by_category[category] 
+                                 if p not in sampled_products]
+                if unused_products:
+                    product = random.choice(unused_products)
+                    new_product = {
+                        'product_brand': product['product_brand'],
+                        'product_title': product['product_title'],
+                        'predicted_category': product['predicted_category'],
+                        'manual_category': "",
+                        'confidence': product['confidence'],
+                        'category_scores': product['category_scores'],
+                        'reasoning': product['reasoning'],
+                        'total_ingredients': product['total_ingredients'],
+                        'ingredients': product['ingredients'],
+                        'key_functions': product['key_functions'],
+                        'beneficial_ingredients': product.get('beneficial_ingredients', 0),
+                        'concern_ingredients': product.get('concern_ingredients', 0),
+                        'alternative_categories': product.get('alternative_categories', []),
+                        'flagged_for_review': product.get('flagged_for_review', False)
+                    }
+                    gold_standard.append(new_product)
+                    category_counts[category] += 1
+                    remaining -= 1
+        
+        # Save to file with metadata
         output_data = {
             'metadata': {
                 'total_samples': len(gold_standard),
@@ -71,7 +121,6 @@ def create_gold_standard_sample(input_file='categorized_products_enhanced.json',
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(output_data, f, indent=2, ensure_ascii=False)
         
-        # Print summary
         logger.info(f"Created gold standard sample with {len(gold_standard)} products")
         logger.info("Category distribution:")
         for category, count in category_counts.items():
