@@ -81,5 +81,39 @@ def create_gold_standard_sample(input_file='categorized_products_enhanced.json',
         logger.error(f"Error creating gold standard sample: {e}")
         raise
 
+def process_dataset(self, products_data, nlp_model=None):
+    """Process multiple products and create gold standard sample with manual_category field."""
+    results = []
+    for product in products_data:
+        result = self.categorize_product(product, nlp_model)
+        
+        # Create product entry with reordered fields
+        categorized_product = {
+            'product_brand': product['product_brand'],
+            'product_title': product['product_title'],
+            'predicted_category': result.category,
+            'manual_category': "",  # Empty field for manual annotation
+            'confidence': result.confidence,
+            'category_scores': result.scores,
+            'reasoning': result.reasoning,
+            'total_ingredients': len(product['ingredients']),
+            'ingredients': [
+                {
+                    'name': ingredient.get('ingredient_name', ''),
+                    'functions': ingredient.get('what_it_does', '').split(',') if ingredient.get('what_it_does') else [],
+                    'irritancy_comedogenicity': ingredient.get('irritancy/comedogenicity', ''),
+                    'id_rating': ingredient.get('id_rating', '')
+                }
+                for ingredient in product['ingredients']
+            ],
+            'key_functions': list(result.ingredient_analysis['function_counts'].keys()),
+            'beneficial_ingredients': result.ingredient_analysis['rating_counts'].get('superstar', 0),
+            'concern_ingredients': result.ingredient_analysis.get('concern_ingredients', 0),
+            'alternative_categories': result.alternative_categories or [],
+            'flagged_for_review': False
+        }
+        results.append(categorized_product)
+    return results
+
 if __name__ == "__main__":
     create_gold_standard_sample()
