@@ -26,7 +26,7 @@
       "product_brand": "Hada Labo",
       "product_title": "Koi Gokujyun All-in-on Aging Care 3d Gel",
       "predicted_category": "Face Serum",
-      "manual_category": "",
+      "manual_category": "Face Moisturizer",
       "confidence": 1.0,
       "category_scores": {
         "Face Moisturizer": 12.5,
@@ -258,7 +258,7 @@
       "product_brand": "Aizen",
       "product_title": "Pythocrystal Holybright Ampoule",
       "predicted_category": "Face Serum",
-      "manual_category": "",
+      "manual_category": "Face Serum",
       "confidence": 0.95,
       "category_scores": {
         "Face Serum": 0.95
@@ -586,7 +586,7 @@
       "product_brand": "TFIT",
       "product_title": "Micro Bubble Clear Foam",
       "predicted_category": "Face Serum",
-      "manual_category": "",
+      "manual_category": "Face Cleanser",
       "confidence": 1.0,
       "category_scores": {
         "Face Moisturizer": 19.5,
@@ -1013,7 +1013,7 @@
       "product_brand": "InstaNatural",
       "product_title": "Anti-Aging Collagen Serum",
       "predicted_category": "Face Serum",
-      "manual_category": "",
+      "manual_category": "Face Serum",
       "confidence": 0.95,
       "category_scores": {
         "Face Serum": 0.95
@@ -1200,7 +1200,7 @@
       "product_brand": "WIWIFY",
       "product_title": "Retinol Serum",
       "predicted_category": "Face Serum",
-      "manual_category": "",
+      "manual_category": "Face Serum",
       "confidence": 0.95,
       "category_scores": {
         "Face Serum": 0.95
@@ -1487,7 +1487,7 @@
       "product_brand": "Avon",
       "product_title": "Clearskin Blemish Clearing AHA Treatment Cream",
       "predicted_category": "Acne Treatment",
-      "manual_category": "",
+      "manual_category": "Acne Treatment",
       "confidence": 0.95,
       "category_scores": {
         "Acne Treatment": 0.95
@@ -1758,7 +1758,7 @@
       "product_brand": "The Skin Shark",
       "product_title": "Spot Treatment",
       "predicted_category": "Acne Treatment",
-      "manual_category": "",
+      "manual_category": "Acne Treatment",
       "confidence": 0.95,
       "category_scores": {
         "Acne Treatment": 0.95
@@ -2043,7 +2043,7 @@
       "product_brand": "LANCER",
       "product_title": "The Method: Nourish Blemish Control",
       "predicted_category": "Acne Treatment",
-      "manual_category": "",
+      "manual_category": "Acne Treatment, Exfoliant/Scrub",
       "confidence": 0.95,
       "category_scores": {
         "Acne Treatment": 0.95
@@ -2378,7 +2378,7 @@
       "product_brand": "Spotles skn",
       "product_title": "Facial Gel Wash",
       "predicted_category": "Acne Treatment",
-      "manual_category": "",
+      "manual_category": "Face Cleanser, Acne Treatment",
       "confidence": 1.0,
       "category_scores": {
         "Face Moisturizer": 8.5,
@@ -2619,7 +2619,7 @@
       "product_brand": "LION",
       "product_title": "Pair Acne Cream W",
       "predicted_category": "Acne Treatment",
-      "manual_category": "",
+      "manual_category": "Acne Treatment",
       "confidence": 0.95,
       "category_scores": {
         "Acne Treatment": 0.95
@@ -2740,7 +2740,7 @@
       "product_brand": "Coppertone",
       "product_title": "Oil Free + Shine Control 45",
       "predicted_category": "Face Moisturizer",
-      "manual_category": "",
+      "manual_category": "Sunscreen",
       "confidence": 1.0,
       "category_scores": {
         "Face Moisturizer": 27.0,
@@ -3052,7 +3052,7 @@
       "product_brand": "Farm Stay",
       "product_title": "Dermacube Cica & Aloevera Daily Care Cream",
       "predicted_category": "Face Moisturizer",
-      "manual_category": "",
+      "manual_category": "Face Moisturizer",
       "confidence": 0.8421052631578947,
       "category_scores": {
         "Face Moisturizer": 0.8421052631578947
@@ -3281,7 +3281,7 @@
       "product_brand": "lavera",
       "product_title": "Re-energizing Sleeping Eye Cream",
       "predicted_category": "Face Moisturizer",
-      "manual_category": "",
+      "manual_category": "Face Moisturizer",
       "confidence": 0.8235294117647058,
       "category_scores": {
         "Face Moisturizer": 0.8235294117647058
@@ -3595,7 +3595,7 @@
       "product_brand": "Skin Creamery",
       "product_title": "The Balm",
       "predicted_category": "Face Moisturizer",
-      "manual_category": "",
+      "manual_category": "Face Moisturizer",
       "confidence": 1.0,
       "category_scores": {
         "Face Moisturizer": 18.0,
@@ -3771,7 +3771,7 @@
       "product_brand": "Dr. Pepti",
       "product_title": "Peptide Volume Silk Layer Cream",
       "predicted_category": "Face Moisturizer",
-      "manual_category": "",
+      "manual_category": "Face Moisturizer",
       "confidence": 0.8,
       "category_scores": {
         "Face Moisturizer": 0.8
@@ -4348,7 +4348,7 @@
       "product_brand": "Rebels Refinery",
       "product_title": "Activated Charcoal Face Scrub",
       "predicted_category": "Exfoliant/Scrub",
-      "manual_category": "",
+      "manual_category": "Exfoliant/Scrub",
       "confidence": 0.95,
       "category_scores": {
         "Exfoliant/Scrub": 0.95
@@ -4719,7 +4719,7 @@
       "product_brand": "SheaMoisture",
       "product_title": "Lavender & Wild Orchid Hand & Body Scrub",
       "predicted_category": "Exfoliant/Scrub",
-      "manual_category": "",
+      "manual_category": "Exfoliant/Scrub",
       "confidence": 0.95,
       "category_scores": {
         "Exfoliant/Scrub": 0.95
@@ -4899,7 +4899,7 @@
       "product_brand": "RHRI",
       "product_title": "Apple Cider & Sea Salt Scalp Scrub Detox Scalp Scrub Treatment",
       "predicted_category": "Exfoliant/Scrub",
-      "manual_category": "",
+      "manual_category": "Exfoliant/Scrub",
       "confidence": 0.95,
       "category_scores": {
         "Exfoliant/Scrub": 0.95
@@ -5363,7 +5363,7 @@
       "product_brand": "Darphin",
       "product_title": "L'Institut Youth Resurfacing Peel",
       "predicted_category": "Exfoliant/Scrub",
-      "manual_category": "",
+      "manual_category": "Exfoliant/Scrub",
       "confidence": 0.95,
       "category_scores": {
         "Exfoliant/Scrub": 0.95
@@ -5567,7 +5567,7 @@
       "product_brand": "AA",
       "product_title": "Aloes Pink Lip Care Scrub",
       "predicted_category": "Exfoliant/Scrub",
-      "manual_category": "",
+      "manual_category": "Exfoliant/Scrub",
       "confidence": 0.95,
       "category_scores": {
         "Exfoliant/Scrub": 0.95
@@ -5713,7 +5713,7 @@
       "product_brand": "Mamaearth",
       "product_title": "Ubtan Moisturizing Lotion Soap",
       "predicted_category": "Face Cleanser",
-      "manual_category": "",
+      "manual_category": "Face Cleanser",
       "confidence": 0.95,
       "category_scores": {
         "Face Cleanser": 0.95
@@ -5967,7 +5967,7 @@
       "product_brand": "iS Clinical",
       "product_title": "Cleansing Complex",
       "predicted_category": "Face Cleanser",
-      "manual_category": "",
+      "manual_category": "Face Cleanser",
       "confidence": 0.8695652173913043,
       "category_scores": {
         "Face Cleanser": 0.8695652173913043
@@ -6156,7 +6156,7 @@
       "product_brand": "Pilot",
       "product_title": "Finest Face Cleanser",
       "predicted_category": "Face Cleanser",
-      "manual_category": "",
+      "manual_category": "Face Cleanser",
       "confidence": 0.8571428571428572,
       "category_scores": {
         "Face Cleanser": 0.8571428571428572
@@ -6429,7 +6429,7 @@
       "product_brand": "Swisse Skincare",
       "product_title": "Salicylic Acid Daily Balance Cleansing Gel",
       "predicted_category": "Face Cleanser",
-      "manual_category": "",
+      "manual_category": "Face Cleanser",
       "confidence": 0.95,
       "category_scores": {
         "Face Cleanser": 0.95
@@ -6641,7 +6641,7 @@
       "product_brand": "SheaMoisture",
       "product_title": "African Black Soap Balancing Moisturizer",
       "predicted_category": "Face Cleanser",
-      "manual_category": "",
+      "manual_category": "Face Moisturizer",
       "confidence": 0.95,
       "category_scores": {
         "Face Cleanser": 0.95
@@ -6999,7 +6999,7 @@
       "product_brand": "Hada Labo",
       "product_title": "Arbutin Whitening Shirojyun Cream",
       "predicted_category": "Brightening Treatment",
-      "manual_category": "",
+      "manual_category": "Brightening Treatment",
       "confidence": 0.95,
       "category_scores": {
         "Brightening Treatment": 0.95
@@ -7181,7 +7181,7 @@
       "product_brand": "Volition",
       "product_title": "Turmeric Brightening Polish",
       "predicted_category": "Brightening Treatment",
-      "manual_category": "",
+      "manual_category": "Exfoliant/Scrub, Brightening Treatment",
       "confidence": 0.95,
       "category_scores": {
         "Brightening Treatment": 0.95
@@ -7372,7 +7372,7 @@
       "product_brand": "ElsheSkin",
       "product_title": "Radiant Glow Moisturizer",
       "predicted_category": "Brightening Treatment",
-      "manual_category": "",
+      "manual_category": "Brightening Treatment, Face Moisturizer",
       "confidence": 0.95,
       "category_scores": {
         "Brightening Treatment": 0.95
@@ -8166,7 +8166,7 @@
       "product_brand": "Light Up Beauty",
       "product_title": "Prism Vitamin C Glow Cream",
       "predicted_category": "Brightening Treatment",
-      "manual_category": "",
+      "manual_category": "Brightening Treatment",
       "confidence": 0.95,
       "category_scores": {
         "Brightening Treatment": 0.95
@@ -8597,7 +8597,7 @@
       "product_brand": "ElsheSkin",
       "product_title": "Radiant Glow Brightening Moisturizer",
       "predicted_category": "Brightening Treatment",
-      "manual_category": "",
+      "manual_category": "Brightening Treatment, Face Moisturizer",
       "confidence": 0.95,
       "category_scores": {
         "Brightening Treatment": 0.95
@@ -9251,7 +9251,7 @@
       "product_brand": "Jovees",
       "product_title": "Anti Ageing Face Mask",
       "predicted_category": "Face Mask",
-      "manual_category": "",
+      "manual_category": "Face Mask",
       "confidence": 0.95,
       "category_scores": {
         "Face Mask": 0.95
@@ -9381,7 +9381,7 @@
       "product_brand": "Biolaven",
       "product_title": "Overnight Face Mask",
       "predicted_category": "Face Mask",
-      "manual_category": "",
+      "manual_category": "Face Mask",
       "confidence": 0.95,
       "category_scores": {
         "Face Mask": 0.95
@@ -9653,7 +9653,7 @@
       "product_brand": "Truth Treatment Systems",
       "product_title": "Vita Mask",
       "predicted_category": "Face Mask",
-      "manual_category": "",
+      "manual_category": "Face Mask",
       "confidence": 0.95,
       "category_scores": {
         "Face Mask": 0.95
@@ -9847,7 +9847,7 @@
       "product_brand": "MARY & MAY",
       "product_title": "Calendula Peptide Ageless, Sleeping Mask",
       "predicted_category": "Face Mask",
-      "manual_category": "",
+      "manual_category": "Face Mask",
       "confidence": 0.95,
       "category_scores": {
         "Face Mask": 0.95
@@ -10311,7 +10311,7 @@
       "product_brand": "Freeman beauty",
       "product_title": "Plumping gel mask",
       "predicted_category": "Face Mask",
-      "manual_category": "",
+      "manual_category": "Face Mask",
       "confidence": 0.95,
       "category_scores": {
         "Face Mask": 0.95
@@ -10655,7 +10655,7 @@
       "product_brand": "Giovanni",
       "product_title": "50:50 Balanced Hydrating-Calming Conditioner",
       "predicted_category": "Conditioner",
-      "manual_category": "",
+      "manual_category": "Conditioner",
       "confidence": 0.95,
       "category_scores": {
         "Conditioner": 0.95
@@ -10933,7 +10933,7 @@
       "product_brand": "Shiseido",
       "product_title": "Fino Premium Touch Moist Conditioner",
       "predicted_category": "Conditioner",
-      "manual_category": "",
+      "manual_category": "Conditioner",
       "confidence": 0.95,
       "category_scores": {
         "Conditioner": 0.95
@@ -11176,7 +11176,7 @@
       "product_brand": "John Frieda",
       "product_title": "Sheer Blonde Go Blonder Conditioner",
       "predicted_category": "Conditioner",
-      "manual_category": "",
+      "manual_category": "Conditioner",
       "confidence": 0.95,
       "category_scores": {
         "Conditioner": 0.95
@@ -11448,7 +11448,7 @@
       "product_brand": "L'Oreal Professionnel",
       "product_title": "Serioxyl Thickening & Detangling Conditioner",
       "predicted_category": "Conditioner",
-      "manual_category": "",
+      "manual_category": "Conditioner",
       "confidence": 0.95,
       "category_scores": {
         "Conditioner": 0.95
@@ -11648,7 +11648,7 @@
       "product_brand": "Oribe",
       "product_title": "Gold Lust Repair & Restore Conditioner",
       "predicted_category": "Conditioner",
-      "manual_category": "",
+      "manual_category": "Conditioner",
       "confidence": 0.95,
       "category_scores": {
         "Conditioner": 0.95
@@ -12346,7 +12346,7 @@
       "product_brand": "Watsons Love My Skin",
       "product_title": "Very High Protection Sunscreen Face Serum",
       "predicted_category": "Sunscreen",
-      "manual_category": "",
+      "manual_category": "Sunscreen",
       "confidence": 0.95,
       "category_scores": {
         "Sunscreen": 0.95
@@ -12788,7 +12788,7 @@
       "product_brand": "Skin Aqua",
       "product_title": "UV Whitening Milk SPF 50",
       "predicted_category": "Sunscreen",
-      "manual_category": "",
+      "manual_category": "Sunscreen",
       "confidence": 0.95,
       "category_scores": {
         "Sunscreen": 0.95
@@ -13104,7 +13104,7 @@
       "product_brand": "Retipalm",
       "product_title": "Sun Protection SPF 30",
       "predicted_category": "Sunscreen",
-      "manual_category": "",
+      "manual_category": "Sunscreen",
       "confidence": 0.95,
       "category_scores": {
         "Sunscreen": 0.95
@@ -13379,7 +13379,7 @@
       "product_brand": "QV Ego",
       "product_title": "Face Day Cream SPF 30 +",
       "predicted_category": "Sunscreen",
-      "manual_category": "",
+      "manual_category": "Sunscreen",
       "confidence": 0.95,
       "category_scores": {
         "Sunscreen": 0.95
@@ -13461,7 +13461,7 @@
       "product_brand": "Natio",
       "product_title": "Ageless Daily Moisturiser UV Protection SPF 30+",
       "predicted_category": "Sunscreen",
-      "manual_category": "",
+      "manual_category": "Sunscreen",
       "confidence": 0.95,
       "category_scores": {
         "Sunscreen": 0.95
@@ -13531,7 +13531,7 @@
       "product_brand": "Diane Moist",
       "product_title": "Moist & Shine Shampoo",
       "predicted_category": "Shampoo",
-      "manual_category": "",
+      "manual_category": "Shampoo",
       "confidence": 0.95,
       "category_scores": {
         "Shampoo": 0.95
@@ -14144,7 +14144,7 @@
       "product_brand": "MA CHERIE",
       "product_title": "Air Feel Shampoo",
       "predicted_category": "Shampoo",
-      "manual_category": "",
+      "manual_category": "Shampoo",
       "confidence": 0.95,
       "category_scores": {
         "Shampoo": 0.95
@@ -14446,7 +14446,7 @@
       "product_brand": "Freshly Cosmetics",
       "product_title": "Dandruff Control Shampoo",
       "predicted_category": "Shampoo",
-      "manual_category": "",
+      "manual_category": "Shampoo",
       "confidence": 0.95,
       "category_scores": {
         "Shampoo": 0.95
@@ -14685,7 +14685,7 @@
       "product_brand": "CHI",
       "product_title": "Color Illuminate Platinum Blonde Purple Shampoo And Conditioner",
       "predicted_category": "Shampoo",
-      "manual_category": "",
+      "manual_category": "Shampoo",
       "confidence": 0.95,
       "category_scores": {
         "Shampoo": 0.95
@@ -14959,7 +14959,7 @@
       "product_brand": "Helia-D",
       "product_title": "RE Genero 26 Herbs Hair Strenghtening Shampoo Anti-Dandruff",
       "predicted_category": "Shampoo",
-      "manual_category": "",
+      "manual_category": "Shampoo",
       "confidence": 0.95,
       "category_scores": {
         "Shampoo": 0.95
@@ -15436,7 +15436,7 @@
       "product_brand": "CHI",
       "product_title": "Infra Keratin Mist Leave-in Strengthening Treatment",
       "predicted_category": "Hair Treatment",
-      "manual_category": "",
+      "manual_category": "Hair Treatment",
       "confidence": 0.95,
       "category_scores": {
         "Hair Treatment": 0.95
@@ -15698,7 +15698,7 @@
       "product_brand": "Redken",
       "product_title": "Extreme Bleach Recovery Cica Cream Leave-in Treatment",
       "predicted_category": "Hair Treatment",
-      "manual_category": "",
+      "manual_category": "Hair Treatment",
       "confidence": 0.95,
       "category_scores": {
         "Hair Treatment": 0.95
@@ -15891,7 +15891,7 @@
       "product_brand": "Garnier",
       "product_title": "Fructis Vitamin & Strength 10-in-1 Leave-in Cream",
       "predicted_category": "Hair Treatment",
-      "manual_category": "",
+      "manual_category": "Hair Treatment",
       "confidence": 0.95,
       "category_scores": {
         "Hair Treatment": 0.95
@@ -16136,7 +16136,7 @@
       "product_brand": "Real Barrier",
       "product_title": "Intense Moisture Toner",
       "predicted_category": "Face Toner",
-      "manual_category": "",
+      "manual_category": "Face Toner",
       "confidence": 0.95,
       "category_scores": {
         "Face Toner": 0.95
@@ -16632,7 +16632,7 @@
       "product_brand": "Biodance",
       "product_title": "Cera-nol Gel Toner Pads",
       "predicted_category": "Face Toner",
-      "manual_category": "",
+      "manual_category": "Face Toner",
       "confidence": 0.95,
       "category_scores": {
         "Face Toner": 0.95
@@ -16922,7 +16922,7 @@
       "product_brand": "OLEHENRIKSEN",
       "product_title": "Glow2Oh Dark Spot Toner",
       "predicted_category": "Face Toner",
-      "manual_category": "",
+      "manual_category": "Face Toner",
       "confidence": 0.95,
       "category_scores": {
         "Face Toner": 0.95
@@ -17140,7 +17140,7 @@
       "product_brand": "Viorica",
       "product_title": "Vie Anti-Age Depigmenting Toner",
       "predicted_category": "Face Toner",
-      "manual_category": "",
+      "manual_category": "Face Toner",
       "confidence": 0.95,
       "category_scores": {
         "Face Toner": 0.95
@@ -17412,7 +17412,7 @@
       "product_brand": "Logically, skin",
       "product_title": "First Hand Cream",
       "predicted_category": "Body Moisturizer",
-      "manual_category": "",
+      "manual_category": "Body Moisturizer",
       "confidence": 0.95,
       "category_scores": {
         "Body Moisturizer": 0.95
@@ -17672,7 +17672,7 @@
       "product_brand": "Coony",
       "product_title": "Cicamidas 5 Body Lotion",
       "predicted_category": "Body Moisturizer",
-      "manual_category": "",
+      "manual_category": "Body Moisturizer",
       "confidence": 0.95,
       "category_scores": {
         "Body Moisturizer": 0.95
@@ -18006,7 +18006,7 @@
       "product_brand": "Nubian Heritage",
       "product_title": "Body Lotion - Goat'S Milk & Chai",
       "predicted_category": "Body Moisturizer",
-      "manual_category": "",
+      "manual_category": "Body Moisturizer",
       "confidence": 0.95,
       "category_scores": {
         "Body Moisturizer": 0.95
@@ -18231,7 +18231,7 @@
       "product_brand": "REN Clean Skincare",
       "product_title": "Atlantic Kelp & Magnesium Anti-fatigue Body Cream",
       "predicted_category": "Body Moisturizer",
-      "manual_category": "",
+      "manual_category": "Body Moisturizer",
       "confidence": 0.95,
       "category_scores": {
         "Body Moisturizer": 0.95
@@ -18603,7 +18603,7 @@
       "product_brand": "SNOW WHITE",
       "product_title": "Spot Gel",
       "predicted_category": "Uncategorized",
-      "manual_category": "",
+      "manual_category": "Brightening Treatment",
       "confidence": 0.0,
       "category_scores": {
         "Face Moisturizer": 0,
@@ -18637,7 +18637,7 @@
       "product_brand": "Kobayashi Pharmaceutical",
       "product_title": "Cool Sheet For Children Fever Netsusama Sheet For 12+4 Pcs - 8 Hours",
       "predicted_category": "Uncategorized",
-      "manual_category": "",
+      "manual_category": "Uncategorized",
       "confidence": 0.0,
       "category_scores": {
         "Face Moisturizer": 0,
@@ -18686,7 +18686,7 @@
       "product_brand": "dragonfly bath & body",
       "product_title": "Fragrance Free Body Wash",
       "predicted_category": "Body Wash",
-      "manual_category": "",
+      "manual_category": "Body Wash",
       "confidence": 0.95,
       "category_scores": {
         "Body Wash": 0.95
@@ -18847,7 +18847,7 @@
       "product_brand": "Mamaearth",
       "product_title": "Ubtan Body Wash New",
       "predicted_category": "Body Wash",
-      "manual_category": "",
+      "manual_category": "Body Wash",
       "confidence": 0.95,
       "category_scores": {
         "Body Wash": 0.95
@@ -19126,7 +19126,7 @@
       "product_brand": "Ban",
       "product_title": "Roll-On Antiperspirant Deodorant",
       "predicted_category": "Deodorant",
-      "manual_category": "",
+      "manual_category": "Deodorant",
       "confidence": 0.44000000000000006,
       "category_scores": {
         "Face Moisturizer": 2.5,
@@ -19240,7 +19240,7 @@
       "product_brand": "Botanics",
       "product_title": "Hydration Burst Day Cream",
       "predicted_category": "Face Moisturizer",
-      "manual_category": "",
+      "manual_category": "Face Moisturizer",
       "confidence": 0.95,
       "category_scores": {
         "Face Moisturizer": 0.95
@@ -19515,7 +19515,7 @@
       "product_brand": "Vichy",
       "product_title": "Mousse Nettoyante Eclat",
       "predicted_category": "Face Serum",
-      "manual_category": "",
+      "manual_category": "Face Cleanser",
       "confidence": 0.27,
       "category_scores": {
         "Face Moisturizer": 2.0,
@@ -19706,7 +19706,7 @@
       "product_brand": "Meditopics",
       "product_title": "Zonbescherming SPF 50",
       "predicted_category": "Sunscreen",
-      "manual_category": "",
+      "manual_category": "Sunscreen",
       "confidence": 0.95,
       "category_scores": {
         "Sunscreen": 0.95
@@ -19853,7 +19853,7 @@
       "product_brand": "Jovees",
       "product_title": "Anti Ageing Face Mask",
       "predicted_category": "Face Mask",
-      "manual_category": "",
+      "manual_category": "Face Mask",
       "confidence": 0.95,
       "category_scores": {
         "Face Mask": 0.95
@@ -19983,7 +19983,7 @@
       "product_brand": "Phyto",
       "product_title": "Phytodensia Plumping Shampoo",
       "predicted_category": "Shampoo",
-      "manual_category": "",
+      "manual_category": "Shampoo",
       "confidence": 0.95,
       "category_scores": {
         "Shampoo": 0.95
@@ -20311,7 +20311,7 @@
       "product_brand": "January Labs",
       "product_title": "Daily Brightening Tonic",
       "predicted_category": "Brightening Treatment",
-      "manual_category": "",
+      "manual_category": "Brightening Treatment",
       "confidence": 0.95,
       "category_scores": {
         "Brightening Treatment": 0.95
@@ -20464,7 +20464,7 @@
       "product_brand": "Image",
       "product_title": "Md - Restoring Facial Cleanser",
       "predicted_category": "Face Cleanser",
-      "manual_category": "",
+      "manual_category": "Face Cleanser",
       "confidence": 0.95,
       "category_scores": {
         "Face Cleanser": 0.95
@@ -20890,7 +20890,7 @@
       "product_brand": "L'Oreal",
       "product_title": "Everpure Bond Strengthening Conditioner",
       "predicted_category": "Conditioner",
-      "manual_category": "",
+      "manual_category": "Conditioner",
       "confidence": 0.95,
       "category_scores": {
         "Conditioner": 0.95
@@ -21200,7 +21200,7 @@
       "product_brand": "Skinn Cosmetics",
       "product_title": "Green Tea + Mint Cleanser",
       "predicted_category": "Acne Treatment",
-      "manual_category": "",
+      "manual_category": "Acne Treatment, Face Cleanser",
       "confidence": 1.0,
       "category_scores": {
         "Face Moisturizer": 16.0,
