@@ -1,0 +1,638 @@
+{
+  "overall_accuracy": 0.92,
+  "total_samples": 75,
+  "correct_predictions": 69,
+  "category_accuracy": {
+    "Face Moisturizer": {
+      "accuracy": 0.7142857142857143,
+      "total_samples": 7
+    },
+    "Face Serum": {
+      "accuracy": 1.0,
+      "total_samples": 3
+    },
+    "Face Cleanser": {
+      "accuracy": 0.75,
+      "total_samples": 8
+    },
+    "Acne Treatment": {
+      "accuracy": 1.0,
+      "total_samples": 5
+    },
+    "Sunscreen": {
+      "accuracy": 0.8571428571428571,
+      "total_samples": 7
+    },
+    "Exfoliant/Scrub": {
+      "accuracy": 1.0,
+      "total_samples": 6
+    },
+    "Brightening Treatment": {
+      "accuracy": 0.8333333333333334,
+      "total_samples": 6
+    },
+    "Face Mask": {
+      "accuracy": 1.0,
+      "total_samples": 6
+    },
+    "Conditioner": {
+      "accuracy": 1.0,
+      "total_samples": 6
+    },
+    "Shampoo": {
+      "accuracy": 1.0,
+      "total_samples": 6
+    },
+    "Hair Treatment": {
+      "accuracy": 1.0,
+      "total_samples": 3
+    },
+    "Face Toner": {
+      "accuracy": 1.0,
+      "total_samples": 4
+    },
+    "Body Moisturizer": {
+      "accuracy": 1.0,
+      "total_samples": 4
+    },
+    "Uncategorized": {
+      "accuracy": 1.0,
+      "total_samples": 1
+    },
+    "Body Wash": {
+      "accuracy": 1.0,
+      "total_samples": 2
+    },
+    "Deodorant": {
+      "accuracy": 1.0,
+      "total_samples": 1
+    }
+  },
+  "average_confidence": 0.9053645699927568,
+  "confusion_matrix": [
+    [
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      6,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      5,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      6,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "classification_report": {
+    "Acne Treatment": {
+      "precision": 0.8333333333333334,
+      "recall": 1.0,
+      "f1-score": 0.9090909090909091,
+      "support": 5.0
+    },
+    "Body Moisturizer": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "Body Wash": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "Brightening Treatment": {
+      "precision": 0.8333333333333334,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.8333333333333334,
+      "support": 6.0
+    },
+    "Conditioner": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6.0
+    },
+    "Deodorant": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "Exfoliant/Scrub": {
+      "precision": 1.0,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.9090909090909091,
+      "support": 6.0
+    },
+    "Face Cleanser": {
+      "precision": 0.8333333333333334,
+      "recall": 0.625,
+      "f1-score": 0.7142857142857143,
+      "support": 8.0
+    },
+    "Face Mask": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6.0
+    },
+    "Face Moisturizer": {
+      "precision": 0.8333333333333334,
+      "recall": 0.7142857142857143,
+      "f1-score": 0.7692307692307693,
+      "support": 7.0
+    },
+    "Face Serum": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1-score": 0.6666666666666666,
+      "support": 3.0
+    },
+    "Face Toner": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "Hair Treatment": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3.0
+    },
+    "Shampoo": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6.0
+    },
+    "Sunscreen": {
+      "precision": 1.0,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.9230769230769231,
+      "support": 7.0
+    },
+    "Uncategorized": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1-score": 0.6666666666666666,
+      "support": 1.0
+    },
+    "accuracy": 0.8933333333333333,
+    "macro avg": {
+      "precision": 0.8958333333333334,
+      "recall": 0.9289434523809523,
+      "f1-score": 0.8994651182151182,
+      "support": 75.0
+    },
+    "weighted avg": {
+      "precision": 0.9155555555555556,
+      "recall": 0.8933333333333333,
+      "f1-score": 0.8963614163614164,
+      "support": 75.0
+    }
+  },
+  "category_distribution": {
+    "Sunscreen": {
+      "count": 7,
+      "percentage": 9.333333333333334
+    },
+    "Face Mask": {
+      "count": 6,
+      "percentage": 8.0
+    },
+    "Face Serum": {
+      "count": 3,
+      "percentage": 4.0
+    },
+    "Brightening Treatment": {
+      "count": 6,
+      "percentage": 8.0
+    },
+    "Hair Treatment": {
+      "count": 3,
+      "percentage": 4.0
+    },
+    "Body Moisturizer": {
+      "count": 4,
+      "percentage": 5.333333333333334
+    },
+    "Face Cleanser": {
+      "count": 8,
+      "percentage": 10.666666666666668
+    },
+    "Body Wash": {
+      "count": 2,
+      "percentage": 2.666666666666667
+    },
+    "Exfoliant/Scrub": {
+      "count": 6,
+      "percentage": 8.0
+    },
+    "Deodorant": {
+      "count": 1,
+      "percentage": 1.3333333333333335
+    },
+    "Conditioner": {
+      "count": 6,
+      "percentage": 8.0
+    },
+    "Uncategorized": {
+      "count": 1,
+      "percentage": 1.3333333333333335
+    },
+    "Shampoo": {
+      "count": 6,
+      "percentage": 8.0
+    },
+    "Acne Treatment": {
+      "count": 5,
+      "percentage": 6.666666666666667
+    },
+    "Face Toner": {
+      "count": 4,
+      "percentage": 5.333333333333334
+    },
+    "Face Moisturizer": {
+      "count": 7,
+      "percentage": 9.333333333333334
+    }
+  },
+  "detailed_metrics": {
+    "Acne Treatment": {
+      "precision": 0.8333333333333334,
+      "recall": 1.0,
+      "f1": 0.9090909090909091,
+      "support": 5
+    },
+    "Body Moisturizer": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 4
+    },
+    "Body Wash": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 2
+    },
+    "Brightening Treatment": {
+      "precision": 0.8333333333333334,
+      "recall": 0.8333333333333334,
+      "f1": 0.8333333333333334,
+      "support": 6
+    },
+    "Conditioner": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 6
+    },
+    "Deodorant": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 1
+    },
+    "Exfoliant/Scrub": {
+      "precision": 1.0,
+      "recall": 0.8333333333333334,
+      "f1": 0.9090909090909091,
+      "support": 6
+    },
+    "Face Cleanser": {
+      "precision": 0.8333333333333334,
+      "recall": 0.625,
+      "f1": 0.7142857142857143,
+      "support": 8
+    },
+    "Face Mask": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 6
+    },
+    "Face Moisturizer": {
+      "precision": 0.8333333333333334,
+      "recall": 0.7142857142857143,
+      "f1": 0.7692307692307693,
+      "support": 7
+    },
+    "Face Serum": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "support": 3
+    },
+    "Face Toner": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 4
+    },
+    "Hair Treatment": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 3
+    },
+    "Shampoo": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 6
+    },
+    "Sunscreen": {
+      "precision": 1.0,
+      "recall": 0.8571428571428571,
+      "f1": 0.9230769230769231,
+      "support": 7
+    },
+    "Uncategorized": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "support": 1
+    }
+  },
+  "timestamp": "2025-06-08T14:28:54.086753"
+}

@@ -1,0 +1,1101 @@
+product_brand,product_title,predicted_category,abrasive_scrub,absorbent_mattifier,anti-acne,antimicrobial_antibacterial,antioxidant,astringent,buffering,cell-communicating_ingredient,chelating,colorant,deodorant,emollient,emulsifying,emulsion_stabilising,exfoliant,moisturizer_humectant,perfuming,preservative,skin_brightening,skin-identical_ingredient,solvent,soothing,sunscreen,surfactant_cleansing,viscosity_controlling
+The Skin Shark,Clearing Serum,Face Serum,0,0,0,0,4,0,1,1,1,0,0,6,4,0,0,0,1,2,0,2,5,1,0,0,4
+The Skin Shark,Spot Treatment,Acne Treatment,0,0,0,0,4,0,1,1,1,0,0,6,4,0,0,0,1,2,0,2,5,1,0,0,4
+C9 Beauty,Face Cream,Face Moisturizer,0,0,0,0,12,0,0,0,0,0,0,22,6,0,0,0,4,4,0,8,4,2,0,0,4
+Le-kku,CBD Day Cream,Face Moisturizer,0,0,0,0,3,0,1,0,0,0,0,7,3,0,0,0,0,2,0,3,1,1,0,0,2
+Le-kku,CBD Face Serum,Face Serum,0,0,0,0,2,0,0,0,0,0,0,2,0,0,0,0,6,0,0,1,1,0,0,0,0
+Le-kku,CBD Hyaluronic Face Serum,Face Serum,0,0,0,0,1,0,2,0,1,0,0,3,0,0,1,0,0,2,0,2,2,2,0,0,4
+Le-kku,CBD Face Scrub,Exfoliant/Scrub,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,3,0,0,1,2,0,0,0,0
+Le-kku,CBD Face Cleansing Milk,Face Cleanser,0,0,0,0,1,0,1,0,1,0,0,4,3,0,0,0,4,2,0,2,3,3,0,0,2
+This Place,The Glow,Brightening Treatment,0,0,1,0,3,0,2,0,0,0,0,10,2,0,1,0,7,1,0,3,2,1,0,0,2
+InstaNatural,", Triple Strength Vitamin C Serum, Anti-Aging",Face Serum,0,0,1,0,5,0,2,1,0,0,0,0,2,0,1,0,3,1,5,1,4,0,0,0,1
+Teatrical,Serum Facial Anti Arrugas,Face Serum,0,0,0,0,1,0,1,0,2,0,0,0,1,0,0,0,5,1,0,6,5,1,0,0,5
+InstaNatural,2.5% Retinol Bakuchiol Serum,Face Serum,0,0,1,0,2,0,0,3,0,0,0,5,3,0,0,0,1,0,1,3,4,0,0,0,2
+InstaNatural,Anti-Aging Collagen Serum,Face Serum,0,0,1,0,1,0,0,3,0,0,0,4,2,0,0,0,0,2,1,3,1,0,0,0,1
+Control Corrective,Beyond Brightening Complex,Brightening Treatment,0,0,1,0,5,0,2,1,0,0,0,5,2,0,2,0,0,2,6,1,2,1,0,0,2
+Lume' Bio,Overnight Restorative Serum,Face Serum,0,0,0,0,2,0,1,1,1,0,0,12,5,0,0,0,0,2,0,2,4,0,0,0,6
+ReVitalize,Age Defying Skin Serum,Face Serum,0,0,0,0,2,0,1,1,1,0,0,12,6,0,0,0,0,2,0,2,4,0,0,0,6
+Regimen Lab,C.r.e.a.m Skin Barrier Moisturizer (2.0),Face Serum,0,0,0,0,6,0,1,2,1,0,0,11,6,0,1,0,2,1,0,6,4,9,0,0,6
+Regimen Lab,C.r.e.a.m 2.0,Face Serum,0,0,0,0,6,0,1,2,1,0,0,11,6,0,1,0,2,1,0,6,4,9,0,0,5
+Truth Treatment Systems,Vita Mask,Face Mask,0,0,0,0,4,0,1,1,0,0,0,4,3,0,0,0,1,0,1,2,0,1,0,0,3
+Redken,Frizz Dismiss Sulfate-Free Conditioner,Conditioner,0,0,0,0,1,0,1,0,0,0,0,3,1,0,0,0,10,4,0,1,4,0,0,0,3
+Avon,Anew Rejuvenate Day Revitalizing Cream SPF 25,Sunscreen,0,0,1,0,1,0,1,1,1,2,0,5,4,0,1,0,2,4,0,3,3,2,5,0,5
+Avon,Anew Reversalist Night Revitalising Cream,Face Moisturizer,0,0,0,0,1,0,2,0,1,0,0,8,5,0,1,0,2,1,0,1,3,0,0,0,7
+L'Oreal,Elvive Extraordinary Oil Multi-Use Mask,Face Mask,0,0,0,0,1,0,2,0,0,6,0,6,3,0,0,0,7,4,0,0,3,0,0,0,2
+Avon,Creme Facial Renew Clareador E Textura Uniforme,Face Moisturizer,0,0,1,0,3,0,1,0,1,0,0,8,2,0,1,0,5,4,3,3,2,2,0,0,7
+Sure,Women Wild Rose 72hr Whole Body Deodorant Spray,Face Moisturizer,0,0,0,0,1,0,0,0,0,0,0,5,0,0,0,0,11,1,0,0,2,0,0,0,2
+Biolage,Strength Recovery Deep Treatment Pack,Face Moisturizer,0,0,0,0,1,0,1,0,0,0,0,5,3,0,0,0,9,5,0,4,4,0,0,0,3
+Garnier,"Fructis Grow Strong Thickening 10-in-1 Spray, Biotin-c",Face Moisturizer,0,0,0,0,3,0,1,0,0,0,0,5,3,0,0,0,6,3,1,0,4,0,0,0,3
+Garnier Fructis,Crema Sin Aclarado 10 En 1 Fuerza & Brillo,Face Moisturizer,0,0,2,0,2,0,2,1,0,2,0,6,3,0,1,0,7,5,1,0,2,2,0,0,3
+Avon,Anew Pollution Protect+ 15-Minute Kaolin Clay Face Mask,Face Mask,0,0,1,0,4,0,1,0,1,5,0,6,4,0,1,0,2,3,0,1,3,3,0,0,8
+Matrix,Food For Soft Hair Mask,Face Mask,0,0,0,0,4,0,1,0,0,0,0,4,1,0,0,0,5,3,0,2,2,1,0,0,2
+Avon,Renew Solar Avance Matte Antioleosidade e antiedade FPS 50,Face Moisturizer,0,0,0,0,5,0,1,0,1,0,0,8,4,0,0,0,1,2,1,1,4,3,5,0,6
+Avon Anew,Anew Solar Advance SPF 50 Anti-wrinkle Ultra Matte Sun Cream,Sunscreen,0,0,1,0,6,0,1,1,1,0,0,6,4,0,0,0,2,1,2,2,5,3,7,0,6
+Catrice,Go Pastel Top Coat,Face Moisturizer,0,0,0,0,2,0,2,0,0,2,0,3,0,0,0,0,4,0,0,0,5,0,0,0,7
+Avon,Renew Perfect Skin Gel-Creme Matificante Fps 20,Face Moisturizer,0,0,0,0,2,0,1,1,1,0,0,6,5,0,0,0,8,1,0,2,4,1,4,0,6
+L'Oreal Professionnel,Serioxyl Thickening & Detangling Conditioner,Conditioner,0,0,0,0,1,0,2,0,0,1,0,6,2,0,0,0,2,2,0,0,2,1,0,0,5
+PLUM,Hemp Face Oil,Face Moisturizer,0,0,0,0,6,0,0,0,0,0,0,10,1,0,0,0,2,0,0,0,0,0,0,0,0
+PLUM,Hemp & Ceramides Moisturizer,Face Moisturizer,0,0,1,0,3,0,1,1,2,0,0,8,4,0,0,0,3,1,0,6,3,2,0,0,6
+Simple Kind To Skin,Booster Serum 10% Hemp Seed Oil +B3,Face Serum,0,0,1,0,3,0,2,1,0,0,0,6,2,0,0,0,0,2,1,1,3,0,0,0,2
+PLUM,0.5% Retinol Renewing Night Cream,Face Moisturizer,0,0,0,0,3,0,0,2,2,0,0,7,3,0,0,0,2,1,0,1,5,2,0,0,4
+Loreal Elseve,Óleo Extraordinário Creme De Pentear,Face Moisturizer,0,0,1,0,1,0,1,0,0,0,0,3,3,0,1,0,9,5,0,1,4,1,0,0,4
+Garnier,Soothing Rice Shampoo,Shampoo,0,0,1,0,3,0,2,0,0,0,0,5,4,0,1,0,2,3,0,1,3,3,0,0,7
+Avon Anew Clinical,Anew Clinical Even Texture & Tone Correcting Serum,Face Serum,0,0,1,0,3,0,1,0,1,0,0,4,2,0,1,0,1,2,3,1,4,2,0,0,4
+PLUM,Bodylovin Feeling So Rose Body Yoghurt,Face Moisturizer,0,0,0,0,1,0,0,0,1,0,0,3,2,0,0,0,1,2,0,2,2,2,0,0,2
+Matrix,Instacure Build-A-Bond Instant Revival Liquid Mask,Face Mask,0,0,0,0,1,0,2,0,2,1,0,6,4,0,0,0,6,4,0,2,4,0,0,0,4
+Avon,Anew Dual Defence Clarifying Treatment Lotion,Face Serum,0,0,1,0,5,0,2,0,1,0,0,5,2,0,2,0,1,2,3,1,4,5,0,0,4
+Astra,Pure Beauty Natural Nail Filler,Face Moisturizer,0,0,0,0,3,0,2,0,0,3,0,6,0,0,0,0,5,0,0,0,6,0,0,0,7
+Dove,Pro-retinol + Firming Crème Body Serum,Face Serum,0,0,1,0,1,0,0,2,1,0,0,11,4,0,0,0,1,1,1,2,1,0,0,0,5
+Avon Care,Goodnight Sleep Cream,Face Moisturizer,0,0,0,0,1,0,1,0,1,0,0,7,3,0,0,0,2,1,0,1,2,0,0,0,4
+rhode skin,Peptide Glazing Fluid,Face Serum,0,0,1,0,2,0,3,2,0,0,0,5,2,0,0,0,3,1,1,2,3,0,0,0,3
+Avon,Anew Platinum Day Cream Spf 25,Sunscreen,0,0,0,0,1,0,1,0,1,0,0,9,4,0,0,0,2,1,0,2,3,0,5,0,6
+L'Oreal,Elvive Extraordinary Oil More Than Shampoo,Shampoo,0,0,1,0,4,0,1,0,0,0,0,6,5,0,1,0,11,4,0,0,3,3,0,0,4
+Dr. G,R.E.D Blemish Repair Soothing Cream,Acne Treatment,0,0,1,0,10,0,2,2,0,0,0,11,6,0,0,0,4,4,5,3,5,9,0,0,7
+Biolage,Advanced Recovery Deep Treatment Pack,Face Serum,0,0,0,0,1,0,0,0,0,0,0,3,3,0,0,0,6,5,0,3,3,0,0,0,3
+Avon Anew,Reversalist Day Perfecting Cream SPF25,Face Moisturizer,0,0,0,0,1,0,1,0,1,0,0,7,4,0,0,0,2,1,0,1,3,0,5,0,6
+Avon,Clare Aclara Dia,Face Moisturizer,0,0,0,0,3,0,1,0,1,3,0,6,3,0,0,0,1,2,0,1,3,0,1,0,5
+Avon,Anew Reversalist Complete Renewal Broad Spectrum Spf 25 Day Cream,Sunscreen,0,0,0,0,1,0,1,0,1,0,0,7,4,0,0,0,2,2,0,2,3,0,4,0,8
+Pond's,Age Miracle Ultimate Youth Day Serum,Face Serum,0,0,1,0,7,0,1,4,1,2,0,3,1,0,0,0,1,4,2,3,3,3,0,0,4
+Avon,True Nutra Effects Hydration Day Cream Spf 15,Sunscreen,0,0,0,0,2,0,1,0,1,0,0,9,4,0,0,0,2,3,0,5,4,1,4,0,10
+Avon,Skinvincible Deep Recovery Cream,Face Moisturizer,0,0,0,0,5,0,1,1,1,0,0,10,2,0,0,0,1,1,1,1,2,3,0,0,4
+Matrix,Food For Soft Rich Hydrating Treatment Mask,Face Mask,0,0,0,0,4,0,1,0,0,0,0,4,1,0,0,0,5,3,0,2,2,1,1,0,2
+L'Oreal,Elvive Óleo Extraordinario Mascarilla Nutrición Intensa,Face Moisturizer,0,0,0,0,1,0,1,0,0,0,0,2,1,0,0,0,6,2,0,1,2,0,0,0,2
+Matrix,Total Results Unbreak My Blonde Conditioner,Conditioner,0,0,0,0,1,0,3,0,2,0,0,6,5,0,0,0,7,3,0,1,3,0,0,0,5
+Nivea,Joy Of Life Deo Roll-on,Face Serum,0,0,1,0,8,0,0,0,1,1,0,3,2,0,0,0,5,3,1,1,3,3,0,0,1
+Redken,Frizz Dismiss Mask,Face Mask,0,0,0,0,1,0,1,0,0,0,0,6,3,0,0,0,9,3,0,0,3,0,0,0,2
+Avon Care,Creme Facial Uniformizador,Face Moisturizer,0,0,0,0,3,0,2,0,1,4,0,7,3,0,0,0,1,2,1,1,2,0,0,0,5
+Avon Anew,Protector Solar Matte FPS 50,Sunscreen,0,0,0,0,5,0,1,0,1,0,0,8,4,0,0,0,1,2,1,1,4,3,5,0,6
+Redken,Acidic Bonding Concentrate Conditioner,Face Serum,0,0,0,0,1,0,2,0,1,0,0,6,5,0,0,0,6,3,0,1,3,0,0,0,5
+Simple,Calming Moisturiser With Hemp Seed Oil,Face Moisturizer,0,0,1,0,2,0,1,1,2,0,0,6,4,0,0,0,1,2,1,1,2,0,0,0,3
+Pureology,Strength Cure Conditioner,Conditioner,0,0,0,0,4,0,2,0,0,2,0,5,3,0,0,0,6,5,0,1,4,1,1,0,3
+Avon,Renew Solar Advanced Matte Ultraleve Anti-Idade FPS 70,Face Serum,0,0,0,0,7,0,1,0,1,0,0,6,4,0,0,0,2,1,1,2,4,4,7,0,6
+Garnier,Fructis Method For Curls N°0 Pre-Shampoo,Shampoo,0,0,0,0,2,0,1,0,0,0,0,8,3,0,1,0,7,3,0,0,2,0,0,0,2
+PLUM,Body Shimmer Oil Rose Gold,Face Moisturizer,0,0,0,0,3,0,0,0,0,6,0,8,2,0,0,0,3,0,0,0,0,0,0,0,3
+Avon Anew,Anew Luminosity Day Cream SPF 20 Pa++,Sunscreen,0,0,1,0,3,0,1,1,1,0,0,10,4,0,0,0,4,2,2,3,4,0,0,0,6
+Avon,Nutra Effects Radiance BB Cream,Brightening Treatment,0,0,0,0,7,0,0,0,1,6,0,11,5,0,0,0,1,1,3,1,4,4,1,0,7
+Avon,Anew Clinical Defend & Repair Multi-Shield Day Cream Spf 50 With Smartrepair,Sunscreen,0,0,0,0,4,0,1,0,1,0,0,9,7,0,0,0,1,1,0,1,5,2,5,0,5
+Pureology,Strength Cure Superfood Deep Treatment Mask,Face Mask,0,0,0,0,3,0,2,0,0,1,0,3,1,0,1,0,4,5,0,1,3,0,1,0,2
+L'Oreal,Elvive Extraordinary Oil Coco Multi-Use Balm With Fine Coconut Oil,Face Moisturizer,0,0,0,0,1,0,2,0,0,2,0,4,3,0,0,0,7,4,0,0,3,0,0,0,2
+Avon,Anew Reversalist - Foaming Cleanser,Face Moisturizer,0,0,0,0,1,0,1,0,0,0,0,2,4,0,0,0,2,1,0,1,3,0,0,0,3
+L'Oreal,Everpure Bond Strengthening Conditioner,Conditioner,0,0,0,0,1,0,3,0,2,0,0,6,5,0,0,0,9,3,0,1,3,0,0,0,5
+Avon,Nutra Effects Radiance Tinted Moisturising Day Cream Spf 20,Sunscreen,0,0,0,0,6,0,1,0,1,5,0,6,3,0,0,0,1,0,3,1,6,4,4,0,5
+Avon,Clearskin Blemish Clearing AHA Treatment Cream,Acne Treatment,0,0,1,0,6,0,2,0,1,0,0,5,2,0,2,0,2,2,3,1,3,6,0,0,3
+Redken,Extreme Bleach Recovery Cica Cream Leave-in Treatment,Hair Treatment,0,0,0,0,2,0,0,0,0,0,0,5,3,0,0,0,6,4,0,0,4,1,0,0,3
+Clinique,Happy™ For Men Cologne Spray,Face Serum,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,8,1,0,0,3,0,0,0,1
+PLUM,Bodylovin' Vanilla Vibes Body Yogurt,Face Moisturizer,0,0,0,0,1,0,0,0,1,1,0,4,2,0,0,0,0,2,0,2,2,2,0,0,2
+Natura Bissé,Diamond Extreme Oil,Face Moisturizer,0,0,0,0,9,0,0,0,0,0,0,12,1,0,0,0,6,0,0,0,1,2,0,0,0
+PLUM,3% Vitamin C Moisturizer With Mandarin,Face Serum,0,0,0,0,5,0,2,0,3,0,0,6,2,0,0,0,1,1,2,3,4,2,0,0,3
+L'Oreal,Elvive Colour Protect More Than Shampoo,Shampoo,0,0,1,0,1,0,1,0,0,0,0,3,4,0,1,0,9,5,0,1,2,1,1,0,4
+Avon Anew,Ultimate Supreme Dual Elixir,Face Moisturizer,0,0,0,0,7,0,3,0,2,6,0,19,12,0,1,0,4,3,1,4,7,2,2,0,13
+L'Oreal,L’oreal Everpure Bond Repair Shampoo,Shampoo,0,0,1,0,3,0,2,0,1,0,0,5,5,0,1,0,6,7,0,1,4,2,0,0,9
+Neutrogena,Norwegian Formula Foot Cream,Face Moisturizer,0,0,0,0,1,0,0,0,1,0,0,7,1,0,0,0,1,1,0,1,1,1,0,0,3
+Matrix,Total Results A Curl Can Dream Rich Mask,Face Mask,0,0,0,0,1,0,1,0,0,0,0,4,3,0,0,0,7,4,0,1,2,0,0,0,3
+Garnier,Fructis Strength & Shine Fortifying Conditioner,Conditioner,0,0,2,0,1,0,1,1,0,0,0,3,1,0,1,0,8,4,1,1,3,1,0,0,3
+Garnier,Goodbye Damage 10 In 1 All In One Leave In,Face Moisturizer,0,0,2,0,2,0,2,1,0,2,0,7,3,0,1,0,6,6,1,0,2,2,0,0,3
+Dove,0% Aluminium Salts Deodorant Peach & Lemon Verbena,Face Moisturizer,0,0,0,0,2,0,0,0,0,0,0,5,0,0,0,0,9,1,0,0,2,0,0,0,2
+Love beauty and planet,Tacuma Butter And Sweet Vanilla Lotion,Face Moisturizer,0,0,0,0,1,0,1,0,1,0,0,6,2,0,0,0,4,2,0,1,2,0,0,0,6
+Avon,Care Even Tone-C Facial Night Cream,Face Moisturizer,0,0,0,0,3,0,2,0,1,4,0,7,3,0,0,0,1,2,1,1,2,0,0,0,5
+Avon Anew,Pollution Protect+ Day Defence Lotion Spf 50,Sunscreen,0,0,0,0,4,0,1,0,1,0,0,9,7,0,0,0,1,1,0,1,5,2,5,0,6
+Garnier,Fructis Vitamin & Strength 10-in-1 Leave-in Cream,Hair Treatment,0,0,1,0,3,0,1,1,0,2,0,5,3,0,0,0,5,4,2,0,2,0,0,0,2
+Medihealth,Umbrella Intelligent Fluido SPF 50+,Sunscreen,0,0,0,0,10,0,1,1,2,0,0,11,6,0,1,0,2,5,1,1,12,0,7,0,8
+Avon,Renew Solar Advance Matte Com Ácido Hialurônico FPS 50,Face Serum,0,0,1,0,6,0,1,1,1,0,0,6,4,0,0,0,2,1,2,2,5,3,7,0,6
+Drunk Elephant,T.L.C. Framboos™ Glycolic Resurfacing Night Serum,Face Serum,0,0,1,0,6,0,4,0,1,0,0,2,1,0,4,0,1,5,0,2,5,9,0,0,2
+Honest Beauty,Beauty Sleep Resurfacing Serum,Face Serum,0,0,1,0,2,0,5,1,2,0,0,0,0,0,3,0,0,1,1,1,3,3,0,0,3
+Freshzone ANB Korea Cosmetics,Intensive Retinol Serum,Face Serum,0,0,0,0,4,0,0,1,1,0,0,2,3,0,1,0,1,2,0,4,6,4,0,0,1
+Freshzone ANB Korea Cosmetics,Intensive Retinol Toner,Face Toner,0,0,0,0,4,0,0,1,1,0,0,2,3,0,1,0,1,2,0,5,6,4,0,0,1
+Viorica,Vie Anti-Age Depigmenting Toner,Face Toner,0,0,0,0,5,0,3,0,0,0,0,2,2,0,2,0,1,2,2,1,6,4,0,0,1
+Inika,Resveratrol Serum,Face Serum,0,0,0,0,5,0,1,0,0,0,0,10,2,0,1,0,16,2,0,1,4,2,0,0,4
+Freshly Cosmetics,Dandruff Control Shampoo,Shampoo,0,0,1,0,2,0,1,0,0,0,0,3,2,0,1,0,3,2,0,1,3,1,0,0,3
+Goldfaden MD,Facial Detox Clarify + Clear Mask,Face Mask,0,0,1,0,3,0,0,0,0,1,0,3,2,0,2,0,1,3,0,1,1,3,2,0,2
+Inika Organic,Phytofuse Renew Reservatrol Rich Night Cream,Face Moisturizer,0,0,0,0,5,0,1,0,0,0,0,10,3,0,1,0,16,3,0,1,4,2,0,0,3
+PuroBIO,Sebum-Balancing And Matte Effect Face Cream,Face Moisturizer,0,0,1,0,7,0,2,0,0,0,0,4,6,0,2,0,5,4,0,3,3,4,0,0,4
+Bigger Than Beauty,Overnight Retexturizing Serum,Face Serum,0,0,1,0,5,0,4,1,3,0,0,7,2,0,7,0,0,2,1,4,3,4,0,0,3
+KORA ORGANICS,Noni Night AHA Resurfacing Serum,Face Serum,0,0,0,0,3,0,2,0,0,0,0,7,6,0,3,0,7,3,0,1,2,3,0,0,4
+Eminence Organic,Strawberry Rhubard Hyaluronic Hydrator,Face Serum,0,0,0,0,6,0,1,0,0,0,0,7,0,0,1,0,4,3,0,3,4,4,0,0,4
+LANCER,The Method: Nourish Moisturiser Sensitive Skin,Face Moisturizer,0,0,0,0,6,0,1,0,1,0,0,13,5,0,1,0,2,4,0,3,3,5,0,0,3
+Biolaven,Overnight Face Mask,Face Mask,0,0,0,0,6,0,0,0,0,0,0,8,4,0,1,0,6,2,0,4,4,0,0,0,4
+Freshzone ANB Korea Cosmetics,Intensive Retinol Cream,Face Moisturizer,0,0,0,0,5,0,1,1,1,0,0,11,8,0,1,0,3,2,0,4,6,3,0,0,5
+Drunk Elephant,T.l.c. Framboos Glycolic Night Serum,Face Serum,0,0,1,0,6,0,8,0,1,0,0,2,1,0,5,0,1,5,0,2,5,8,0,0,3
+Croma,Farewell Irritated Skin,Face Serum,0,0,1,0,2,0,1,1,1,0,0,1,1,0,1,0,8,4,2,2,6,3,0,0,3
+Drunk Elephant,T.l.c. Glycolic Body Lotion,Body Moisturizer,0,0,1,0,5,0,6,1,0,0,0,21,5,0,4,0,2,4,1,5,4,2,0,0,4
+Neogen,Dermalogy V. Biome Infusion Serum,Face Serum,0,0,2,0,10,0,2,2,1,1,0,7,4,0,1,0,2,1,4,6,5,3,0,0,9
+LANCER,Lift Serum Intense,Face Serum,0,0,0,0,2,0,0,0,1,4,0,9,7,0,1,0,4,4,0,4,6,0,0,0,3
+Dr. Frances Prenna Jones,Fix Holiday,Face Serum,0,0,0,0,1,0,1,2,1,0,0,3,0,0,1,0,5,2,0,2,4,1,0,0,1
+Ada tina,Resveratrol Active 10,Face Serum,0,0,0,0,3,0,1,1,0,0,0,1,1,0,1,0,1,1,0,3,3,0,0,0,0
+Beached,Rays For Days,Face Serum,0,0,0,0,4,0,2,0,0,4,0,2,2,0,1,0,1,2,1,1,3,2,0,0,2
+Drunk Elephant,T.L.C. Framboos™ Glycolic Night Serum,Face Serum,0,0,1,0,6,0,4,0,1,0,0,2,1,0,4,0,1,5,0,2,5,9,0,0,2
+LANCER,The Method: Nourish,Face Moisturizer,0,0,0,0,4,0,1,0,1,0,0,12,5,0,1,0,2,3,0,3,4,1,0,0,4
+Isntree,Hyaluronic Acid Water Mist,Face Serum,0,0,0,0,3,0,0,0,0,0,0,1,2,0,1,0,0,1,0,4,4,3,0,0,0
+Drunk Elephant,T.L.C. Sukari Babyfacial,Acne Treatment,0,0,3,0,3,0,4,2,1,1,0,4,2,0,6,0,0,4,1,4,2,6,1,0,3
+MEDIPEEL,Mooltox Hyaluron Layer Body Lotion,Body Moisturizer,0,0,1,0,6,0,7,2,1,1,0,13,6,0,5,0,3,2,2,20,5,3,0,0,9
+Hourglass,Veil™ Retouching Fluid,Face Moisturizer,0,0,2,0,1,0,2,1,1,5,0,10,2,0,3,0,2,3,1,2,7,2,0,0,7
+Biologique Recherche,La Grande Crème,Face Moisturizer,0,0,0,0,5,0,2,3,2,0,0,13,10,0,1,0,7,3,0,1,7,3,0,0,8
+John Frieda,Sheer Blonde Go Blonder Lightening Shampoo,Shampoo,0,0,0,0,5,0,4,0,1,1,0,4,6,0,3,0,5,9,1,2,5,3,0,0,8
+PAPA RECIPE,Bombee Honey Gel Eye Mask,Face Mask,0,0,0,0,12,0,1,3,1,0,0,6,4,0,1,0,4,2,1,4,5,13,0,0,6
+Phyto,Phytodensia Plumping Shampoo,Shampoo,0,0,0,0,3,0,2,0,1,0,0,6,7,0,1,0,2,4,0,1,2,0,0,0,6
+Tirtir,Collagen Core Glow Mask,Face Mask,0,0,1,0,6,0,1,9,1,0,0,9,2,0,2,0,2,1,1,5,5,2,0,0,4
+Goldfaden MD,Plant Profusion Regenerating Night Cream,Face Moisturizer,0,0,0,0,2,0,0,0,0,0,0,3,2,0,1,0,0,2,0,2,2,1,0,0,1
+Eminence Organic,Strawberry Rhubarb Masque,Face Mask,0,0,1,0,9,0,1,0,0,1,0,13,5,0,2,0,4,6,0,4,3,3,0,0,7
+Kahina Giving Beauty,Moisture Mask,Face Mask,0,0,0,0,6,0,1,0,0,0,0,7,4,0,2,0,5,1,0,2,2,4,0,0,1
+SeneGence,Seneserum-C,Face Serum,0,0,1,0,4,0,1,1,0,2,0,1,0,0,1,0,2,1,1,2,2,4,1,0,5
+Goldfaden MD,Plant Profusion Supreme Serum,Face Serum,0,0,0,0,2,0,0,0,0,0,0,6,4,0,1,0,0,2,0,2,3,1,0,0,2
+Tata Harper,Elixir Vitae,Face Moisturizer,0,0,0,0,12,0,2,0,1,0,0,20,6,0,1,0,9,3,2,4,7,10,0,0,6
+Drunk Elephant,C-Firma Fresh Day Serum (2021 Reformulation),Face Serum,0,0,0,0,9,0,1,1,2,0,0,2,1,0,4,0,0,5,5,3,4,6,0,0,2
+Drunk Elephant,T.L.C. Happi Scalp Scrub,Exfoliant/Scrub,0,0,1,0,3,0,5,0,0,0,0,10,6,0,4,0,1,3,0,15,5,1,1,0,2
+Dermalogica,Clear Start Flashfoliant Foaming Exfoliator,Acne Treatment,0,0,1,0,2,0,1,0,0,0,0,1,2,0,2,0,10,1,0,0,2,2,0,0,0
+Eminence,Strawberry Rhubarb Masque,Face Mask,0,0,1,0,16,0,1,0,0,2,0,18,5,0,2,0,6,6,1,6,3,7,0,0,7
+SeneGence,Seneserum C,Face Serum,0,0,1,0,7,0,1,1,0,2,0,2,1,0,1,0,11,4,1,2,3,4,0,0,5
+RHRI,Apple Cider & Sea Salt Scalp Scrub Detox Scalp Scrub Treatment,Exfoliant/Scrub,0,0,1,0,3,0,5,0,0,0,0,10,6,0,4,0,1,3,0,15,5,1,1,0,2
+Drunk Elephant,Umbra Tinte Physical Daily Defense SPF 30,Sunscreen,0,0,0,0,5,0,0,0,2,3,0,9,7,0,1,0,0,3,2,3,4,2,1,0,4
+Vita Liberata,Foaming Tan Water In Super Dark,Face Serum,0,0,0,0,2,0,2,0,1,0,0,2,0,0,1,0,0,2,1,2,1,4,0,0,0
+ASYSTEM,Overnight Rebuilding Cream,Face Moisturizer,0,0,0,0,2,0,1,0,0,0,0,8,3,0,1,0,0,1,0,1,2,0,0,0,1
+Oolaboo,Pure Comfort Cream,Face Moisturizer,0,0,0,0,4,0,2,0,0,0,0,12,4,0,1,0,4,5,0,2,3,2,0,0,5
+John Frieda,Sheer Blonde Go Blonder Conditioner,Conditioner,0,0,0,0,4,0,1,0,0,1,0,6,4,0,2,0,1,3,0,2,3,1,0,0,3
+Skinn Cosmetics,Green Tea + Mint Cleanser,Acne Treatment,0,0,2,0,6,0,4,0,2,0,0,4,2,0,5,0,6,7,1,1,3,3,0,0,4
+Bare Minerals,Barepro 16 Hr Skin Perfecting Powder Foundation,Face Moisturizer,0,0,0,0,4,0,0,0,0,3,0,7,2,0,1,0,0,4,1,1,2,3,1,0,8
+Drunk Elephant,O-Bloos Rosi Drops,Face Serum,0,0,0,0,4,0,2,3,1,4,0,7,5,0,1,0,2,4,0,4,5,1,0,0,6
+nuebiome,The Biotic Glow™ Ferment Essence,Face Serum,0,0,1,0,3,0,3,0,2,0,0,2,1,0,4,0,2,3,0,4,3,4,0,0,0
+John Frieda,Go Blonder Lightening Conditioner,Conditioner,0,0,0,0,4,0,3,0,1,1,0,7,4,0,2,0,3,7,0,2,5,2,0,0,3
+Bad Habit,Power Sleep Melatonin & Glycolic Night Cream,Face Moisturizer,0,0,0,0,5,0,3,0,1,2,0,8,3,0,2,0,4,2,1,4,5,2,0,0,5
+Florence by Mills,Feed Your Soul Love U A Latte Coffee Glow Mask,Face Mask,0,0,1,0,5,0,1,0,0,0,0,3,3,0,3,0,2,2,0,4,4,1,0,0,4
+Aphrodite,Anti Ageing Firming Day Cream,Face Moisturizer,0,0,0,0,6,0,0,0,1,0,0,9,3,0,1,0,1,1,0,1,3,2,0,0,2
+bareMinerals,BAREPRO 16-hr Skin-perfecting Powder Foundation,Face Moisturizer,0,0,0,0,13,0,0,0,0,9,0,21,7,0,3,0,0,12,4,3,6,9,3,0,24
+Then I Met You,Rosé Resurfacing Facial Mask,Face Mask,0,0,1,0,2,0,3,0,0,0,0,1,1,0,4,0,1,2,0,1,4,2,0,0,2
+ASYSTEM,Daily Defense Moisturizer,Face Moisturizer,0,0,0,0,3,0,1,0,0,0,0,11,4,0,1,0,3,2,0,3,4,0,0,0,4
+Skinn Cosmetics,Twenty Four Hour Youth Preservation Cream,Face Moisturizer,0,0,0,0,11,0,1,4,2,0,0,17,4,0,2,0,4,8,2,7,6,5,0,0,4
+Pura,The Acqua Serum,Face Serum,0,0,0,0,1,0,2,0,0,0,0,1,0,0,1,0,5,4,0,1,2,0,0,0,2
+PuroBIO,Sebum-Balancing Matte Effect Serum,Face Serum,0,0,0,0,4,0,1,0,0,0,0,1,1,0,1,0,4,4,0,3,3,3,0,0,1
+Drunk Elephant,C-Firma Day Serum,Face Serum,0,0,0,0,9,0,2,1,1,0,0,3,3,0,3,0,0,7,6,5,6,7,0,0,4
+Formula 10.0.6,Be Berry Radiant,Acne Treatment,0,0,0,0,1,0,5,0,0,0,0,5,2,0,4,0,1,1,0,1,2,1,0,0,3
+SeneGence,Seneserum C,Face Serum,0,0,1,0,4,0,1,1,0,2,0,1,0,0,1,0,2,1,1,2,2,4,1,0,5
+Drunk Elephant,Umbra Sheer Physical Daily Defence Spf 30,Sunscreen,0,0,0,0,5,0,0,0,2,1,0,9,7,0,1,0,0,3,2,3,4,2,1,0,4
+LANCER,The Method: Nourish Blemish Control,Acne Treatment,0,0,2,0,3,0,1,0,1,0,0,8,5,0,2,0,4,4,0,2,4,3,0,0,4
+AGE 20's,Moist Up Skin Fit Sun Cream SPF50+/PA++++,Sunscreen,0,0,1,0,7,0,2,2,1,0,0,11,3,0,1,0,11,1,1,4,10,6,4,0,6
+Smart Skin,Super C Moisturiser,Face Serum,0,0,0,0,6,0,1,0,0,0,0,6,3,0,1,0,6,3,1,3,4,1,0,0,4
+Drunk Elephant,Umbra 100% Mineral Cream SPF 30/pa+++ Tinted Face Sunscreen (new Formulation),Sunscreen,0,0,0,0,7,0,1,0,1,2,0,6,2,0,1,0,0,4,1,2,4,0,1,0,4
+Eminence Organic,Strawberry Rhubarb Hyaluronic Hydrator,Face Serum,0,0,0,0,13,0,1,0,0,1,0,12,0,0,1,0,6,3,1,5,4,8,0,0,4
+Inika,Phytofuse Renew Resveratrol Eye Cream,Face Moisturizer,0,0,0,0,5,0,1,0,0,0,0,10,4,0,1,0,15,3,0,2,4,2,0,0,3
+In2it,Skinlucent Glow Setting Powder,Brightening Treatment,0,0,0,0,5,0,1,0,0,5,0,5,1,0,1,0,0,3,0,2,6,2,1,0,8
+Biologique Recherche,Creme Contour Yeux Et Lèvres Biofixine,Face Serum,0,0,0,0,2,0,2,4,1,0,0,5,4,0,1,0,1,3,0,3,5,0,0,0,4
+Dr. G,Dermoisture Barrier D Daily Lotion,Face Moisturizer,0,0,1,0,3,0,0,0,2,0,0,13,11,0,2,0,4,1,0,6,5,0,0,0,8
+Power Health Inalia,Age Delay Lifting Cream,Face Moisturizer,0,0,0,0,5,0,0,0,1,0,0,11,7,0,1,0,7,5,1,3,4,0,0,0,3
+Goldfaden MD,Plant Profusion Energetic Eye Cream,Face Moisturizer,0,0,0,0,3,0,0,0,0,0,0,4,2,0,1,0,3,2,0,2,2,2,0,0,1
+Yadah,Daily Vegi Mask - Wine,Face Mask,0,0,0,0,4,0,1,1,1,1,0,1,0,0,1,0,0,1,0,2,4,3,0,0,4
+Drunk Elephant,D-bronzi Anti-pollution Sunshine Drops,Face Serum,0,0,0,0,4,0,1,3,0,4,0,7,5,0,1,0,2,4,0,4,5,1,0,0,3
+Rodan + Fields,Redefine Triple Defense Lotion Broad Spectrum SPF 30,Sunscreen,0,0,1,0,6,0,4,2,1,1,0,3,4,0,3,0,2,5,1,2,5,2,4,0,8
+lavera,Re-energizing Sleeping Eye Cream,Face Moisturizer,0,0,0,0,3,0,0,0,0,0,0,16,6,0,1,0,4,1,1,3,2,2,0,0,5
+John Frieda,Sheer Blonde Go Blonder Shampoo,Shampoo,0,0,0,0,5,0,3,0,1,3,0,3,6,0,3,0,3,3,1,2,5,2,0,0,8
+Viorica,Vie Triple Action Face Exfoliator,Face Serum,0,0,0,0,5,0,2,0,1,0,0,2,2,0,1,0,8,4,0,1,3,4,0,0,2
+Glossier,Cleanser Concentrate,Face Serum,0,0,1,0,4,0,4,1,0,0,0,1,3,0,3,0,1,3,1,2,3,2,0,0,1
+SeneGence,Lifting & Firming Neck Cream,Face Moisturizer,0,0,1,0,4,0,3,1,3,2,0,11,6,0,1,0,10,5,1,2,7,2,1,0,6
+Eveline,Glycol Therapy 5% Anti Wrinkle Correcting Cream,Face Moisturizer,0,0,1,0,2,0,8,0,1,0,0,5,3,0,5,0,3,6,0,5,1,2,0,0,2
+Laikou,Sakura Exfoliating Scrub,Exfoliant/Scrub,0,0,1,0,1,0,5,1,0,2,0,10,4,0,2,0,2,4,2,2,5,1,0,0,4
+SkinScript Rx,Glycolic Cleanser,Face Cleanser,0,0,0,0,1,0,3,0,0,0,0,1,0,0,3,0,3,0,1,1,3,1,0,0,2
+City Beauty,Dermal Reset Exfoliating Concentrate,Face Serum,0,0,2,0,4,0,6,1,1,0,0,10,2,0,4,0,1,0,2,4,4,4,0,0,3
+BCL,AHA By Cleansing Research Wash,Face Cleanser,0,0,1,0,1,0,3,0,2,0,0,7,6,0,1,0,2,0,0,3,2,0,0,0,5
+PMD,Refinish Acid Serum,Face Serum,0,0,0,0,1,0,1,0,0,0,0,0,0,0,2,0,0,0,1,2,1,0,0,0,3
+Spotles skn,Facial Gel Wash,Acne Treatment,0,0,0,0,0,0,5,0,0,0,0,2,3,0,4,0,1,2,1,1,2,1,0,0,1
+green envee,Enzymatic Body Polish,Acne Treatment,0,0,0,0,2,0,5,0,0,0,0,3,0,0,4,0,4,2,0,1,1,3,0,0,2
+Perfect White,AHA Body Serum,Face Serum,0,0,1,0,3,0,5,1,1,1,0,2,2,0,3,0,1,2,3,1,3,0,0,0,3
+PHARMACERIS T,Sebo-almond-claris Pure Skin Solution 3% Mandelic Acid,Acne Treatment,0,0,0,0,0,0,6,0,2,0,0,0,1,0,6,0,0,2,0,1,2,0,0,0,0
+Vaunt Skincare,Multi Vitamin Hydrator,Face Serum,0,0,1,0,1,0,3,1,1,0,0,1,0,0,1,0,4,2,2,2,1,3,0,0,1
+Pili Ani,Deep Detox Volcanic Exfoliating Mask,Face Mask,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,1,1,0,1,2,0,0,0,0
+Pili Ani,Self-care Night Recovery Oil,Face Moisturizer,0,0,0,0,3,0,0,0,0,0,0,10,1,0,0,0,7,1,0,3,0,3,0,0,0
+alverde,Sensitiv 24h Creme Bio-Hamamelis Bio-Kamille,Face Moisturizer,0,0,0,0,3,0,2,0,0,0,0,12,4,0,0,0,8,3,0,4,4,3,0,0,5
+Kristin Ess,Weightless Hydration Daily Scalp + Hydration Mask,Face Mask,0,0,0,0,3,0,1,0,1,1,0,13,4,0,0,0,2,3,0,1,5,2,0,0,6
+Juvia’s Place,Let's Melt It Off Cleansing Balm,Face Cleanser,0,0,0,0,3,0,0,0,0,0,0,12,3,0,0,0,5,0,0,0,3,1,0,0,2
+Tower 28,Juicebalm Vegan Tinted Lip Balm,Face Moisturizer,0,0,0,0,2,0,0,0,0,3,0,7,0,0,0,0,1,3,0,0,0,0,0,0,3
+Avira essentials,Radiance Face Cream,Face Moisturizer,0,0,2,0,8,0,2,3,0,0,0,17,1,0,0,0,2,1,7,1,1,3,0,0,3
+Amika,The Kure Intense Repair Mask,Face Mask,0,0,0,0,2,0,2,0,0,0,0,7,2,0,0,0,7,9,0,1,6,2,0,0,5
+Dr Hauschka,MED Ice Plant Face Cream,Face Moisturizer,0,0,0,0,2,0,0,0,0,0,0,10,4,0,0,0,1,0,0,1,2,1,0,0,6
+Shea Moisture,Jamaican Black Castor Oil - Strengthen And Restore Treatment Masque,Face Mask,0,0,0,0,3,0,0,1,1,1,0,10,2,0,0,0,3,2,0,1,2,2,0,0,3
+plantanicals,Repairing Conditioner,Conditioner,0,0,0,0,0,0,1,0,0,0,0,5,2,0,0,0,5,4,0,0,3,0,0,0,3
+POV Beauty,Amp It,Face Moisturizer,0,0,0,0,3,0,0,0,0,1,0,9,2,0,0,0,2,2,0,1,0,1,0,0,5
+not your mother's,Curly Care Curl Defining Cream,Face Moisturizer,0,0,0,0,0,0,1,0,1,0,0,2,1,0,0,0,1,2,0,0,2,0,0,0,2
+Juice to Cleanse,Less Less Foam Cleanser,Face Moisturizer,0,0,1,0,4,0,2,1,1,0,0,9,3,0,0,0,4,1,1,6,4,0,0,0,4
+Isntree,TW-Real Eye Cream,Face Moisturizer,0,0,1,0,5,0,1,6,1,0,0,20,10,0,0,0,3,0,2,5,6,2,0,0,11
+Lelive,Seatox | Marine Algae + Aloe Detoxifying Mask,Face Mask,0,0,1,0,1,0,3,1,0,2,0,9,2,0,2,0,7,2,1,2,2,1,1,0,4
+Shea Moisture,Superfruit Masque,Face Mask,0,0,0,0,3,0,2,0,2,0,0,11,4,0,0,0,7,2,0,1,3,1,0,0,4
+Phytoervas,Condicionador Controle De Oleosidade Gengibre E Menta,Conditioner,0,0,0,0,6,0,2,0,1,0,0,9,5,0,0,0,5,2,0,1,3,3,0,0,3
+L'Oreal,Bronze To Paradise,Face Moisturizer,0,0,0,0,0,0,0,0,0,5,0,4,0,0,0,0,7,1,0,0,2,0,0,0,3
+The Body Shop,Mango Lip Butter,Face Moisturizer,0,0,0,0,3,0,1,0,0,4,0,6,4,0,0,0,5,1,0,0,1,0,0,0,5
+Kristin Ess,The One Signature Hair Water,Face Moisturizer,0,0,0,0,3,0,0,0,0,0,0,6,2,0,0,0,2,2,0,1,1,1,0,0,4
+PMD,Regenerate: Anti-Aging Recovery Moisturizer,Face Moisturizer,0,0,1,0,2,0,0,2,1,0,0,8,5,0,0,0,4,2,1,2,2,0,0,0,3
+Truly Beauty,Unicorn Cbd Body Butter,Body Moisturizer,0,0,0,0,7,0,0,0,2,4,0,10,0,0,1,0,4,4,1,1,1,4,0,0,1
+Zydus Cadila,Lipbless Strawberry Flavour Lip Cream,Face Moisturizer,0,0,2,0,3,0,1,1,1,0,0,9,5,0,0,0,2,3,1,1,5,0,3,0,5
+Bielenda,Fruit Fusion Enzymatic Face Mask-Peeling,Face Mask,0,0,1,0,6,0,0,1,1,0,0,12,4,0,0,0,8,4,1,2,5,0,0,0,4
+French Girl,Neroli Creme Fraiche,Face Moisturizer,0,0,0,0,4,0,0,0,0,0,0,7,1,0,0,0,4,0,0,1,2,4,0,0,3
+Mela X Cosmetics,Lemonosity Night Cream,Face Moisturizer,0,0,0,0,3,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0
+Shea Moisture,Manuka Honey & Yoghurt,Face Moisturizer,0,0,0,0,2,0,0,0,1,0,0,9,2,0,0,0,2,2,0,1,2,3,0,0,2
+Kristin Ess,Style Reviving Brunette Dry Shampoo,Shampoo,0,0,0,0,4,0,0,0,0,1,0,6,2,0,0,0,2,3,1,1,3,2,1,0,8
+Laura Mercier,The Perfect Cream Multi-Tasking Moisturizer,Face Moisturizer,0,0,0,0,5,0,1,0,2,0,0,12,4,0,1,0,9,5,0,5,6,3,0,0,7
+Revolution,Haircare Deeply Define My Curls Leave In Styling Cream,Face Moisturizer,0,0,0,0,1,0,4,0,0,0,0,7,2,0,0,0,5,3,0,2,7,1,0,0,5
+Delhicious,Scalp-eaze Balm - Amla Berry & Mango Butter,Face Moisturizer,0,0,0,0,1,0,0,0,0,0,0,5,0,0,0,0,3,0,0,0,1,0,0,0,0
+Elemis,Superfood AHA Glow Cleansing Butter,Brightening Treatment,0,0,0,0,7,0,2,0,0,1,0,5,5,0,0,0,0,2,1,1,3,1,0,0,1
+KingCurls,Elite Moisture Conditioner,Conditioner,0,0,0,0,2,0,0,0,0,0,0,8,1,0,0,0,3,2,0,1,1,1,0,0,1
+L'Oreal Professionnel,L'oréal Paris Blush Of Paradise Life Is A Peach,Face Moisturizer,0,0,0,0,0,0,0,0,0,10,0,4,0,0,0,0,3,1,0,0,1,0,0,0,4
+Dewpre,Paeonia Brightening Cream,Brightening Treatment,0,0,1,0,2,0,1,1,1,0,0,14,7,0,0,0,1,1,1,3,6,0,0,0,7
+EltaMD,Moisture-Rich Body Creme,Face Moisturizer,0,0,1,0,2,0,2,1,1,0,0,10,3,0,0,0,1,2,1,5,2,0,0,0,6
+Coony,Cicamidas 5 Body Lotion,Body Moisturizer,0,0,0,0,6,0,0,0,1,0,0,9,4,0,0,0,1,1,0,5,4,5,0,0,3
+I'm Meme,I'm Multi Stick Dual,Face Moisturizer,0,0,0,0,0,0,0,0,0,5,0,14,2,0,0,0,3,0,0,0,2,0,1,0,7
+Stubborn Cosmetics,Face Smooch Moisturizer (White Ingredients),Face Serum,0,0,1,0,4,0,1,3,2,1,0,7,2,0,1,0,0,2,1,2,1,5,0,0,3
+Blond brilliance,Bonding Shampoo,Shampoo,0,0,0,0,0,0,2,0,0,0,0,4,4,0,1,0,4,4,0,14,3,0,0,0,5
+Botanic Heal boH,Boh Probioderm Repair Eye Cream,Face Moisturizer,0,0,1,0,5,0,5,6,2,0,0,16,13,0,2,0,4,5,2,5,8,7,0,0,9
+Just Herbs,Lip Mask,Face Mask,0,0,0,0,2,0,0,0,2,0,0,6,3,0,1,0,1,2,0,1,0,2,0,0,0
+Clarins,Joli Rouge,Face Moisturizer,0,0,0,0,3,0,2,1,0,0,0,11,1,0,1,0,3,0,1,1,1,0,0,0,9
+Goodin By Nature,Light Shea Face Cream Soft As Petals,Face Moisturizer,0,0,0,0,5,0,2,0,0,0,0,13,2,0,1,0,5,4,0,2,6,4,0,0,4
+Bushbalm,Curve Firming Cream,Face Moisturizer,0,0,0,0,2,0,1,0,0,0,0,11,2,0,0,0,1,4,0,2,2,0,0,0,2
+follain,Ultra Hydrating Mask: Restore + Soften,Face Mask,0,0,0,0,6,0,1,1,2,0,0,15,3,0,0,0,3,0,0,4,5,2,0,0,4
+Eveline,Rich Coconut Ultra-Nourishing Coconut Face Cream,Face Moisturizer,0,0,0,0,2,0,1,0,0,0,0,11,1,0,0,0,3,5,0,1,1,1,0,0,3
+Whamisa,Bb Cream Spf50,Face Moisturizer,0,0,0,0,3,0,0,1,0,4,0,10,6,0,0,0,6,0,1,0,0,5,2,0,3
+TaShe,Lipid Filler Restoration Of Cuticle,Face Moisturizer,0,0,0,0,0,0,1,0,0,0,0,8,4,0,1,0,7,5,0,0,5,0,0,0,5
+Everyone,"Face, 2 In 1 Exfoliator + Mask",Face Mask,0,0,0,0,5,0,0,0,1,0,0,9,4,0,0,0,3,2,0,1,2,5,0,0,4
+MINCER Pharma,Vita C Infusion Deeply Moisturizing Day Cream,Face Moisturizer,0,0,0,0,7,0,0,0,1,0,0,20,8,0,0,0,11,1,0,4,5,4,1,0,3
+Scents of Man,Rose Absolute Moisturising Cream,Face Moisturizer,0,0,2,0,13,0,1,5,0,0,0,25,4,0,1,0,2,2,3,13,2,11,1,0,3
+Skintist,Anti-ageing Night Care With Hyaluronic Acid,Face Serum,0,0,1,0,5,0,0,2,0,0,0,12,6,0,0,0,2,0,4,6,2,0,0,0,2
+Ciracle,Anti-Redness K Lotion,Face Moisturizer,0,0,0,0,5,0,0,0,0,0,0,11,7,0,0,0,1,1,1,5,4,7,0,0,2
+Bondi Boost,Overnight Magic Hair Mask,Face Mask,0,0,1,0,3,0,1,1,0,2,0,9,1,0,0,0,2,2,1,4,2,4,0,0,2
+TRUE BOTANICALS,Moisture Lock Glossy Lip Balm,Face Moisturizer,0,0,0,0,3,0,0,0,0,0,0,11,3,0,0,0,3,0,0,1,0,0,0,0,1
+Babé Laboratorios,Healthy Aging+ Multi Action Cream For Mature Skin,Face Moisturizer,0,0,0,0,8,0,3,1,1,3,0,21,6,0,1,0,4,3,1,2,5,1,0,0,5
+Frudia,Citrus Brightening Serum,Face Serum,0,0,1,0,4,0,1,1,1,2,0,10,4,0,0,0,3,2,2,0,5,2,1,0,7
+l'amara,Moisture Boost Emulsion,Face Moisturizer,0,0,0,0,1,0,1,0,0,0,0,10,6,0,0,0,2,2,0,2,4,3,0,0,3
+Aveda,Nutriplenish shampoo light moisture,Shampoo,0,0,1,0,2,0,1,0,1,0,0,8,6,0,0,0,11,2,0,1,4,1,0,0,7
+Noreva,Aquareva Riche Moisturizing Cream 24H,Face Moisturizer,0,0,0,0,1,0,1,0,2,0,0,11,6,0,0,0,2,2,0,2,4,0,0,0,5
+NatureLab TOKYO,Perfect Volume Conditioner,Conditioner,0,0,0,0,4,0,0,0,2,4,0,12,3,0,0,0,5,4,1,2,4,2,0,0,6
+OSSOLA Skincare,Bbsoft Aha Creme,Face Moisturizer,0,0,0,0,3,0,4,0,1,0,0,15,5,0,4,0,5,1,0,3,2,4,0,0,6
+Diane Moist,Moist & Shine Shampoo,Shampoo,0,0,0,0,4,0,3,0,1,1,0,12,2,0,2,0,2,3,1,8,6,0,0,0,7
+Burt's Bees,Nourishing Eyeliner,Face Moisturizer,0,0,0,0,3,0,0,0,0,5,0,10,0,0,0,0,0,1,0,0,0,1,0,0,0
+Natinuel,Exohyal face cream,Face Moisturizer,0,0,0,0,3,0,2,2,1,0,0,12,4,0,0,0,1,2,0,4,4,0,0,0,4
+Grow & Gather,Signature Foot + Hand Salve,Face Moisturizer,0,0,1,0,2,0,0,0,0,0,0,6,1,0,0,0,3,0,0,0,0,1,0,0,1
+Sexy Hair,Seal The Deal,Face Serum,0,0,0,0,0,0,4,0,1,0,0,7,4,0,1,0,11,8,0,14,7,2,0,0,5
+Nerds Beauty,Peptide + Hyaluronic Acid Plumping Lip Treatment Nude Mauve,Face Moisturizer,0,0,0,0,1,0,0,1,0,5,0,11,4,0,0,0,1,0,0,2,1,0,0,0,4
+SheaMoisture,Lavender & Wild Orchid Hand & Body Scrub,Exfoliant/Scrub,0,0,0,0,5,0,0,0,0,0,0,7,0,0,0,0,3,0,0,1,0,4,0,0,0
+Palmer's,Palmers Cocoa Butter Foot Magic Lotion,Face Moisturizer,0,0,0,0,1,0,0,0,0,0,0,7,2,0,0,0,6,0,0,0,2,0,0,0,1
+Nubian Heritage,Raw Shea Butter Hand And Body Scrub,Exfoliant/Scrub,0,0,0,0,4,0,0,0,0,0,0,7,0,0,0,0,1,0,0,1,0,2,0,0,0
+Beverly Hills MD,Age Defy Retinol Body Oil,Face Moisturizer,0,0,0,0,6,0,0,1,0,0,0,16,0,0,0,0,8,1,0,1,1,4,0,0,0
+it Cosmetics,No. 50 Serum Anti-Aging Collagen Veil Primer,Face Serum,0,0,1,0,16,0,2,5,2,4,0,28,6,0,0,0,5,6,6,2,13,12,1,0,7
+Mizon,Watermax Moisture BB Cream SPF 30/pa+++,Sunscreen,0,0,1,0,7,0,0,2,1,4,0,16,2,0,0,0,10,2,2,10,7,8,3,0,3
+AA,Aloes Pink Lip Care Scrub,Exfoliant/Scrub,0,0,0,0,1,0,0,0,0,1,0,7,2,0,0,0,0,0,0,1,0,1,0,0,0
+Meow Meow Tweet,Skin Cream,Face Moisturizer,0,0,0,0,2,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0
+Brunae Body,Accelerating Tanning Oil,Face Moisturizer,0,0,0,0,5,0,0,0,0,0,0,15,1,0,0,0,2,0,0,0,1,0,0,0,0
+L’anza,Curls Shampoo,Shampoo,0,0,1,0,2,0,1,0,1,0,0,7,3,0,0,0,4,3,0,3,3,2,1,0,3
+Nubian Heritage,Body Lotion - Goat'S Milk & Chai,Body Moisturizer,0,0,0,0,3,0,0,0,0,0,0,13,5,0,0,0,1,1,0,1,1,3,0,0,3
+THE LAB by blanc doux,Oligo Hyaluronic Acid Calming+ Cream,Face Moisturizer,0,0,0,0,0,0,0,0,1,0,0,8,3,0,0,0,2,1,0,2,5,1,0,0,5
+Revolution,Haircare Deeply Co-Wash My Curls Nourishing Co-Wash,Face Moisturizer,0,0,0,0,2,0,1,0,1,3,0,6,4,0,0,0,5,4,0,1,4,1,0,0,4
+Revolution Skincare,Nurture Ultimate Skin Strength Daily Moisturiser,Face Moisturizer,0,0,0,0,2,0,3,3,1,0,0,8,7,0,0,0,0,2,1,8,4,1,0,0,6
+Omorfee,Body Softening Moisturizer,Face Moisturizer,0,0,0,0,3,0,0,0,1,0,0,10,2,0,0,0,0,0,0,1,1,0,0,0,1
+Eczema Honey,Nourishing Lip Balm,Face Moisturizer,0,0,0,0,3,0,0,0,0,0,0,4,1,0,0,0,3,0,0,0,0,2,0,0,1
+Skin Creamery,The Balm,Face Moisturizer,0,0,0,0,1,0,0,0,0,0,0,7,0,0,0,0,5,0,0,0,1,0,0,0,1
+Sisley,Mattifying and Beautifying Pressed Powder,Face Moisturizer,0,0,0,0,2,0,1,0,0,3,0,5,1,0,0,0,0,3,0,1,1,0,0,0,3
+SheaMoisture,African Black Soap Balancing Moisturizer,Face Cleanser,0,0,1,0,6,0,0,0,0,0,0,15,6,0,0,0,4,2,0,1,1,6,0,0,4
+Peach,Soothing Body Lotion Refillable Stick,Body Moisturizer,0,0,0,0,6,0,0,0,0,0,0,16,2,0,0,0,3,0,0,1,0,5,0,0,2
+Tarte,Sculpt Tape Contour Cool Bronze,Face Moisturizer,0,0,0,0,0,0,2,0,1,3,0,6,2,0,0,0,1,3,1,1,4,1,0,0,5
+סבון מיכל,קרם פנים עם חמאת מנגו ונר הלילה לעור רגיל או מעורב,Face Moisturizer,0,0,0,0,2,0,1,0,1,0,0,9,4,0,0,0,10,1,0,1,3,2,0,0,2
+Skinfood,Avocado Rich Cream,Face Moisturizer,0,0,0,0,2,0,1,0,0,0,0,15,5,0,0,0,2,1,0,2,3,2,0,0,3
+BANOBAGI,Rejuvenating Vital Eye Cream,Face Moisturizer,0,0,1,0,8,0,1,2,1,0,0,14,6,0,0,0,2,2,0,4,5,7,0,0,12
+Dr. Jart+,Rubber Mask Bright Lover,Face Mask,0,0,0,0,3,0,0,0,1,0,0,7,5,0,0,0,8,3,0,2,7,4,0,0,3
+COSRX,Lip Sleep - Balancium Ceramide Lip Butter Sleeping Mask,Face Mask,0,0,1,0,0,0,0,1,0,0,0,9,3,0,0,0,4,1,0,3,0,0,0,0,5
+Catrice,Butter Drippin' Glossy Lip Balm 050 Cherry Delicious,Face Moisturizer,0,0,0,0,1,0,1,0,1,4,0,13,1,0,0,0,6,0,0,2,3,0,0,0,5
+Camille Rose,Cleansing Milk,Face Cleanser,0,0,0,0,0,0,0,0,0,0,0,7,3,0,0,0,2,2,0,1,0,0,0,0,1
+Cake,Desserted Island® Enriched Hand Lotion,Face Moisturizer,0,0,0,0,0,0,1,0,0,0,0,11,3,0,0,0,2,3,0,1,3,0,0,0,4
+Earthworm,Wrinkle Butter,Face Serum,0,0,0,0,2,0,0,0,0,0,0,3,0,0,0,0,1,0,0,2,0,1,0,0,0
+Skin rocks,Retinoid 1,Face Moisturizer,0,0,0,0,4,0,1,2,2,0,0,13,4,0,0,0,2,1,0,2,3,2,0,0,6
+Korres,Lip Oil,Face Moisturizer,0,0,0,0,4,0,1,0,0,1,0,18,1,0,0,0,3,0,0,0,0,3,0,0,3
+Freshly Cosmetics,Vitamin C Concentrate Serum,Face Serum,0,0,0,0,7,0,1,0,2,0,0,12,4,0,1,0,8,2,2,4,3,1,0,0,4
+Sesderma,Sesretinal Young Skin Moisturizing Gel,Face Serum,0,0,2,0,3,0,5,2,2,0,0,6,6,0,2,0,4,4,0,2,4,3,0,0,3
+KIKO Milano,3d Hydra Lipgloss,Face Moisturizer,0,0,0,0,2,0,0,0,0,9,0,14,1,0,0,0,3,0,0,0,0,1,0,0,6
+Dermika,Re. Visage Lifting Cream 50+,Face Moisturizer,0,0,0,0,5,0,1,0,1,1,0,12,5,0,0,0,3,3,0,1,2,0,0,0,4
+Solimo,Night Nourishing Cream,Face Moisturizer,0,0,0,0,5,0,2,0,2,0,0,19,7,0,0,0,3,6,1,6,1,3,0,0,5
+AA,Japan Rituals Eye Cream,Face Moisturizer,0,0,1,0,2,0,0,2,0,0,0,35,11,0,0,0,4,3,1,7,9,3,0,0,14
+Neora,Age Iq® Night Cream,Face Moisturizer,0,0,0,0,5,0,2,3,1,0,0,9,3,0,0,0,2,4,1,2,8,3,0,0,6
+REN,Bio Retinoid™ Anti-Aging Cream,Face Moisturizer,0,0,0,0,8,0,4,2,0,0,0,14,3,0,1,0,5,3,1,3,2,0,0,0,4
+Pilgrim,Squalane Under Eye Cream With Phyto-retinol And Caffiene,Face Serum,0,0,2,0,4,0,0,2,1,0,0,8,2,0,0,0,6,4,1,3,1,3,0,0,4
+REN,Bio Retinoid™ Anti-Wrinkle Concentrate Oil,Face Serum,0,0,0,0,4,0,0,1,0,0,0,6,0,0,0,0,4,0,0,0,0,1,0,0,0
+Image Skincare,Image MD Restoring Brightening Créme,Brightening Treatment,0,0,0,0,6,0,1,0,1,0,0,16,10,0,0,0,5,2,4,4,3,2,0,0,5
+Le Mieux,Brightening Serum,Face Serum,0,0,1,0,5,0,1,5,1,0,0,8,1,0,0,0,1,0,4,3,0,7,0,0,0
+KOOL BEAUTY.,Young Forever Retinol Like [K2] Anti-Aging Cream,Face Moisturizer,0,0,0,0,1,0,1,0,0,3,0,8,3,0,1,0,5,1,0,1,5,1,0,0,5
+bareMinerals,Ageless Firming Sleeping Mask,Face Mask,0,0,0,0,3,0,2,0,1,0,0,7,3,0,0,0,3,3,1,3,4,1,0,0,3
+Lirene,Oh Just Peachy Maselko Do Demakijazu,Face Moisturizer,0,0,0,0,3,0,0,0,0,1,0,11,2,0,0,0,3,0,1,0,2,0,0,0,1
+KIKO Milano,3d Hydra Lipgloss,Face Moisturizer,0,0,0,0,1,0,0,0,0,0,0,4,0,0,0,0,2,0,0,0,0,1,0,0,1
+Lierac,Premium Anti-Aging Duo Mask,Face Mask,0,0,0,0,2,0,1,1,1,1,0,16,6,0,0,0,3,5,0,2,3,0,0,0,5
+biocule,Spotless Serum,Face Serum,0,0,0,0,5,0,0,0,0,0,0,2,0,0,0,0,1,1,3,1,3,2,0,0,1
+Lierac,Premium The Absolute Anti-Aging Silky Cream,Face Moisturizer,0,0,0,0,2,0,3,1,1,1,0,9,4,0,0,0,5,5,0,2,4,0,0,0,6
+Remescar,Retinol Anti-ageing Serum,Face Serum,0,0,0,0,1,0,2,1,1,0,0,6,2,0,0,0,1,4,0,2,3,0,0,0,3
+själ,Saphir Concentrate Anti-Aging Face Oil,Face Serum,0,0,0,0,3,0,0,0,0,0,0,9,1,0,0,0,3,0,0,0,0,2,0,0,0
+Image Skincare,Iluma Intense Brightening Cream,Brightening Treatment,0,0,0,0,7,0,2,0,0,0,0,13,8,0,0,0,6,2,4,2,4,2,0,0,6
+Sesderma,Lactyferrin Sebum Facial Gel,Face Serum,0,0,0,0,5,0,4,2,1,1,0,7,5,0,2,0,3,3,1,1,3,2,1,0,4
+Lierac,Premium The Absolute Anti-Aging Voluptuous Cream,Face Moisturizer,0,0,0,0,2,0,2,1,1,1,0,15,5,0,0,0,6,4,0,2,4,0,0,0,7
+Sesderma,Sesretinal Mature Skin Liposomal Serum,Face Serum,0,0,0,0,4,0,9,3,2,2,0,12,8,0,4,0,4,4,0,2,6,2,2,0,8
+Ocosmedics,Sk1n Foundation,Face Moisturizer,0,0,1,0,1,0,0,0,2,2,0,10,3,0,1,0,8,4,0,1,3,1,0,0,8
+Epionce,Intense Defence Serum,Face Serum,0,0,1,0,2,0,1,1,1,0,0,8,2,0,0,0,2,2,2,2,6,0,0,0,2
+EBERS,Bioretinol Booster,Face Moisturizer,0,0,0,0,3,0,0,0,0,0,0,6,0,0,0,0,11,0,0,0,2,2,0,0,0
+MARTIDERM,Amatist Night Cream,Face Moisturizer,0,0,0,0,3,0,1,0,1,1,0,16,4,0,0,0,4,3,1,1,4,0,0,0,5
+Hempz,Beauty Actives Lavender & Chamomile Herbal Body Moisturizer With Retinol Alternative,Face Moisturizer,0,0,0,0,5,0,3,2,1,0,0,11,4,0,0,0,2,6,1,2,3,2,0,0,4
+Dermanat,Serum Con Bio-retinol,Face Serum,0,0,0,0,5,0,2,0,1,0,0,8,3,0,0,0,4,3,0,2,2,1,0,0,3
+Evolve Organic Beauty,Bio-Retinol Gold Mask,Face Mask,0,0,0,0,2,0,0,0,0,5,0,10,3,0,0,0,2,0,0,1,0,0,0,0,2
+Clarins,My Clarins Pure-Reset Resurfacing Blemish Serum,Face Serum,0,0,2,0,1,0,3,0,0,0,0,1,2,0,2,0,2,1,0,1,6,2,0,0,3
+Glow Recipe,Pomegranate Peptide Firming Serum,Face Serum,0,0,0,0,3,0,2,1,1,0,0,6,2,0,1,0,2,4,0,4,3,1,1,0,3
+Colorescience,Even Up Clinical Pigment Perfector,Face Moisturizer,0,0,0,0,2,0,1,0,0,1,0,7,0,0,0,0,3,4,2,1,3,1,0,0,3
+Christian Breton Paris,Retinol [like] Age Control Serum,Face Serum,0,0,0,0,1,0,0,0,1,3,0,7,1,0,0,0,4,1,0,1,4,0,0,0,3
+Laridium,M-1 Moisturizer,Face Moisturizer,0,0,1,0,6,0,0,3,0,0,0,10,8,0,0,0,2,0,1,2,5,4,0,0,8
+Colorescience,Even Up Multi-Correction Serum,Face Serum,0,0,0,0,2,0,1,1,0,0,0,7,5,0,0,0,3,5,1,1,4,1,0,0,2
+Freshly Cosmetics,Green Vitamin Concentrate Serum,Face Serum,0,0,0,0,7,0,2,0,2,0,0,11,2,0,1,0,9,4,1,4,3,1,0,0,4
+Sallve,Sérum Uniformizador,Face Serum,0,0,1,0,5,0,1,1,1,0,0,10,4,0,0,0,1,1,4,1,4,2,0,0,2
+Sesderma,Samay Anti-aging Cream,Face Moisturizer,0,0,0,0,4,0,1,1,1,0,0,11,6,0,0,0,4,1,0,1,2,3,0,0,3
+KIKO Milano,Smart Charge Drops,Face Serum,0,0,0,0,4,0,1,0,1,1,0,7,1,0,0,0,3,6,0,2,3,1,0,0,5
+bareMinerals,Ageless Phyto-retinol Neck Cream,Face Moisturizer,0,0,0,0,2,0,3,3,1,0,0,6,3,0,0,0,3,2,0,3,4,0,0,0,4
+KIKO Milano,Sublime Youth Night,Face Serum,0,0,1,0,6,0,2,3,1,0,0,11,6,0,0,0,9,3,1,1,3,2,0,0,3
+Pilgrim,Squalane Body Serum Lotion Phyto-retinol & Hyaluronic Acid,Face Serum,0,0,1,0,6,0,1,2,1,0,0,16,4,0,0,0,8,5,1,3,2,6,0,0,6
+Sesderma,Sesgen 32 Gel Cream,Face Moisturizer,0,0,1,0,4,0,2,5,1,0,0,13,5,0,0,0,3,4,0,7,8,0,0,0,6
+bareMinerals,Ageless Phyto-Retinol Eye Cream,Face Moisturizer,0,0,0,0,1,0,3,3,3,0,0,13,8,0,1,0,1,3,0,3,5,0,0,0,13
+Cent Pur Cent,Covering Concealer,Face Moisturizer,0,0,0,0,6,0,0,0,0,10,0,25,7,0,0,0,15,1,0,1,3,3,0,0,9
+Adisha Torre,pH Balancing Toner,Face Toner,0,0,1,0,2,0,0,3,2,0,0,0,0,0,0,0,0,0,1,3,5,0,0,0,1
+Lierac,Premium The Absolute Anti-Aging Mask,Face Mask,0,0,0,0,2,0,2,1,2,1,0,13,4,0,0,0,2,4,0,2,3,0,0,0,5
+Image,Md - Restoring Facial Cleanser,Face Cleanser,0,0,0,0,6,0,1,0,1,0,0,16,10,0,0,0,5,2,4,4,3,2,0,0,5
+Twelve Beauty,Plant Perfection Gel Serum,Face Serum,0,0,0,0,1,0,1,0,0,0,0,6,3,0,0,0,2,1,0,3,3,0,0,0,2
+Aishaderm,Renewal Night Cream,Face Moisturizer,0,0,1,0,5,0,1,2,1,0,0,7,2,0,0,0,5,9,1,2,5,2,0,0,3
+Christian Louboutin,Velvet Matte Lip Colour,Face Moisturizer,0,0,0,0,2,0,0,0,0,9,0,15,6,0,0,0,8,2,0,0,2,0,0,0,8
+ESPA,Tri-active™ Regenerating Bio-retinol Sleeping Serum,Face Serum,0,0,0,0,1,0,2,0,1,0,0,9,5,0,0,0,10,2,0,1,3,1,0,0,1
+KOOL BEAUTY.,Young Forever Retinol Like [K2] Anti Aging Serum,Face Serum,0,0,0,0,1,0,0,0,1,3,0,5,1,0,0,0,3,1,0,1,4,0,0,0,3
+Neora,Firm,Face Moisturizer,0,0,0,0,5,0,0,1,0,0,0,11,6,0,0,0,2,2,0,2,2,3,0,0,6
+Codex Beauty,Antu Brightening Night Cream,Face Moisturizer,0,0,0,0,1,0,3,0,1,0,0,10,4,0,0,0,7,3,0,2,4,1,0,0,5
+Pilgrim,Squalane And Phyto-retinol Age Defense Creme Serum For Glowing Skin Anti-aging,Face Serum,0,0,1,0,2,0,0,2,0,0,0,4,1,0,0,0,1,4,2,3,2,1,0,0,3
+Dermika,Re. Visage Moisturizing And Brightening Under Eye Gel Cream,Brightening Treatment,0,0,0,0,7,0,2,2,1,1,0,13,5,0,0,0,4,2,0,2,3,0,0,0,2
+REN,Bio Retinoid Youth Cream,Face Moisturizer,0,0,0,0,7,0,4,1,0,0,0,14,3,0,1,0,8,4,1,3,3,0,0,0,5
+THE SHAANT COLLECTION,Shaant Balancing Oil Control Cream,Face Moisturizer,0,0,0,0,3,0,1,1,1,0,0,12,2,0,0,0,5,3,0,1,3,4,0,0,3
+Nivea,Cellular Phyto R Professional Serum,Face Serum,0,0,0,0,1,0,0,0,1,3,0,6,1,0,0,0,7,1,0,1,4,0,0,0,3
+Zelens,Lip Treatment Oil,Face Moisturizer,0,0,0,0,4,0,0,3,0,0,0,20,3,0,0,0,4,2,0,4,0,1,0,0,1
+Sallve,Máscara Super Renovadora,Face Moisturizer,0,0,0,0,4,0,3,0,1,0,0,9,3,0,3,0,2,1,0,2,3,2,0,0,4
+PLANTHÉ,Eye Cream,Face Moisturizer,0,0,0,0,2,0,1,0,1,0,0,8,3,0,0,0,3,3,0,2,4,4,0,0,2
+VEEA face,Brightening Serum,Face Serum,0,0,0,0,3,0,0,1,2,0,0,8,4,0,0,0,6,2,3,1,5,2,0,0,4
+Image Skincare,Iluma Intense Brightening Body Lotion,Brightening Treatment,0,0,0,0,5,0,2,0,0,0,0,11,5,0,0,0,6,2,2,1,4,2,0,0,6
+Farmatodo,Crema Bioretinol Antiedad,Face Moisturizer,0,0,0,0,2,0,3,0,0,0,0,12,3,0,0,0,2,2,0,5,3,2,0,0,6
+Merle Norman,Anti Aging Dry Oil Serum,Face Serum,0,0,0,0,4,0,0,1,0,0,0,12,1,0,0,0,2,0,0,1,0,3,0,0,0
+Re'equil,Retinol Night Cream 0.3% Retinol,Face Moisturizer,0,0,0,0,2,0,1,1,2,0,0,9,3,0,0,0,2,1,0,1,5,0,0,0,3
+Light Up Beauty,Light Up Blaze Serum,Face Serum,0,0,0,0,8,0,0,1,2,0,0,11,2,0,0,0,2,3,4,3,2,2,0,0,3
+Aveil,Exfol A Serum,Face Serum,0,0,2,0,4,0,0,2,1,0,0,5,1,0,2,0,2,2,2,1,3,1,0,0,2
+Nars,Light Reflecting™ Eye Brightener,Face Moisturizer,0,0,0,0,2,0,0,0,0,5,0,9,4,0,0,0,3,1,0,1,3,0,0,0,6
+The Mom's Co.,Natural Lip Balm I Non Sticky I Protects & Nourishes Dry Chapped Lips I Shea & Cocoa Butter (vanilla),Face Moisturizer,0,0,0,0,2,0,0,0,1,0,0,13,1,0,0,0,3,0,0,1,1,0,0,0,1
+Ursa Major,Eye Cream,Face Moisturizer,0,0,0,0,3,0,2,1,1,0,0,15,4,0,0,0,3,5,0,2,4,7,0,0,5
+A'pieu,Goblin Blackhead Peel-off Nose Pack,Face Mask,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,2,0,0,4,0,0,0,6
+theBalm,The Balm Anne T. Dote Tinted Moisturizer,Face Moisturizer,0,0,0,0,2,0,2,0,1,2,0,9,4,0,1,0,1,1,0,1,1,3,0,0,3
+Superdrug,B. Nourished Advanced Serum,Face Serum,0,0,1,0,2,0,1,2,2,0,0,7,1,0,0,0,11,1,1,2,8,2,0,0,4
+StriVectin,Advanced Retinol Nightly Renewal Moisturizer,Face Moisturizer,0,0,0,0,10,0,4,6,1,0,0,19,8,0,1,0,3,4,2,2,4,9,0,0,4
+NOW Solutions,Coq10 Antioxidant Serum,Face Serum,0,0,0,0,5,0,0,1,0,0,0,6,1,0,0,0,2,2,0,2,2,2,0,0,2
+Sesderma,Sesretinal Mature Skin Crema Gel,Face Serum,0,0,0,0,5,0,9,3,2,1,0,12,7,0,4,0,3,4,0,2,4,1,1,0,10
+Glowbiotics,Skin Perfecting Hydrating Lotion,Face Serum,0,0,1,0,5,0,1,2,0,0,0,12,3,0,0,0,8,6,2,6,6,5,0,0,6
+Peterson’s Lab,Day & Night Eye Treatments,Face Serum,0,0,1,0,8,0,4,5,3,0,0,20,14,0,0,0,2,3,3,3,7,3,0,0,7
+Algenist,Power Recharging Night Pressed Serum,Face Serum,0,0,0,0,3,0,2,2,1,0,0,5,2,0,0,0,5,8,0,1,7,1,0,0,7
+Maple bodycare,Bioretinol,Face Moisturizer,0,0,0,0,4,0,2,0,1,0,0,7,3,0,0,0,4,3,0,2,2,1,0,0,3
+Bade Natural,Alternatif Retinol Serum,Face Serum,0,0,0,0,5,0,0,1,0,0,0,12,0,0,0,0,1,0,0,0,0,1,0,0,0
+VeraLab,Retinol Body,Face Moisturizer,0,0,0,0,5,0,1,1,1,0,0,13,2,0,0,0,4,2,0,4,1,0,0,0,2
+Light Up Beauty,Prism Vitamin C Glow Cream,Brightening Treatment,0,0,1,0,6,0,1,2,2,0,0,17,3,0,0,0,3,4,6,4,2,4,0,0,4
+ESPA,Tri-active™ Regenerating Treatment Oil,Face Moisturizer,0,0,0,0,4,0,0,0,0,0,0,12,0,0,0,0,12,1,0,1,3,4,0,0,1
+naturium,Retinol Complex Cream,Face Moisturizer,0,0,0,0,5,0,0,2,0,0,0,17,6,0,0,0,2,2,0,5,4,0,0,0,4
+Skin Rocks - Caroline Hirons,Retinoid 2,Face Moisturizer,0,0,0,0,5,0,2,3,2,0,0,14,4,0,0,0,2,1,1,3,3,2,0,0,6
+Skin Moderne,Elementals Bio-retinol,Face Moisturizer,0,0,0,0,0,0,2,0,0,1,0,5,3,0,1,0,1,0,0,2,2,0,0,0,1
+Third Age Skincare Products,Nr8 Formula - Am/pm Skin Conditioner,Conditioner,0,0,0,0,4,0,0,0,0,0,0,8,0,0,0,0,1,0,2,0,1,3,0,0,1
+ESPA,Tri-Active™ Advanced Night Booster,Face Moisturizer,0,0,0,0,7,0,1,0,0,0,0,17,0,0,0,0,15,0,0,0,3,3,0,0,0
+Tropic skincare,Skin Dream,Face Moisturizer,0,0,0,0,2,0,2,0,3,0,0,11,6,0,1,0,3,0,0,4,2,4,0,0,4
+Epionce,Intense Defense Serum,Face Serum,0,0,1,0,5,0,0,1,1,0,0,7,4,0,0,0,2,2,3,2,4,2,0,0,1
+Danielle Creations,Night Owl Face Mask,Face Mask,0,0,0,0,3,0,2,0,0,0,0,0,1,0,0,0,3,2,1,4,4,1,0,0,1
+Hada Labo,Rohto Mentholatum - Hada Labo Shirojyun Arbutin Whitening Milky Lotion,Brightening Treatment,0,0,0,0,2,0,1,0,1,0,0,4,1,0,0,0,0,1,2,2,2,0,0,0,4
+Cancer Council,Sport Pump SPF 50+,Sunscreen,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,5,0,0
+Saeed Ghani,Shea Butter Whitening Body Lotion,Brightening Treatment,0,0,1,0,3,0,2,1,0,2,0,7,3,0,0,0,0,1,2,1,2,2,1,0,4
+Curel Kao,Curél Sebum Trouble Foaming Wash,Face Serum,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,3,0,1,2,0,0,0,0
+Natio,Ageless Daily Moisturiser UV Protection SPF 30+,Sunscreen,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,4,0,0
+Spascriptions,Hyaluronic Acid And Sugar Scrub,Exfoliant/Scrub,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,2,1,1,0,0,2
+Rosette,Aqua Ceramide Gel,Face Serum,0,0,1,0,0,0,1,1,0,0,0,2,1,0,0,0,0,1,0,7,4,0,0,0,3
+Medinova,Zincream,Face Moisturizer,0,0,0,0,1,0,0,0,0,0,0,4,2,0,0,0,2,1,0,0,2,0,1,0,2
+Ego Sunsense,Sport SPF 50+,Sunscreen,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2,0,0,0,0,4,0,0
+Rhoto Mentholatum,Mediquick H Scalp Moist Lotion,Face Moisturizer,0,0,0,0,0,0,0,0,1,0,0,2,2,0,0,0,1,1,0,1,3,3,0,0,1
+SANA Nameraka Honpo,Medicated Whitening Mist Toner,Face Toner,0,0,0,0,2,0,2,0,1,0,0,1,0,0,0,0,0,2,2,1,6,2,0,0,3
+Swisse Skincare,Salicylic Acid Daily Balance Cleansing Gel,Face Cleanser,0,0,1,0,0,0,3,0,0,1,0,1,2,0,2,0,2,5,0,1,2,1,0,0,2
+NIHONZAKARI,Komenuka Bijin Deep Moisture Jell Cream,Face Moisturizer,0,0,0,0,1,0,2,0,0,1,0,4,1,0,0,0,1,1,1,1,2,2,0,0,0
+Meditamu,10% Urea Cream,Face Moisturizer,0,0,0,0,0,0,2,0,1,0,0,7,4,0,0,0,1,1,0,5,3,0,0,0,2
+Pantene Pro-V,Oil Replacement Daily Care,Face Moisturizer,0,0,0,0,3,0,2,0,1,0,0,5,4,0,0,0,7,5,1,0,5,1,0,0,8
+Kracie,Moistage Medicated Essence Gel,Face Serum,0,0,1,0,1,0,1,1,1,0,0,7,3,0,0,0,0,2,1,4,4,0,0,0,3
+Thursday Plantation,Aloe Vera Gel,Face Moisturizer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,1,0,0,0
+Curél,Intensive Moisture Care Wrinkle Moisture Essence,Face Serum,0,0,0,0,1,0,0,0,0,0,0,3,1,0,0,0,1,1,0,2,3,2,0,0,1
+Curél,Sebum Trouble Care Sebum Care Moisture Gel,Face Serum,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,1,0,2,2,0,1,0,2
+Rohto Mentholatum,Mentholatum Medicated Hand Veil Rough Texture Preparation Hand Cream,Body Moisturizer,0,0,0,0,2,0,1,0,1,0,0,5,2,0,0,0,1,3,0,2,1,0,0,0,4
+Ego Sunsense,Face Ultra Light Tint,Sunscreen,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,3,0,0,0,0,6,0,0
+LION,Pair Acne Clean Lotion,Face Serum,0,0,0,0,2,0,2,0,1,0,0,1,0,0,0,0,1,2,2,0,2,2,0,0,1
+QV Ego,Face Day Cream SPF 30 +,Sunscreen,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,3,0,0,0,0,4,0,0
+Hada Labo,Shirojyun Premium Whitening Emulsion (Japan Version),Brightening Treatment,0,0,0,0,3,0,0,0,1,0,0,6,2,0,0,0,0,3,2,4,1,2,0,0,3
+Meco,Pearl Cream,Face Moisturizer,0,0,0,0,3,0,1,0,0,1,0,5,1,0,0,0,2,3,1,1,1,0,2,0,2
+AMARYS,Purifiant & Lissant Crème Visage,Face Moisturizer,0,0,0,0,3,0,1,0,0,1,0,7,1,0,0,0,2,2,0,0,2,2,1,0,2
+Miss Wendy,Skin Care Expert,Face Serum,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,1,1,0,2,2,2,0,0,1
+Le Tan,SPF 50+ Coconut Sunscreen,Sunscreen,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,5,0,0
+Rohto Mentholatum,Melano CC Concentration Measures Toner,Face Toner,0,0,0,0,2,0,3,0,2,0,0,3,2,0,0,0,1,2,2,1,3,2,0,0,2
+KLM,Ekran Aqua Gel Sunscreen SPF30,Sunscreen,0,0,0,0,0,0,1,0,0,1,0,8,1,0,0,0,2,3,0,1,5,2,4,0,2
+Shiseido,Fino Premium Touch Moist Conditioner,Conditioner,0,0,0,0,0,0,1,0,1,0,0,3,3,0,0,0,1,4,0,1,3,0,0,0,6
+Rosette,Cleansing Pasta (dry Skin),Face Cleanser,0,0,2,0,1,0,3,0,0,0,0,4,5,0,0,0,2,1,0,1,2,2,0,0,3
+Enaskin,Dark Spot Corrector,Brightening Treatment,0,0,1,0,3,0,1,0,0,0,0,0,0,0,3,0,0,3,1,1,4,3,0,0,1
+Solanie,Redness Neutralizer,Face Moisturizer,0,0,1,0,4,0,0,1,1,0,0,14,7,0,0,0,1,4,1,3,4,7,0,0,2
+Shiseido,Fino Premium Touch Shampoo,Shampoo,0,0,0,0,0,0,1,0,1,0,0,3,3,0,0,0,1,4,0,1,3,0,0,0,5
+Rohto Mentholatum Hada Labo,Shirojyun Premium Whitening Lotion,Brightening Treatment,0,0,0,0,2,0,1,0,0,0,0,0,2,0,0,0,0,1,2,3,3,1,0,0,0
+Hada Labo,Arbutin Whitening Shirojyun Cream,Brightening Treatment,0,0,0,0,2,0,1,0,1,0,0,3,2,0,0,0,1,1,2,2,1,0,0,0,4
+Rohto Mentholatum,Hada Labo Shirojyun Arbutin Whitening Lotion,Brightening Treatment,0,0,1,0,3,0,1,0,0,0,0,0,1,0,0,0,0,1,2,2,1,0,0,0,0
+Meishoku,Yukisumi Medicated Whitening Skin Conditioner,Brightening Treatment,0,0,0,0,0,0,2,0,1,0,0,0,0,0,0,0,1,1,0,0,2,1,0,0,1
+BioAqua,Pure Skin Acne Series - Facial Wash,Face Serum,0,0,1,0,1,0,1,0,1,0,0,1,3,0,0,0,2,2,0,1,4,0,0,0,4
+Kumano Cosme,Deve Cleansing Oil,Face Cleanser,0,0,0,0,3,0,1,0,0,0,0,9,1,0,0,0,1,1,2,4,3,2,0,0,1
+MINON Amino Moist,Minon Whole Body Shampoo - Moisturizing Type,Shampoo,0,0,1,0,0,0,2,0,0,0,0,0,1,0,0,0,1,1,0,2,0,1,0,0,0
+Rohto Mentholatum,50 Megumi Anti-wrinkle Cream,Face Moisturizer,0,0,1,0,4,0,0,1,0,0,0,14,3,0,0,0,4,2,2,5,4,11,0,0,7
+Rohto Mentholatum,Hada Labo Shirojyun Premium Whitening Essence,Face Serum,0,0,0,0,2,0,2,0,2,0,0,0,2,0,0,0,0,2,2,3,2,0,0,0,1
+Hado Labo,Shirojyun Premium Medicated Whitening Milk Emulsion,Brightening Treatment,0,0,0,0,3,0,0,0,1,0,0,6,2,0,0,0,0,3,2,3,1,2,0,0,3
+Curél,Sebum Trouble Care Moisture Facial Lotion,Face Serum,0,0,0,0,0,0,1,0,0,0,0,0,2,0,0,0,1,1,0,2,3,0,1,0,0
+SunSense,Moisturising Daily Face Spf 50+ Sunscreen,Sunscreen,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,3,0,0
+LION,Pair Acne Cream W,Acne Treatment,0,0,0,0,0,0,0,0,1,0,0,2,2,0,0,0,2,2,0,0,1,0,0,0,2
+Neutrogena,Ultra Sheer Face & Body Dry Touch Sunscreen Lotion,Sunscreen,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,5,0,0
+Banana Boat,Sport SPF 50+,Sunscreen,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,3,0,0
+Ego Sunsense,Comfort,Sunscreen,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2,0,0,0,0,5,0,0
+Natio,Broad Spectrum Sunscreen Spf 50,Sunscreen,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,5,0,1
+Kobayashi Pharmaceutical,Cool Sheet For Children Fever Netsusama Sheet For 12+4 Pcs - 8 Hours,Uncategorized,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Kiss Me,Medicated Hand Cream,Body Moisturizer,0,0,0,0,0,0,1,0,0,1,0,3,0,0,0,0,1,2,0,1,3,0,0,0,3
+Langmanni,Concealer,Face Moisturizer,0,0,0,0,1,0,0,0,0,4,0,4,2,0,0,0,3,5,0,0,2,0,0,0,2
+Rohto Mentholatum,Hada Labo Shirojyun Whitening Cream,Brightening Treatment,0,0,0,0,1,0,1,0,1,0,0,3,2,0,0,0,1,1,1,1,1,0,0,0,4
+Rohto Mentholatum,Hada Labo Shirojyun Premium Deep Whitening Cream,Brightening Treatment,0,0,0,0,3,0,0,0,1,0,0,7,3,0,0,0,0,3,2,3,1,2,0,0,4
+SNOW WHITE,Spot Gel,Uncategorized,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+QV,Flare Up Cream,Face Moisturizer,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,3,0,1,1,0,0,0,0
+ASTALIFT,The Serum Multitune,Face Serum,0,0,1,0,4,0,2,1,0,0,0,6,3,0,0,0,2,1,2,3,3,1,0,0,2
+Hada Labo,Shirojyun Premium Whitening Jelly Essence,Face Serum,0,0,1,0,6,0,0,0,1,0,0,1,2,0,0,0,1,2,2,3,5,5,0,0,4
+attirance,Cleansing Milk,Face Cleanser,0,0,0,0,1,0,6,0,1,1,0,7,11,0,3,0,3,5,0,5,5,0,0,0,5
+Maxi Block,Essential Dry Touch Lotion SPF 50+,Sunscreen,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3,0,0,1,0,4,0,1
+Freedom,Gerontol,Face Moisturizer,0,0,0,0,2,0,0,0,0,0,0,6,3,0,0,0,2,1,0,1,2,4,0,0,1
+Shiseido,10% Urea Hand & Legs Cream,Face Moisturizer,0,0,0,0,1,0,2,0,1,0,0,8,5,0,0,0,0,1,0,4,3,1,0,0,4
+KOBAYASHI,Nino Cure Medicated Cream,Face Moisturizer,0,0,0,0,1,0,1,0,0,0,0,5,2,0,0,0,2,1,0,3,2,0,0,0,4
+Rohto Mentholatum,Acnes Face Wash,Face Cleanser,0,0,1,0,1,0,1,0,1,0,0,2,4,0,0,0,3,3,1,1,1,1,0,0,1
+Shisheido,Urea Body Milk,Face Moisturizer,0,0,0,0,0,0,1,0,2,0,0,8,3,0,0,0,0,1,0,3,3,1,0,0,3
+VIBRANT GLAMOUR,2Pcs Hyaluronic Acid Face Serum,Face Serum,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,2,0,2,2,0,0,0,0
+Lov for cosmetics s.l,Aloe Vera Essentials Canary Islands Aloe Vera With Hyaluronic Acid Body Cream,Body Moisturizer,0,0,0,0,2,0,3,0,0,1,0,7,4,0,0,0,4,4,1,2,3,1,0,0,4
+Fanola,No Yellow Mask,Face Mask,0,0,0,0,2,0,1,0,0,0,0,2,3,0,0,0,3,7,0,0,4,0,0,0,5
+Alama Professional,No Yellow Shampoo,Shampoo,0,0,0,0,1,0,1,0,1,0,0,0,1,0,0,0,2,5,0,0,3,0,0,0,3
+Fanola,No Yellow Shield Mist,Face Serum,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,2,0,0,2,0,0,0,1
+Pur,Eyedentity Luxe Firming Eye Cream,Face Moisturizer,0,0,0,0,7,0,4,1,3,0,0,11,3,0,1,0,2,6,0,4,4,1,0,0,5
+Fanola,No Yellow Purple Shampoo,Shampoo,0,0,0,0,1,0,1,0,1,0,0,0,1,0,0,0,3,6,0,0,3,0,0,0,5
+Fanola,No Yellow Mask,Face Mask,0,0,0,0,2,0,1,0,1,0,0,2,3,0,0,0,4,9,0,0,4,0,0,0,5
+Atomy,Absolute Oil Serum Mist,Face Serum,0,0,1,0,1,0,1,2,1,0,0,5,2,0,1,0,1,2,1,15,5,2,0,0,2
+Inebrya,Blondesse No-Yellow Shampoo,Shampoo,0,0,0,0,1,0,2,0,1,0,0,0,1,0,0,0,3,7,0,0,3,0,0,0,5
+Dermasence,Aha Effects,Face Moisturizer,0,0,0,0,5,0,4,0,0,0,0,7,6,0,2,0,1,4,0,1,2,2,0,0,4
+Lululun,"One Night For Mature Skin, Skin Firming Facial Sheet Mask",Face Mask,0,0,0,0,3,0,3,0,1,0,0,3,2,0,0,0,0,4,0,1,3,0,0,0,2
+Tabaibaloe,Aloe Hidragel,Face Serum,0,0,0,0,1,0,3,0,1,2,0,0,0,0,0,0,0,4,1,1,2,1,0,0,2
+Fanola,No Yellow Thermo-Protective Cream,Face Moisturizer,0,0,0,0,1,0,2,0,0,0,0,4,2,0,0,0,6,4,0,0,5,1,0,0,1
+Alama Professional,No Yellow Mask,Face Mask,0,0,0,0,2,0,1,0,1,0,0,2,3,0,0,0,2,7,0,0,4,0,0,0,3
+Tabaibaloe,Tabaialoe Aloe Cream,Face Moisturizer,0,0,0,0,2,0,2,0,0,2,0,9,5,0,0,0,4,5,1,1,4,1,0,0,4
+Inebrya,Blondesse No-Yellow Mask,Face Mask,0,0,0,0,2,0,1,0,1,0,0,2,3,0,0,0,5,9,0,0,4,0,0,0,5
+Atomy,Absolute Snow Tone Up Essence Sun,Face Serum,0,0,2,0,5,0,2,2,0,1,0,11,3,0,0,0,3,3,5,15,8,3,2,0,4
+Dermasence,Aha Effects Plus C,Face Serum,0,0,0,0,6,0,3,0,0,1,0,8,4,0,1,0,2,4,1,2,1,2,0,0,3
+Fanola,No Yellow Bi-Phase Leave-In Conditioner,Conditioner,0,0,0,0,1,0,2,0,0,0,0,3,3,0,0,0,3,4,0,0,4,1,0,0,0
+Forlle'd,P-Effect Reliance Gel,Face Serum,0,0,0,0,3,0,1,0,1,0,0,1,2,0,1,0,0,3,2,3,4,2,0,0,6
+Fanola,No Yellow Shampoo,Shampoo,0,0,0,0,1,0,1,0,1,0,0,0,1,0,0,0,3,7,0,0,3,0,0,0,5
+Moroccanoil,Volumizing Mousse,Face Serum,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,1,3,0,0,2,0,0,0,0
+eSalon,Hair Color,Face Serum,0,0,0,0,4,0,2,0,1,0,0,1,1,0,0,0,7,7,0,0,6,3,0,0,1
+Moroccanoil,Volumizing Mousse,Face Serum,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,1,3,0,0,2,0,0,0,0
+Rausch,Weidenrinden Spezial-Spray,Acne Treatment,0,0,0,0,1,0,2,0,0,0,0,0,3,0,1,0,3,9,0,0,4,2,0,0,2
+MA CHERIE,Moisture Shampoo,Shampoo,0,0,1,0,0,0,3,0,1,0,0,0,2,0,2,0,5,4,0,1,4,2,0,0,2
+Hustle Butter,Hustle Bubbles Deluxe Revolutionary Refined Rinse,Conditioner,0,0,0,0,4,0,0,0,0,0,0,1,3,0,0,0,1,4,0,0,1,5,0,0,0
+Leaf Flower,CBD Instant Frizz Remedy,Face Moisturizer,0,0,0,0,1,0,1,0,1,0,0,3,5,0,1,0,2,3,0,1,5,1,0,0,0
+MA CHERIE,Air Feel Shampoo,Shampoo,0,0,1,0,1,0,3,0,1,0,0,1,2,0,2,0,5,5,0,1,4,2,0,0,3
+Palmer's,Palmers Coconut Oil Repairing Conditioner,Conditioner,0,0,0,0,4,0,0,0,1,0,0,8,1,0,0,0,5,5,0,1,4,2,0,0,2
+Rausch,Meerestang Fett-Stopp Gel-Spülung,Acne Treatment,0,0,0,0,0,0,1,0,0,3,0,1,0,0,1,0,5,2,0,0,3,1,0,0,2
+Peter Thomas Roth,Advanced Eye Wrinkle Treatment,Face Serum,0,0,0,0,0,0,1,3,2,1,0,1,0,0,0,0,0,4,1,14,2,0,0,0,3
+DrIdriss,Major Fade Active Seal Moisturizer,Face Moisturizer,0,0,1,0,3,0,0,1,0,0,0,7,5,0,0,0,2,2,2,9,5,2,0,0,5
+Torriden,Cellmazing Firming Eye Cream,Face Moisturizer,0,0,1,0,2,0,1,6,1,0,0,8,9,0,0,0,0,1,2,5,9,2,0,0,9
+Kate Somerville,+Retinol Vita C Power Serum,Face Serum,0,0,0,0,5,0,1,2,2,0,0,7,6,0,0,0,1,3,2,2,5,0,0,0,5
+Guerlain,Orchidée Impériale Brightening The Radiance Eye Serum,Face Serum,0,0,0,0,3,0,2,2,1,2,0,6,7,0,0,0,1,4,2,3,3,2,0,0,10
+Braye,Lipsleek,Face Moisturizer,0,0,0,0,0,0,0,1,0,6,0,6,3,0,0,0,1,1,1,0,3,1,0,0,9
+Murad,Rapid Age Spot Correcting Serum,Face Serum,0,0,1,0,1,0,2,1,1,3,0,6,3,0,0,0,2,2,4,4,4,0,1,0,4
+Renewcell,Retinol 2% + Argireline,Face Serum,0,0,1,0,7,0,0,3,1,1,0,3,1,0,0,0,0,0,5,1,1,3,2,0,3
+BioHeal BOH,3d Lifting Full Face Tension Gel Mask,Face Mask,0,0,1,0,2,0,2,14,2,0,0,1,0,0,1,0,0,2,2,1,4,5,0,0,5
+9tails,Premium Wrinkle Power Lifting,Face Serum,0,0,0,0,7,0,2,1,2,0,0,6,2,0,0,0,5,1,2,5,5,9,0,0,3
+HSGN,1% Bakuchiol & Aquaporin Activator Eye Cream,Face Moisturizer,0,0,2,0,22,0,2,20,1,1,0,20,13,0,1,0,2,4,6,19,5,14,0,0,7
+"Logically, skin",Multi-corrective Eye Cream,Face Moisturizer,0,0,0,0,2,0,0,1,1,0,0,9,9,0,0,0,6,2,1,3,5,2,0,0,6
+Swanicoco,Peptide Biome Serum,Face Serum,0,0,1,0,3,0,1,18,1,0,0,3,2,0,0,0,1,2,2,3,5,5,0,0,2
+KyungLab,Ultra Hydrating Cream,Face Moisturizer,0,0,1,0,9,0,0,21,0,0,0,4,2,0,0,0,4,0,4,2,6,9,0,0,2
+numbuzin,No. 9 Nad Bio Lifting-sil Essence,Face Serum,0,0,1,0,19,0,6,28,6,0,0,11,8,0,0,0,0,4,2,4,6,6,0,0,12
+KISMAT SKIN,Biome Moisturizer,Face Moisturizer,0,0,0,0,5,0,0,0,1,0,0,5,1,0,0,0,0,1,1,8,1,8,0,0,0
+AHC,Youth Lasting Eye Cream For Face,Face Serum,0,0,4,0,19,0,4,25,2,0,0,33,25,0,2,0,4,4,4,20,10,13,0,0,15
+Rebloom,Retinol + Peptide,Face Serum,0,0,1,0,7,0,0,4,1,1,0,3,1,0,0,0,0,1,5,1,1,3,2,0,3
+MARY & MAY,Calendula Peptide Ageless Sleeping Mask,Face Mask,0,0,0,0,6,0,1,15,1,0,0,1,2,0,0,0,3,1,1,3,7,6,0,0,4
+MARY & MAY,Vegan Peptide Bakuchiol Sun Stick SPF50+ Pa++++,Sunscreen,0,0,0,0,3,0,0,16,0,2,0,8,3,0,0,0,0,2,1,0,4,1,5,0,5
+Dryope,Dandruff Relief Shampoo,Shampoo,0,0,0,0,2,0,2,12,2,0,0,3,1,0,0,0,2,1,1,1,6,2,0,0,3
+Bioderma,Pigmentbio Night Renewer,Face Serum,0,0,3,0,3,0,5,1,1,0,0,3,1,0,1,0,1,3,4,2,6,4,0,0,2
+Centellian24,Lifting Peptide Cream,Face Moisturizer,0,0,2,0,9,0,0,24,1,0,0,13,12,0,0,0,3,2,3,3,7,5,0,0,7
+Nu Skin,Ageloc Radiant Day SPF 22,Sunscreen,0,0,0,0,0,0,1,0,1,1,0,13,8,0,0,0,1,3,1,1,5,1,4,0,8
+Institut Esthederm,Photo Reverse Soin Protecteur Éclaircissant,Face Serum,0,0,0,0,5,0,1,1,1,1,0,7,6,0,0,0,0,3,1,2,8,1,4,0,6
+AHC,Time Rewind Real Eye Cream For Face,Face Serum,0,0,4,0,12,0,4,23,2,0,0,32,20,0,2,0,4,4,4,9,11,13,0,0,15
+Arencia,Red Smoothie Serum 8,Face Serum,0,0,2,0,9,0,1,2,1,0,0,1,1,0,0,0,0,1,6,2,4,2,0,0,5
+G.M. Collin,Diamond Cream,Face Moisturizer,0,0,1,0,6,0,1,5,1,2,0,14,9,0,0,0,2,7,2,8,8,2,0,0,9
+AGE 20's,Biomelift Vital Firming,Face Moisturizer,0,0,1,0,4,0,2,4,2,0,0,19,14,0,0,0,5,2,2,5,6,2,0,0,12
+Medicube,Collagen Glow Booster Serum,Face Serum,0,0,1,0,1,0,0,2,0,0,0,7,4,0,0,0,1,1,2,2,6,1,0,0,2
+Wet n Wild,Boost Me Up Brow & Lash Serum,Face Serum,0,0,1,0,2,0,1,3,0,1,0,2,2,0,0,0,2,4,2,1,5,1,0,0,2
+Murad,Advanced Active Radiance Serum,Face Serum,0,0,2,0,8,0,4,0,1,2,0,6,1,0,1,0,3,3,3,2,4,6,0,0,5
+C-K-D Guaranteed,Retino Collagen Guasha Neck Cream,Face Moisturizer,0,0,1,0,4,0,1,3,1,0,0,11,7,0,0,0,5,1,3,15,6,2,0,0,7
+Kundal,Cool & Clear Scalp Refreshing Shampoo,Shampoo,0,0,0,0,2,0,2,12,2,0,0,3,1,0,0,0,4,1,1,1,6,4,0,0,3
+Skintific,10% Vitamin C Brightening Glow Serum,Face Serum,0,0,0,0,7,0,2,1,0,0,0,4,3,0,0,0,0,1,4,7,5,2,0,0,4
+MARY & MAY,"Calendula Peptide Ageless, Sleeping Mask",Face Mask,0,0,0,0,4,0,1,15,1,0,0,1,2,0,0,0,2,1,1,3,6,4,0,0,3
+Institut Esthederm,Face Brightening Tinted Spf50+ Sun Protection Cream,Sunscreen,0,0,0,0,3,0,1,1,1,1,0,8,5,0,0,0,0,2,1,2,8,1,4,0,6
+Apivita,Just Bee Clear Blemish Control Moisturizer,Acne Treatment,0,0,1,0,3,0,3,1,1,0,0,5,3,0,0,0,5,2,2,2,7,5,0,0,3
+AHC,Youth Lasting Real Eye Cream For Face,Face Serum,0,0,3,0,17,0,4,25,2,0,0,33,25,0,2,0,3,4,4,20,10,10,0,0,15
+Swanicoco,All In One Essence,Face Serum,0,0,1,0,1,0,1,18,1,0,0,8,3,0,0,0,2,2,2,4,5,6,0,0,6
+Bioderma,White Objective Lightening Fluid,Face Moisturizer,0,0,1,0,2,0,2,1,2,0,0,6,4,0,0,0,0,3,5,0,5,1,3,0,4
+MONUSKIN,Deep Repair Complex,Face Moisturizer,0,0,1,0,3,0,0,1,1,2,0,12,5,0,0,0,8,2,1,2,8,4,0,0,8
+DCL,Skin Brightening Complexion Treatment,Brightening Treatment,0,0,1,0,0,0,1,0,1,2,0,4,3,0,1,0,2,6,1,3,6,1,1,0,8
+ElsheSkin,Radiant Glow Moisturizer,Brightening Treatment,0,0,2,0,16,0,4,2,1,0,0,11,6,0,0,0,3,6,14,13,9,9,0,0,6
+Swanicoco,Peptine Biome Eye Cream,Face Moisturizer,0,0,1,0,2,0,1,18,1,0,0,6,4,0,0,0,2,2,2,3,5,5,0,0,4
+BIO HEAL BOH,Probioderm Lifting Eye & Wrinkle Cream,Face Moisturizer,0,0,1,0,3,0,1,13,2,0,0,8,4,0,1,0,1,2,2,2,4,4,0,0,9
+Monu Skin,Anti-Ageing Super Serum Night,Face Serum,0,0,1,0,4,0,0,2,1,0,0,14,7,0,0,0,8,4,1,2,10,3,0,0,12
+Renewcell Cosmedica,Retinol + Peptide,Face Serum,0,0,1,0,7,0,0,4,1,1,0,3,1,0,0,0,0,1,5,1,1,3,2,0,3
+Centellian24,Madeca Derma Shield Safe Sun Essence,Sunscreen,0,0,1,0,8,0,3,2,1,0,0,5,0,0,1,0,8,2,3,15,6,5,4,0,4
+Bioderma,White Cream,Face Moisturizer,0,0,1,0,3,0,1,1,2,0,0,6,3,0,0,0,0,5,5,0,3,1,2,0,5
+Skintific,3% Tranexamic Acid Advanced Bright Serum,Face Serum,0,0,1,0,6,0,3,4,1,0,0,6,6,0,0,0,0,3,6,10,9,6,0,0,3
+ISOMERS Skincare,Illumi-Bright Skin Brightening Formula,Brightening Treatment,0,0,1,0,3,0,0,1,0,0,0,5,3,0,0,0,1,0,7,1,3,2,0,0,2
+MARY & MAY,Vegan Peptide Bakuchiol Sun Stick SPF50+ Pa++++,Sunscreen,0,0,0,0,3,0,0,16,0,2,0,8,3,0,0,0,1,2,1,0,4,1,5,0,5
+Peter Thomas Roth,Unisex Neuroliquid Volufill Youth Serum,Face Serum,0,0,0,0,1,0,1,3,0,1,0,3,2,0,0,0,1,4,1,14,4,0,0,0,0
+DEMAR3,Expert Rem-Rose 25 Burning,Face Serum,0,0,2,0,7,0,2,20,2,0,0,5,6,0,0,0,4,2,5,3,10,4,0,0,9
+BIO HEAL BOH,Probioderm Lifting Ampoule,Face Serum,0,0,1,0,4,0,1,13,1,0,0,4,2,0,0,0,1,2,2,3,4,4,0,0,7
+Medicube,PDNR Pink Glutathione Serum Mist,Face Serum,0,0,1,0,0,0,0,7,0,0,0,5,0,0,0,0,2,1,2,0,6,0,0,0,2
+AGE 20's,Biomelift Concentrate,Face Serum,0,0,1,0,2,0,2,6,1,0,0,10,4,0,0,0,8,2,4,4,5,3,0,0,8
+BIO HEAL BOH,Probioderm Lifting Cream,Face Moisturizer,0,0,1,0,7,0,2,13,1,0,0,19,12,0,0,0,3,2,3,3,6,6,0,0,9
+MARY & MAY,Calendula Peptide Ageless Sleeping Mask,Face Mask,0,0,0,0,5,0,1,15,1,0,0,1,2,0,0,0,2,1,1,3,7,5,0,0,4
+SUPRACTIV PARIS,Collagen Smoothing Cream,Face Moisturizer,0,0,0,0,3,0,3,1,1,0,0,9,2,0,0,0,11,3,1,3,6,1,0,0,4
+Bioderma,Pigmentbio H2O Brightening Micellar Water,Face Cleanser,0,0,1,0,0,0,1,0,1,0,0,0,4,0,0,0,0,1,1,0,3,1,0,0,0
+Torriden,Cellmazing Firming Cream,Face Moisturizer,0,0,1,0,2,0,1,2,1,0,0,7,5,0,0,0,0,1,2,16,5,2,0,0,7
+ElsheSkin,Radiant Glow Brightening Moisturizer,Brightening Treatment,0,0,1,0,12,0,3,1,2,0,0,8,3,0,0,0,0,3,13,11,6,9,0,0,5
+Atomy,Silk Protein Hair Essence,Face Serum,0,0,0,0,2,0,1,15,0,0,0,6,8,0,0,0,2,5,1,1,4,1,0,0,2
+AHC,10 Revolution Real Eye Cream For Face,Face Serum,0,0,4,0,19,0,5,25,2,1,0,30,20,0,2,0,6,3,7,21,11,12,0,0,11
+Murad,Rapid Dark Spot Correcting Serum,Face Serum,0,0,1,0,1,0,3,0,1,0,0,0,1,0,1,0,4,2,2,2,4,4,0,0,2
+Monu Skin,Anti-Ageing Super Serum Day,Face Serum,0,0,1,0,2,0,0,1,1,0,0,13,7,0,0,0,8,2,1,2,9,3,0,0,8
+Aizen,Pythocrystal Holybright Ampoule,Face Serum,0,0,2,0,10,0,3,1,1,0,0,0,1,0,1,0,0,1,14,1,1,4,0,0,2
+ElsheSkin,Radiant Advance Serum,Face Serum,0,0,1,0,5,0,3,2,2,0,0,5,2,0,1,0,2,4,9,3,7,6,0,0,5
+"Logically, skin",First Hand Cream,Body Moisturizer,0,0,0,0,2,0,1,1,1,0,0,1,1,0,0,0,6,1,1,1,9,3,0,0,2
+TonyMoly,Intense Care Gold 24K Snail Eye Serum Ball,Face Serum,0,0,1,0,15,0,1,3,1,1,0,7,2,0,0,0,2,4,2,4,5,9,0,0,4
+MARY & MAY,Vegan Peptide Bakuchiol Sun Stick,Sunscreen,0,0,0,0,3,0,0,16,0,2,0,8,3,0,0,0,1,2,1,0,4,1,5,0,5
+Umoua,Barrier Repair Essence Advanced,Face Serum,0,0,0,0,3,0,0,1,1,0,0,1,0,0,0,0,1,1,1,2,3,6,0,0,0
+Guerlain,Orchidée Impériale Brightening The Imperial Radiance Sheet Mask,Face Mask,0,0,0,0,5,0,1,1,1,2,0,13,7,0,0,0,9,3,1,3,5,3,0,0,9
+Arencia,Red Smoothie Serum 30,Face Serum,0,0,2,0,9,0,1,2,0,0,0,2,1,0,0,0,1,1,6,3,5,2,0,0,5
+Guerlain,Orchidée Impériale Brightening  The Global UV Protector,Sunscreen,0,0,0,0,5,0,4,1,0,4,0,14,8,0,0,0,4,3,1,1,7,1,6,0,10
+Murad,White Brilliance Porcelain Serum,Face Serum,0,0,0,0,2,0,1,0,1,1,0,6,1,0,0,0,8,3,2,4,5,1,0,0,4
+Colorescience,Pep Up® Collagen Renewal Face & Neck Treatment,Face Serum,0,0,0,0,5,0,2,7,2,0,0,7,5,0,0,0,1,3,1,2,2,4,0,0,4
+BioHeal BOH,Probioderm Tightening Collagen Cream,Face Moisturizer,0,0,0,0,5,0,3,12,1,0,0,11,5,0,2,0,1,2,1,2,5,8,0,0,12
+Bioderma,White Objective Sérum,Face Serum,0,0,1,0,2,0,2,1,1,0,0,0,1,0,1,0,0,1,5,0,3,1,0,0,3
+Vow Beauty,For Better...And Even Better 20.5% Vitamin C Serum,Face Serum,0,0,0,0,6,0,1,0,0,0,0,1,0,0,0,0,0,1,2,1,2,2,0,0,0
+L'BEL,Concentré Total Ultra Firm Serum,Face Serum,0,0,0,0,1,0,2,2,1,4,0,10,6,0,0,0,8,2,1,2,6,0,0,0,6
+KyungLab,Ha + B5,Face Serum,0,0,0,0,10,0,1,18,0,0,0,1,1,0,0,0,4,0,3,4,4,10,0,0,1
+Veraclara,Natural Hair Shampoo,Shampoo,0,0,0,0,12,0,0,4,2,0,0,5,1,0,0,0,7,4,3,1,5,7,0,0,3
+Monu Skin,Instant Radiance Brightening Boost,Brightening Treatment,0,0,2,0,2,0,0,2,2,0,0,14,9,0,1,0,8,3,2,2,9,3,0,0,8
+Eqqualberry,Collagen Pore-tight Up Hydrogel Mask,Face Mask,0,0,1,0,4,0,0,11,0,0,0,5,3,0,0,0,1,1,2,5,4,5,0,0,8
+Usolab,Bio Intensive K Cream,Face Moisturizer,0,0,0,0,10,0,0,19,1,0,0,10,8,0,0,0,1,0,3,14,4,7,0,0,2
+Guerlain,Orchidée Impériale Brightening The Radiance Essence-in-Lotion,Face Serum,0,0,0,0,2,0,3,2,2,0,0,5,5,0,1,0,6,3,1,2,6,0,0,0,1
+ElsheSkin,Radiant Advance Serum,Face Serum,0,0,1,0,8,0,2,2,2,0,0,1,1,0,1,0,2,5,11,2,6,5,0,0,3
+bareMinerals,Biolucent Mineral Brightening Treatment,Brightening Treatment,0,0,0,0,2,0,0,0,1,3,0,6,3,0,0,0,3,4,4,3,4,1,1,0,5
+BioHeal BOH,Probioderm Lifting Eye & Wrinkle Cream,Face Moisturizer,0,0,1,0,3,0,1,13,2,0,0,8,4,0,1,0,1,2,2,2,4,4,0,0,9
+AHC,Ten Revolution Real Eye Cream For Face,Face Serum,0,0,4,0,19,0,5,25,2,1,0,30,20,0,2,0,6,3,7,21,11,12,0,0,11
+Torriden,Cellmazing Firming Gel Mask,Face Mask,0,0,1,0,8,0,0,3,0,1,0,5,3,0,0,0,0,2,2,16,4,4,0,0,8
+Atomy,Protein Intensive Shampoo,Shampoo,0,0,0,0,1,0,2,15,0,0,0,1,3,0,0,0,1,3,1,1,3,1,0,0,2
+KyungLab,Ultra Hydrating Cream,Face Moisturizer,0,0,1,0,9,0,0,21,0,0,0,4,2,0,0,0,4,0,4,2,6,9,0,0,2
+Murad,Rapid Age Spot And Pigment Lightening Serum,Face Serum,0,0,1,0,6,0,4,0,1,0,0,1,3,0,1,0,4,2,4,2,4,4,0,0,4
+numbuzin,No.9 Nad Bio Lifting-sil Essence,Face Serum,0,0,1,0,18,0,6,28,6,0,0,11,8,0,0,0,0,4,2,4,6,6,0,0,12
+Dr Idris,Major Fade Active Seal Moisturizer,Face Moisturizer,0,0,1,0,3,0,0,1,0,0,0,6,2,0,0,0,1,0,2,9,4,2,0,0,5
+Medicube,Collagen Glow Booster Milk Serum,Face Serum,0,0,1,0,1,0,0,2,0,0,0,7,4,0,0,0,8,1,2,2,7,1,0,0,2
+Copenhagen Grooming,Eye Opener,Face Moisturizer,0,0,0,0,3,0,1,0,1,0,0,9,8,0,0,0,2,2,0,3,3,1,0,0,4
+By Terry,Hyarulonic Global Face Cream,Face Moisturizer,0,0,1,0,1,0,0,1,1,0,0,3,0,0,0,0,0,0,1,4,3,0,0,0,2
+Dr. Jart+,Ceramidin Body Oil,Face Serum,0,0,0,0,2,0,0,0,0,0,0,6,2,0,0,0,5,1,0,8,4,0,0,0,0
+Mamonde,Rose + PHA Liquid Mask,Face Mask,0,0,0,0,2,0,1,0,2,0,0,0,2,0,1,0,0,2,0,4,5,1,0,0,1
+Maxclinic,Fgf 7 Collagen Ampoule,Face Serum,0,0,0,0,3,0,1,2,1,0,0,6,0,0,0,0,4,3,0,4,6,1,0,0,3
+It's Skin,Retinoidin Serum,Face Serum,0,0,1,0,3,0,1,4,1,2,0,14,10,0,0,0,1,2,1,7,6,4,0,0,9
+RiRe,Bakuchiol Ampoule Cream,Face Serum,0,0,1,0,12,0,1,6,3,0,0,3,3,0,0,0,0,3,3,7,7,6,0,0,3
+HC Care,Alpha Arbutin,Face Serum,0,0,1,0,3,0,0,1,0,0,0,0,0,0,0,0,0,2,4,4,4,3,0,0,1
+Hyalupure,9x Hyaluronic Acid Emulsion For Dry Skin,Face Serum,0,0,1,0,8,0,1,1,1,0,0,11,6,0,0,0,1,0,1,8,6,6,0,0,4
+GRAVICH,B3+ AHA White Concentrate Body Serum,Face Serum,0,0,1,0,2,0,4,2,2,0,0,9,5,0,2,0,1,2,1,9,5,1,0,0,4
+innisfree,Vitamin C Green Tea Enzyme Brightening Serum,Face Serum,0,0,1,0,8,0,2,2,3,0,0,5,0,0,1,0,0,1,3,5,5,7,0,0,4
+Aiken,Hydra Plus Essence,Face Serum,0,0,1,0,2,0,0,1,1,0,0,4,2,0,0,0,0,1,1,6,4,0,0,0,5
+Bio essence,Bio-ha Super Ha¹ᶟ Gel Hydrator,Face Serum,0,0,1,0,2,0,1,1,1,1,0,5,2,0,0,0,1,3,1,4,3,1,0,0,3
+Urban Jungle,Crème De La Crème Face Cream,Face Moisturizer,0,0,1,0,1,0,1,2,1,0,0,7,5,0,0,0,5,2,1,5,7,2,0,0,7
+Le Mieux,Tgf- B Booster,Face Serum,0,0,1,0,2,0,0,5,0,1,0,2,0,0,0,0,1,1,1,7,0,0,0,0,0
+Youth To The People,Age Prevention Moisture Cream,Face Moisturizer,0,0,0,0,5,0,1,1,0,0,0,4,2,0,0,0,0,2,1,2,1,4,0,0,2
+berica skincare,Super Soothing & Calming Facial Serum,Face Serum,0,0,0,0,3,0,0,0,0,0,0,4,1,0,0,0,0,3,0,4,3,1,0,0,3
+IZEZE,Zero Blemish Cream,Acne Treatment,0,0,0,0,3,0,1,0,2,0,0,3,1,0,0,0,7,3,0,4,11,2,0,0,3
+111SKIN,All Day Radiance Mist,Brightening Treatment,0,0,1,0,11,0,0,6,1,0,0,5,5,0,0,0,2,1,0,4,6,6,0,0,1
+Lumene Nordic C,Triple Glow Radiance Elixir,Brightening Treatment,0,0,0,0,7,0,3,1,3,0,0,2,1,0,2,0,4,4,1,3,7,2,0,0,1
+Hada Labo,Gokujyun Perfect Jelly,Face Serum,0,0,0,0,2,0,2,0,1,0,0,4,1,0,0,0,1,2,0,5,7,0,0,0,3
+Hada Labo,Gokujyun Premium Ultimate Moisturizing Lotion (Indonesia Version),Face Serum,0,0,0,0,1,0,2,0,1,0,0,1,0,0,0,0,1,2,0,5,6,0,0,0,2
+Pond's,Bright Miracle Day Serum,Face Serum,0,0,2,0,4,0,3,2,1,1,0,5,2,0,0,0,3,5,2,10,4,1,0,0,5
+Tula,24-7 Weightless Moisture Day & Night Gel Cream,Face Moisturizer,0,0,1,0,8,0,4,1,3,1,0,4,2,0,1,0,1,5,3,6,7,2,0,0,2
+ZARZOU,Bloom Brightening Serum,Face Serum,0,0,1,0,2,0,1,1,0,0,0,0,0,0,1,0,0,2,4,4,3,4,0,0,3
+MBeauty,Tannin Complex 2-step Mask,Face Mask,0,0,2,0,8,0,2,1,3,0,0,1,2,0,3,0,5,2,1,4,9,9,0,0,2
+Dr. Ceuracle,Hyal Reyouth Moist Sun,Face Serum,0,0,1,0,2,0,1,2,0,0,0,4,6,0,0,0,1,1,1,4,7,2,5,0,5
+Everysun,Anti-Age Spf50 Face Cream,Face Moisturizer,0,0,0,0,4,0,2,0,1,2,0,5,5,0,0,0,9,1,0,2,4,0,4,0,6
+Peter Thomas Roth,Even Smoother Instant Reveal Facial Peel,Exfoliant/Scrub,0,0,1,0,2,0,3,5,1,0,0,1,0,0,1,0,1,0,1,4,5,2,0,0,0
+numbuzin,No. 4 Collagen 73% Pudding Serum,Face Serum,0,0,1,0,3,0,1,4,1,0,0,8,4,0,0,0,1,1,1,4,5,1,0,0,4
+Aizen,Snowdrop 9x Ceramide Skin Barrier Aqua Moisturizer Gel,Face Serum,0,0,2,0,10,0,0,5,2,0,0,8,2,0,1,0,2,2,6,11,10,6,0,0,0
+WIWIFY,High Protection 50+ SPF Sunscreen,Sunscreen,0,0,0,0,2,0,0,0,1,1,0,10,5,0,0,0,0,2,0,4,3,4,4,0,4
+Hada Labo,Retinol Firming Lifting Lotion,Face Moisturizer,0,0,0,0,1,0,1,0,1,0,0,9,2,0,0,0,0,1,0,6,4,0,0,0,5
+Coony,Madecassic Eye Cream,Face Moisturizer,0,0,1,0,9,0,0,6,1,0,0,13,7,0,0,0,8,1,1,5,6,7,0,0,4
+Facialista,Replenishing Gel,Face Cleanser,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,1,1,0,3,0,2,0,0,1
+The Daily Glow,Sunny Daze Sunscreen,Sunscreen,0,0,0,0,1,0,1,0,1,1,0,12,4,0,0,0,2,3,1,4,9,1,6,0,4
+SNP Prep,Peptaronic Toner,Face Toner,0,0,0,0,2,0,0,5,1,0,0,1,2,0,0,0,1,1,0,4,5,1,0,0,3
+Holika Holika,Bare Dew Tone Up Cream Fresh,Face Serum,0,0,1,0,2,0,0,2,1,1,0,6,4,0,0,0,2,1,1,5,8,2,0,0,3
+qcc,Tetraforce Cica Peeling Toner Pad,Exfoliant/Scrub,0,0,0,0,8,0,2,0,3,0,0,3,1,0,1,0,3,1,0,4,6,13,0,0,3
+Dr Dermacare,Be Happy - Hyaluronic Acid & Prebiotic Serum,Face Serum,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,2,0,2,3,0,0,0,1
+Dermafirm,Bio Correction Ampoule Cera-drop M4,Face Serum,0,0,0,0,5,0,0,1,1,0,0,5,7,0,0,0,2,1,0,6,6,4,0,0,2
+Skin Functional,Anti Ageing Complex Peptides + Cu Complex,Face Serum,0,0,0,0,2,0,0,7,0,0,0,1,0,0,0,0,0,1,0,4,3,2,0,0,1
+Nacomi Next,Hyaluronic Acid 10%,Face Serum,0,0,0,0,1,0,1,0,1,0,0,1,1,0,0,0,2,5,0,4,4,0,0,0,5
+Perricone MD,High Potency Triple Retinol Renewal Serum,Face Serum,0,0,1,0,8,0,3,2,3,0,0,9,8,0,1,0,2,7,1,7,5,4,0,0,2
+ignae,Day Complex,Face Moisturizer,0,0,1,0,3,0,2,2,1,0,0,12,4,0,0,0,1,5,1,4,5,4,0,0,5
+Doctor Babor,Hyaluronic Acid,Face Serum,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,2,0,2,2,0,0,0,1
+Pure Choice,Pore Tightening Serum,Face Serum,0,0,3,0,1,0,3,1,1,0,0,1,1,0,3,0,1,5,1,4,2,7,0,0,3
+Hada Labo,Koi Gokujyun All-in-on Aging Care 3d Gel,Face Serum,0,0,0,0,2,0,2,0,2,0,0,1,2,0,0,0,0,2,0,3,3,0,0,0,3
+Real Barrier,Intense Moisture Toner,Face Toner,0,0,0,0,6,0,2,0,1,0,0,5,3,0,3,0,9,2,0,6,6,6,0,0,1
+Nacomi,Marshmallow Zero Pore And Blemish Face Cream,Face Moisturizer,0,0,2,0,2,0,2,1,1,0,0,4,3,0,1,0,2,4,1,4,3,3,0,0,6
+cos.kim,Peptide Repair Serum,Face Serum,0,0,0,0,3,0,0,2,1,0,0,3,1,0,0,0,0,2,0,3,1,4,0,0,0
+Eveline,"Facemed +, Hialuronowy Płyn Micelarny 3 W 1",Face Moisturizer,0,0,0,0,1,0,1,0,1,0,0,2,2,0,0,0,0,2,0,2,4,3,0,0,1
+Rimu Health Products,Türm Ciltlere Uygun Yogun Nemlendiricili,Face Serum,0,0,1,0,5,0,2,1,2,0,0,5,2,0,0,0,1,2,0,9,3,2,7,0,4
+ITFER,Artemisia Skinlux Calming Cream,Face Moisturizer,0,0,1,0,4,0,0,5,1,0,0,11,8,0,0,0,0,1,1,7,7,4,0,0,7
+Mediheal,Tea Tree Biome Blemish Cica Cream,Acne Treatment,0,0,0,0,7,0,2,0,0,0,0,6,2,0,0,0,4,1,0,4,6,4,0,0,4
+Scarlett Whitening,Hyalu B9 Bio Plavita Ceramide Essence Toner,Face Serum,0,0,1,0,1,0,0,1,2,0,0,4,2,0,0,0,0,1,0,8,5,2,0,0,3
+pasutara,Organic Radiant Multi Repair Cream,Face Moisturizer,0,0,0,0,5,0,1,0,0,0,0,12,3,0,0,0,2,2,1,5,6,6,0,0,1
+Biodance,Cera-nol Gel Toner Pads,Face Toner,0,0,0,0,2,0,0,0,1,0,0,4,3,0,0,0,0,1,0,8,5,2,0,0,2
+Segle,Gel Crema Clear Azelaic,Face Serum,0,0,1,0,3,0,2,0,1,0,0,9,3,0,0,0,6,1,3,7,5,3,0,0,4
+La Glace,Daily Moisturizing Pads Aqualock12 Hyaluronic Complex,Face Serum,0,0,1,0,2,0,1,1,2,0,0,1,2,0,0,0,0,2,1,4,3,4,0,0,0
+PIBUMI,Centellution Cica Cream [for Oily Skin],Face Serum,0,0,1,0,5,0,0,3,0,0,0,9,3,0,1,0,8,1,1,6,8,5,0,0,4
+Dr Dennis Gross,Derminfusions™ Fill + Repair Serum,Face Serum,0,0,2,0,14,0,6,6,4,0,0,9,3,0,4,0,5,4,2,11,3,11,0,0,5
+FORTHESKIN By B-LAB,Hyaluron Foam Cleansing,Face Cleanser,0,0,0,0,1,0,1,0,1,0,0,3,4,0,0,0,2,1,0,4,4,0,0,0,2
+Hada Labo,Premium Hydrating Night Cream,Face Moisturizer,0,0,1,0,12,0,1,4,1,2,0,14,6,0,1,0,1,3,2,4,5,7,1,0,6
+J.One,Red Jelly Pack,Face Serum,0,0,2,0,5,0,2,2,1,0,0,8,7,0,0,0,2,3,2,6,7,0,0,0,5
+Pat McGrath Labs,Intensifeyes Artistry Wand,Face Serum,0,0,1,0,5,0,2,4,1,0,0,1,2,0,0,0,1,5,2,3,4,4,0,0,1
+Trimay,Panthenol Hyaluron Ampoule,Face Serum,0,0,0,0,7,0,0,6,1,0,0,2,1,0,0,0,1,1,0,5,5,5,0,0,4
+C-K-D,Retino Collagen Small Molecule 300 First Essence,Face Serum,0,0,1,0,6,0,0,3,1,0,0,6,5,0,0,0,1,3,2,18,8,1,0,0,3
+dr. denese,Megalips Tinted Peptide Lip Treatment,Face Serum,0,0,1,0,5,0,0,1,0,6,0,7,1,0,0,0,1,2,0,6,3,1,0,0,4
+PureHeal's,Rose Blemish Cream,Acne Treatment,0,0,1,0,6,0,0,3,1,0,0,13,6,0,0,0,4,2,1,8,6,6,0,0,6
+Missha,Super Aqua Ultra Hyalron Foaming Cleanser,Face Serum,0,0,1,0,1,0,2,0,1,0,0,4,7,0,0,0,5,1,0,5,5,0,0,0,2
+Teaology,Ginger Tea Energizing Aqua-Cream,Face Serum,0,0,0,0,6,0,1,0,0,0,0,5,2,0,1,0,7,1,1,1,7,2,0,0,4
+ALHA ALFA,Power Bright Dark Spot Serum Traxenamic Acid 2%,Face Serum,0,0,1,0,3,0,1,1,3,0,0,2,3,0,0,0,1,2,3,3,4,2,0,0,5
+Amuse,Dew Wear Foundation,Face Serum,0,0,2,0,5,0,2,3,0,4,0,11,6,0,0,0,1,2,2,5,9,2,4,0,12
+Torriden,Dive In Serum,Face Serum,0,0,0,0,5,0,1,0,0,0,0,1,1,0,0,0,0,1,0,5,6,7,0,0,4
+Focalskin,8% B5 Moisturizer,Face Moisturizer,0,0,0,0,3,0,2,0,1,0,0,9,2,0,0,0,1,2,0,7,4,4,0,0,5
+Dr. Pepti,Peptide Volume Silk Layer Cream,Face Moisturizer,0,0,1,0,5,0,0,6,1,0,0,12,7,0,0,0,4,1,1,6,6,7,0,0,7
+Karine Joncas,Anti-imperfections Jeunesse - Concentré Dermo-intensif,Face Serum,0,0,0,0,2,0,1,2,1,0,0,1,2,0,0,0,0,2,0,2,3,0,0,0,3
+Whitelab,C-dose Brightening Serum,Face Serum,0,0,0,0,4,0,0,0,0,0,0,5,2,0,0,0,2,1,1,5,6,2,0,0,4
+WIWIFY,Retinol Serum,Face Serum,0,0,1,0,4,0,1,3,1,0,0,7,3,0,0,0,0,0,2,5,3,1,0,0,4
+KEEP COOL,Soothe Bamboo Lotion,Face Serum,0,0,0,0,4,0,1,0,1,0,0,6,3,0,0,0,1,0,0,4,4,2,0,0,2
+Neogen,Real Heartleaf Soothing Mask,Face Mask,0,0,1,0,4,0,1,2,0,0,0,8,3,0,0,0,2,1,1,5,5,2,0,0,3
+Medicube,Zero Pore One-day Serum,Face Serum,0,0,2,0,3,0,6,2,3,0,0,2,2,0,4,0,0,2,1,4,6,4,0,0,4
+Cantabria Labs,Endocare Renewal Retinol Intensive Sérum 0.5%,Face Serum,0,0,1,0,7,0,1,3,1,0,0,7,2,0,0,0,3,1,3,1,5,1,0,0,5
+Bring Green,Artemisia Calming Water Cream,Face Moisturizer,0,0,1,0,9,0,3,2,2,0,0,2,0,0,0,0,11,1,2,4,11,7,0,0,9
+LYSE,Moisture Up Super Serum,Face Serum,0,0,0,0,3,0,1,0,0,0,0,7,2,0,0,0,1,4,0,5,4,2,0,0,3
+Maxclinic,Blue Azulen Serum,Face Serum,0,0,0,0,4,0,1,0,1,0,0,4,3,0,0,0,3,0,0,4,7,3,0,0,6
+Revolution Skincare,Maskcare Under Facemask Hydrating & Uplifting Mist,Face Serum,0,0,1,0,3,0,0,1,1,0,0,0,2,0,0,0,4,5,1,2,4,2,0,0,2
+Ixora,Donkey Milk & Argan Oil Moisturizer,Face Moisturizer,0,0,1,0,3,0,0,1,0,0,0,8,3,0,0,0,0,5,0,11,7,3,0,0,7
+Skin Functional,Hydrating Tonic 1% Centella Asiática + 2% Hyaluronic Acid,Face Serum,0,0,1,0,3,0,4,1,0,2,0,3,1,0,0,0,0,2,3,4,5,1,0,0,2
+Biodance,First Synergy Toner,Face Toner,0,0,0,0,3,0,1,0,0,0,0,1,0,0,0,0,0,1,1,4,7,2,0,0,2
+Dermacrush,Cera-oat Barrier Moisturizer,Face Moisturizer,0,0,0,0,7,0,3,0,2,0,0,11,5,0,0,0,0,5,0,10,7,5,0,0,4
+Chillab,Anti-aging Vibrant Eye Cream,Face Moisturizer,0,0,0,0,6,0,0,3,2,0,0,11,8,0,0,0,1,0,1,6,5,0,0,0,7
+Eiio,True Cicalming Toner Pad 70pads,Face Toner,0,0,0,0,5,0,1,0,2,0,0,3,2,0,0,0,2,1,1,5,7,3,0,0,1
+Heimish,Cica Live Repair Cream,Face Moisturizer,0,0,3,0,11,0,1,3,1,0,0,17,12,0,0,0,5,0,2,7,8,7,0,0,7
+Dermalosophy,Make Up Blur & Correct,Face Moisturizer,0,0,0,0,4,0,0,0,0,6,0,9,6,0,0,0,2,3,0,3,5,0,3,0,8
+Sungboon Editor,Deep Collagen Power Boosting Mask,Face Mask,0,0,2,0,3,0,0,11,1,0,0,11,6,0,0,0,3,1,1,9,8,4,0,0,7
+Drunk Elephant,C-Tango Multivitamin Eye Cream,Face Moisturizer,0,0,2,0,16,0,1,8,1,2,0,15,9,0,0,0,0,6,3,9,2,5,1,0,5
+Luxe Organix,Retinol + Bakuchiol Overnight Glow Gentle Cream,Brightening Treatment,0,0,1,0,9,0,0,10,1,0,0,4,6,0,0,0,1,1,1,5,3,6,0,0,4
+Quench botanics,Yuzu Fine Eye Gel,Face Serum,0,0,0,0,4,0,1,5,0,0,0,1,1,0,0,0,2,1,0,5,5,6,0,0,1
+Dermika,Luxury Neocollagen Anti-Age Protective Collagen Cream SPF 50,Sunscreen,0,0,0,0,1,0,2,3,0,0,0,8,4,0,0,0,11,3,0,1,7,1,5,0,7
+Sun dance,Getöntes Sonnenfluid,Face Moisturizer,0,0,0,0,4,0,5,0,3,4,0,8,4,0,0,0,0,0,0,2,3,1,4,0,7
+Eucerin,Ultra Protection Glowing UV Serum,Sunscreen,0,0,1,0,1,0,0,1,1,1,0,6,7,0,0,0,1,1,2,0,7,2,5,0,6
+Natura,Chronos Gel Creme Antissinais 30+ Dia,Face Moisturizer,0,0,0,0,5,0,2,1,1,0,0,9,7,0,0,0,6,3,0,2,6,1,5,0,6
+Farmec Romania,Gerovitak H3 Erma+ Sun SPF 50 Kids,Sunscreen,0,0,0,0,3,0,2,0,1,0,0,8,7,0,0,0,0,2,0,0,4,1,6,0,6
+Cien,Tagespflege,Face Moisturizer,0,0,0,0,2,0,2,0,2,1,0,6,3,0,0,0,7,2,0,2,6,2,3,0,6
+SIENNA,Protector Solar SPF 54,Sunscreen,0,0,0,0,0,0,0,0,1,1,0,3,1,0,0,0,1,2,0,0,3,0,5,0,3
+Caudalie,Beautifying Suncare Oil SPF30,Sunscreen,0,0,0,0,4,0,0,0,0,0,0,6,0,0,0,0,8,0,0,1,2,0,4,0,0
+Eucerin,Hyaluron-Filler Vitamine C Booster,Face Serum,0,0,0,0,2,0,1,0,1,0,0,5,3,0,0,0,1,3,1,3,4,0,0,0,2
+Retipalm,Sun Protection SPF 30,Sunscreen,0,0,0,0,4,0,1,0,1,0,0,7,3,0,0,0,0,4,0,1,2,2,4,0,5
+The Saem,Eco Earth Aqua Sun Stick SPF 50+ PA++++,Sunscreen,0,0,1,0,2,0,1,2,0,0,0,6,2,0,0,0,3,2,1,1,7,2,4,0,6
+Babaria,Antimanchas Serum Inteligente,Face Serum,0,0,0,0,1,0,2,0,1,0,0,2,2,0,1,0,6,2,1,0,4,0,0,0,3
+Nuxe,Sun Milky Spray For Face And Body - Medium Protection SPF20,Sunscreen,0,0,0,0,5,0,2,0,1,0,0,9,2,0,0,0,7,2,0,1,5,1,4,0,4
+Watsons,Aloe Face And Body Lotion SPF50+ Pa+++,Body Moisturizer,0,0,0,0,1,0,2,0,1,2,0,10,5,0,0,0,2,5,0,1,10,1,7,0,10
+SpectraBAN,Spectraban Sensitive Sunscreen SPF 30 Pa++,Sunscreen,0,0,0,0,1,0,1,0,1,0,0,1,0,0,0,0,1,2,0,0,4,1,2,0,3
+ISDIN,Everclean Ultra-Mattifying Gel Cream,Face Moisturizer,0,0,2,0,3,0,2,1,1,0,0,8,4,0,0,0,1,3,2,2,6,0,0,0,7
+Cantabria Labs Heliocare 360,Body Glow SPF 50+,Sunscreen,0,0,0,0,5,0,2,0,0,9,0,4,0,0,0,0,1,0,1,0,4,0,5,0,4
+Babylove,Sonnencreme Sensitiv Lsf 50+,Sunscreen,0,0,0,0,2,0,1,0,2,0,0,4,0,0,0,0,0,0,0,1,4,0,8,0,6
+Louis Widmer,All Day 50+ Leicht Parfümiert,Sunscreen,0,0,0,0,2,0,0,0,1,0,0,7,5,0,0,0,9,2,0,1,6,1,8,0,4
+SUNdance,Anti-Age Sonnenfluid LSF 30,Face Serum,0,0,1,0,4,0,3,2,3,0,0,7,2,0,0,0,1,0,1,2,3,1,6,0,4
+rovectin,Aqua Soothing Uv Protector,Sunscreen,0,0,1,0,4,0,0,2,0,1,0,11,2,0,0,0,4,1,1,1,6,4,1,0,4
+MediFlower,UV Filter Cica Sun Cream SPF 50+ PA++++,Sunscreen,0,0,1,0,9,0,0,2,1,1,0,11,10,0,0,0,2,3,2,1,7,8,4,0,7
+Lirene,Sun Moisturizing Protective Face Cream SPF 50,Sunscreen,0,0,0,0,3,0,1,0,0,0,0,8,4,0,0,0,1,0,0,2,4,1,4,0,4
+Coppertone,Oil Free + Shine Control 45,Face Moisturizer,0,0,1,0,3,0,0,0,1,0,0,11,5,0,0,0,0,2,0,1,4,0,4,0,8
+Dermaglós,Protector Solar FPS50 Efecto Seco,Sunscreen,0,0,0,0,2,0,1,0,1,0,0,2,2,0,0,0,1,2,0,1,2,1,6,0,4
+Banila Co,Blooming Youth Peach Collagen Multi Balm,Face Moisturizer,0,0,0,0,2,0,0,0,0,0,0,10,3,0,0,0,2,2,0,1,7,2,0,0,7
+castalia,Helioderm Protection X3 Mixed/oily Skin,Sunscreen,0,0,0,0,2,0,3,0,1,1,0,8,6,0,0,0,1,3,0,1,7,0,7,0,5
+ASDA Protect,Kids Sensitive Formula Sun Lotion High SPF 50,Sunscreen,0,0,0,0,1,0,2,0,2,1,0,4,0,0,0,0,0,0,0,1,3,2,5,0,7
+Shingmulnara,Oxygen Water Face & Body Sun Stick SPF50+pa++++ 4.8 17 Revie,Sunscreen,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,5,0,5,0,1
+Boots,SPF+ Niacinamide Moisturising Lotion SPF50,Sunscreen,0,0,1,0,1,0,1,1,2,0,0,4,2,0,0,0,0,0,1,1,3,1,5,0,5
+VILLAGE 11 FACTORY,Daily Fresh Sun Stick SPF 50+ PA++++,Sunscreen,0,0,0,0,2,0,0,0,0,0,0,9,1,0,0,0,1,2,0,0,7,3,3,0,3
+Haruharu WONDER,Black Rice Moisture Airyfit Daily Sunscreen SPF 50+ PA++++,Sunscreen,0,0,2,0,4,0,3,3,0,0,0,10,8,0,0,0,1,1,1,4,8,2,5,0,9
+Bamford,SPF 50 Sunscreen,Sunscreen,0,0,0,0,1,0,1,0,0,0,0,6,5,0,0,0,1,0,0,1,4,0,6,0,4
+Bepanthol,Tattoo Crema Solar,Sunscreen,0,0,0,0,1,0,2,0,0,1,0,5,4,0,0,0,1,0,0,0,5,1,7,0,3
+Eucerin,Age Defense Sunscreen Lotion SPF 50,Sunscreen,0,0,1,0,3,0,0,0,1,0,0,12,5,0,0,0,0,2,0,2,4,1,4,0,8
+Bioderma,Photoderm Lait Ultra SPF50+,Face Moisturizer,0,0,0,0,2,0,3,0,1,0,0,8,2,0,0,0,0,1,0,1,5,1,4,0,4
+Barr,Centella Soothing Sun Essence SPF 50+ Pa++++,Sunscreen,0,0,2,0,3,0,1,3,0,0,0,6,3,0,0,0,1,1,1,4,7,2,4,0,6
+Laboré,Acne & Oil Correct Physical Sunscreen,Sunscreen,0,0,0,0,3,0,1,1,1,1,0,2,2,0,0,0,0,2,0,1,5,5,2,0,3
+Camilla Pihl Cosmetics,Anti Aging Face Cream SPF 30,Sunscreen,0,0,0,0,1,0,2,0,0,0,0,8,4,0,0,0,0,5,0,2,2,1,3,0,2
+Ahava,Extreme Firming Neck & Décolleté Cream,Face Moisturizer,0,0,0,0,5,0,0,3,1,0,0,16,8,0,0,0,8,3,0,3,7,4,0,0,5
+Nivea Sun,Triple Protect Ultra Light Fluid,Sunscreen,0,0,0,0,1,0,1,0,1,2,0,7,1,0,0,0,1,2,0,2,5,0,7,0,4
+Bielenda Professional,Supremelab Sun Protect Satynowy Krem Ochronny SPF 50,Sunscreen,0,0,0,0,6,0,2,0,2,0,0,8,4,0,1,0,7,4,0,2,7,3,6,0,5
+Nature Republic,California Aloe Moisturizing Tone Up Sun Block SPF 50+ PA++++,Sunscreen,0,0,1,0,1,0,1,2,0,1,0,8,7,0,0,0,1,2,1,1,9,2,6,0,8
+THE LAB by blanc doux,Oligo Hyaluronic Acid Waterfull Tone-up SPF50+ PA++++,Face Moisturizer,0,0,1,0,1,0,0,2,0,3,0,9,8,0,0,0,0,2,1,2,7,1,4,0,7
+Astella,Ultimate UV Protection Sunscreen SPF50+ PA++++,Sunscreen,0,0,0,0,3,0,2,0,2,1,0,8,8,0,1,0,0,3,0,3,4,4,3,0,3
+ROUND LAB,Camellia Deep Collagen Firming Sun Serum,Face Serum,0,0,1,0,2,0,1,3,0,0,0,12,4,0,0,0,1,1,1,3,13,1,5,0,12
+Biodermal,Ultralichte Zonnefluïde SPF 50+,Sunscreen,0,0,0,0,2,0,2,0,0,0,0,3,1,0,0,0,0,1,0,1,7,0,5,0,5
+Sallve,Protetor Solar Bastão FPS 60 Muito Resistente,Sunscreen,0,0,0,0,3,0,0,1,0,0,0,7,0,0,0,0,0,1,0,0,2,0,6,0,3
+ISDIN,Fusion Water Magic Repair SPF 50,Sunscreen,0,0,0,0,3,0,2,2,1,0,0,7,5,0,0,0,2,2,0,3,6,0,5,0,8
+Madame Gie,Madame Protect Me Sun Serum SPF 30 Pa+++ With Dustress Out,Sunscreen,0,0,1,0,1,0,1,1,1,0,0,4,2,0,0,0,0,2,1,1,6,2,4,0,5
+SUNdance,Kombi Sonnenschutz Creme + Stift LSF 50,Face Moisturizer,0,0,0,0,7,0,3,0,2,0,0,14,3,0,0,0,8,1,1,2,4,0,8,0,7
+Bioderma,Repairing Cream SPF50+,Sunscreen,0,0,0,0,2,0,2,1,1,0,0,4,2,0,0,0,1,0,0,2,7,2,5,0,4
+Cancer Council,Ultra Sensitive Kids Sunscreen SPF50+,Sunscreen,0,0,0,0,2,0,1,0,2,0,0,7,4,0,0,0,1,3,0,1,2,3,6,0,4
+Suntique,I'm Aqua Sun Essence SPF50+ Pa++++,Sunscreen,0,0,0,0,4,0,1,0,0,3,0,13,2,0,0,0,3,1,1,2,10,8,7,0,7
+INGU,Aqua Defense Hybrid Sunscreen SPF 50+ Pa++++,Sunscreen,0,0,0,0,2,0,1,0,2,1,0,9,6,0,0,0,2,4,0,2,8,0,8,0,6
+Nivea Sun,Face Cream Sensitive SPF50,Face Moisturizer,0,0,0,0,3,0,1,0,1,0,0,10,4,0,0,0,0,1,1,1,4,1,5,0,8
+Centellian24,Madeca Derma Shield Cooling Sun Stick,Sunscreen,0,0,1,0,8,0,0,2,0,0,0,10,3,0,0,0,10,2,3,5,10,6,4,0,7
+CÉLEBON,Airy Fit Sun Essence SPF 50+ Pa ++++,Sunscreen,0,0,1,0,2,0,1,2,0,0,0,10,9,0,0,0,3,2,1,6,9,1,5,0,8
+DEMAR3,Vit Roise Sunscreen,Sunscreen,0,0,1,0,2,0,0,2,0,1,0,11,7,0,0,0,3,2,1,2,8,1,4,0,6
+DermaVeen,Face Ultralight Day Lotion SPF 50+,Sunscreen,0,0,0,0,2,0,1,0,1,0,0,2,0,0,0,0,1,3,0,2,4,2,6,0,3
+Hello Sunday,The One That's A Serum SPF50,Face Serum,0,0,1,0,4,0,1,1,2,0,0,5,1,0,1,0,0,0,0,2,6,3,7,0,3
+Purito,Daily Go-to Sunscreen,Sunscreen,0,0,0,0,3,0,0,0,0,1,0,10,5,0,0,0,1,1,0,0,6,2,4,0,8
+Miild,High-protection Face Cream SPF 50,Sunscreen,0,0,0,0,2,0,1,0,0,0,0,8,3,0,0,0,1,3,0,2,3,1,4,0,4
+Skinpro,Peace - Sunscreen For Sensitive Skin,Sunscreen,0,0,1,0,5,0,1,1,3,1,0,13,1,0,0,0,2,0,1,3,7,10,6,0,5
+Sebamed,Anti-redness Light Day Care,Face Moisturizer,0,0,0,0,3,0,3,1,0,2,0,8,3,0,0,0,0,1,0,1,7,3,4,0,6
+Mecca Cosmetica,To Save Face SPF50+ Brightening Sun Serum,Face Serum,0,0,1,0,2,0,3,1,2,3,0,4,3,0,0,0,1,1,1,0,5,0,1,0,2
+Barulab,Greentea Hydro Calming Sun Cream SPF 50,Sunscreen,0,0,1,0,7,0,1,2,0,0,0,6,2,0,0,0,2,1,3,2,7,8,4,0,6
+K-Secret,Vita Collagen Secret Whitening Sun Lotion,Sunscreen,0,0,1,0,4,0,0,2,0,1,0,9,8,0,0,0,2,0,2,4,7,1,5,0,5
+Suntique,I'm Vegan Sun Serum (SPF50+ Pa++++),Face Serum,0,0,0,0,2,0,1,0,1,0,0,4,6,0,0,0,1,1,0,0,6,1,5,0,4
+Benton,Air Fit UV Defense Sun Cream,Sunscreen,0,0,1,0,5,0,1,2,0,0,0,4,2,0,0,0,2,1,1,1,7,4,4,0,6
+Oriflame,Novage Skinrelief Pro Resilient Day Cream SPF 30,Sunscreen,0,0,0,0,1,0,1,1,2,0,0,3,3,0,0,0,0,2,0,1,5,0,5,0,4
+Bioderma,Photoderm Max Fluide SPF100,Face Moisturizer,0,0,0,0,2,0,2,0,1,0,0,8,3,0,0,0,2,0,0,1,5,1,5,0,3
+Solante,Gold Spf50+ Güneş Koruyucu Losyon 150ml,Sunscreen,0,0,0,0,5,0,2,0,1,1,0,7,4,0,0,0,1,5,1,1,3,3,6,0,8
+3INA,The Every Single Day SPF50,Sunscreen,0,0,0,0,3,0,1,0,1,2,0,3,1,0,0,0,1,2,0,1,4,2,4,0,3
+Lirene,Sun Face Cream-Gel SPF 30,Sunscreen,0,0,0,0,4,0,0,0,0,0,0,8,4,0,0,0,1,2,0,2,7,1,4,0,5
+Bielenda,Serum Make-Up Correcting Fluid + Serum SPF 50,Sunscreen,0,0,0,0,3,0,1,0,0,5,0,12,4,0,0,0,3,3,0,4,6,0,4,0,7
+Sensilis,Antiageing Facial Treatment Fluid Spf50+,Face Serum,0,0,0,0,5,0,2,0,1,0,0,7,2,0,0,0,1,0,1,2,7,1,5,0,10
+Etos,Mattifying Face & Décolleté Sun Protection SPF30,Sunscreen,0,0,0,0,2,0,1,0,1,0,0,8,2,0,0,0,10,3,0,1,5,0,6,0,7
+Benton,Air Fit UV Defense Sun Cream SPF50+/pa++++,Sunscreen,0,0,1,0,5,0,1,2,0,0,0,4,2,0,0,0,2,1,1,1,7,4,4,0,6
+SUNdance,Schutz & Bräune Sonnenspray LSF 50,Sunscreen,0,0,0,0,3,0,1,0,1,0,0,4,0,0,0,0,1,1,0,1,3,0,5,0,7
+Apoteket,Sollotion Spf 30,Sunscreen,0,0,0,0,2,0,1,0,0,0,0,8,3,0,0,0,0,1,0,1,3,0,5,0,5
+Ecran,Ecran Crème Solaire Visage Pour Peau Sensible Spf 50+,Sunscreen,0,0,0,0,3,0,1,0,1,1,0,10,6,0,0,0,0,4,0,0,4,2,5,0,8
+Biodermal,Biodermal Mattifying Spf 30,Sunscreen,0,0,1,0,2,0,1,0,1,0,0,6,3,0,0,0,1,1,0,2,5,0,7,0,4
+Lirene,"Cream-Gel, SPF 30 For Face, Under Makeup",Sunscreen,0,0,0,0,4,0,0,0,0,0,0,8,4,0,0,0,1,3,0,2,7,1,3,0,5
+Niche Beauty Lab,Transparent Lab Invisible Sunscreen SPF 50+,Sunscreen,0,0,0,0,3,0,0,0,0,0,0,5,0,0,0,0,0,1,0,1,3,0,3,0,2
+SUNPRO,Protector Solar Facial SPF 50 Textura Ultraligera,Sunscreen,0,0,0,0,1,0,1,0,1,0,0,6,3,0,0,0,1,4,0,2,6,0,5,0,5
+Lavozon,Sensitiv Sonnenspray LSF 50,Sunscreen,0,0,0,0,3,0,2,0,2,0,0,7,0,0,0,0,0,0,0,1,2,0,6,0,6
+Endocare,C Ferulic Edafence Serum,Face Serum,0,0,0,0,5,0,2,0,2,0,0,4,0,0,0,0,1,2,1,2,6,0,0,0,3
+Bioderma,Photoderm Max Very High Protection Spray SPF50,Sunscreen,0,0,0,0,1,0,3,0,1,0,0,3,2,0,0,0,0,0,0,0,5,1,5,0,3
+Dr.Altea,Purifying Green Tea sunscreen,Sunscreen,0,0,1,0,3,0,1,2,0,0,0,8,6,0,0,0,2,1,1,2,9,4,5,0,6
+About Me,Be Clean Water Sun SPF50+/PA++++,Face Serum,0,0,2,0,4,0,1,3,0,0,0,7,6,0,0,0,2,1,2,3,6,2,5,0,4
+Babaria,Sun Fest Bruma Facial,Sunscreen,0,0,1,0,2,0,4,1,1,0,0,4,3,0,0,0,2,8,2,1,4,3,6,0,2
+Ombia,Anti-wrinkle Care Day 5% Urea,Face Moisturizer,0,0,0,0,2,0,6,0,0,1,0,7,3,0,1,0,2,2,0,2,2,1,3,0,4
+Vaseline,Tone Up Sun Cream,Sunscreen,0,0,0,0,2,0,0,0,0,2,0,7,4,0,0,0,9,2,0,0,7,0,4,0,5
+Oriflame,Mattifying & Cooling Face Lotion,Face Moisturizer,0,0,1,0,1,0,3,0,1,0,0,2,1,0,3,0,2,3,0,1,3,3,0,0,2
+NIVEA MEN,Skin Energy Moisturising Face Cream,Face Moisturizer,0,0,0,0,1,0,1,0,1,0,0,5,2,0,0,0,6,3,0,1,3,0,0,0,3
+Sebamed,Sun Care SPF 20 Multi Protect Sun Cream,Sunscreen,0,0,0,0,1,0,2,0,1,1,0,8,5,0,0,0,2,5,0,1,3,2,6,0,7
+Dr Storm,SPF 50,Sunscreen,0,0,0,0,1,0,1,0,1,0,0,2,0,0,0,0,0,1,0,1,3,1,6,0,3
+Watsons Love My Skin,Very High Protection Sunscreen Face Serum,Sunscreen,0,0,0,0,2,0,2,0,1,1,0,8,4,0,0,0,10,4,0,1,8,0,6,0,6
+Nuxe,Melting Cream For Face SPF 50,Sunscreen,0,0,0,0,5,0,3,0,1,0,0,8,3,0,0,0,8,2,0,1,4,1,4,0,6
+One-day's you,Cica:ming Ampoule Serum,Face Serum,0,0,0,0,6,0,0,0,1,0,0,8,5,0,0,0,4,1,0,4,6,7,0,0,7
+Oséque,Hydrating Skin Perfector,Face Serum,0,0,0,0,3,0,1,5,1,0,0,3,5,0,0,0,1,1,0,14,5,6,0,0,1
+J|ON,AC Derma Remedial Cleansing Foam,Face Cleanser,0,0,2,0,10,0,3,0,2,0,0,5,4,0,3,0,6,2,1,1,5,12,0,0,3
+Anubis Barcelona,Effectivity Caviar & Pearl Serum,Face Serum,0,0,1,0,3,0,2,1,1,0,0,4,2,0,0,0,10,7,0,2,7,1,0,0,3
+CHI,Exfoliating Shampoo,Exfoliant/Scrub,0,0,0,0,2,0,1,1,0,1,0,1,3,0,0,0,7,5,0,0,7,7,0,0,5
+Burt's Bees,Intense Hydration Night Cream,Face Moisturizer,0,0,1,0,2,0,0,0,0,0,0,12,6,0,0,0,8,3,0,2,2,3,0,0,8
+Patricks,Cd2 | Moisturizing Conditioner,Conditioner,0,0,0,0,4,0,1,1,0,0,0,8,4,0,0,0,3,4,0,1,5,3,0,0,4
+Origins,Lunar New Year Treatment Lotion,Face Serum,0,0,0,0,8,0,2,0,0,0,0,5,3,0,0,0,16,3,2,2,5,10,0,0,1
+Giovanni,50:50 Balanced Hydrating-Calming Conditioner,Conditioner,0,0,0,0,3,0,1,0,0,0,0,8,4,0,0,0,2,3,1,1,1,10,0,0,4
+CYLAB,Crithmum Maritimum + Copper Peptide Repairing Jelly Mask,Face Mask,0,0,1,0,1,0,1,2,2,0,0,0,0,0,0,0,1,0,1,2,3,3,0,0,1
+Trust my sister,Scalp Serum,Face Serum,0,0,0,0,3,0,0,0,0,0,0,4,1,0,0,0,4,5,0,1,3,5,0,0,2
+Burt's Bees,Intense Hydration Eye Cream,Face Moisturizer,0,0,0,0,2,0,0,0,0,0,0,12,5,0,0,0,7,3,0,2,2,1,0,0,5
+The Mane Choice,Pink Lemonade & Coconut Super Antioxidant & Texture Beautifier Conditioner,Conditioner,0,0,0,0,5,0,1,0,0,1,0,7,3,0,0,0,6,4,1,1,4,8,0,0,4
+W. Dressroom,Moisturizing Perfume Hand Cream No.30 White Musk,Body Moisturizer,0,0,1,0,4,0,1,1,1,0,0,15,6,0,0,0,11,1,1,4,5,4,0,0,4
+MEDI-PEEL,AHA + BHA Amino Cica-Nol B5 Ampoule,Face Serum,0,0,2,0,9,0,2,1,2,0,0,1,1,0,4,0,2,3,1,12,6,7,0,0,1
+Lab Series,Energizing Gel Cream,Face Moisturizer,0,0,1,0,13,0,1,4,1,5,0,6,2,0,0,0,2,3,2,6,5,5,0,0,2
+Origins,High Potency Night-A-Mins Skin Refining Oil,Face Moisturizer,0,0,1,0,5,0,0,0,0,0,0,13,0,0,1,0,8,2,1,3,1,3,0,0,0
+Clinique,Superbalm Lip Treatment [CAN],Face Moisturizer,0,0,0,0,2,0,0,0,0,2,0,10,2,0,0,0,3,1,1,3,1,3,0,0,3
+Nuuha Beauty,Serum Sunscreen,Sunscreen,0,0,0,0,5,0,0,0,1,0,0,4,2,0,0,0,2,1,1,1,6,7,6,0,5
+January Labs,Daily Brightening Tonic,Brightening Treatment,0,0,0,0,4,0,1,0,0,0,0,2,0,0,1,0,0,0,0,2,1,7,0,0,0
+Clinique,Superdefense Night,Face Moisturizer,0,0,0,0,6,0,2,2,1,2,0,15,10,0,0,0,2,2,1,2,3,3,0,0,4
+Bobbi Brown,Extra Repair Moisturizing Balm SPF 25,Sunscreen,0,0,0,0,3,0,2,2,1,0,0,12,7,0,0,0,10,1,2,3,6,4,4,0,6
+Tenzero,Blemish Cica Essence,Face Serum,0,0,0,0,8,0,0,1,1,0,0,12,7,0,0,0,4,5,1,2,5,6,0,0,4
+one of one,Chill Out,Face Serum,0,0,0,0,4,0,1,0,1,0,0,5,2,0,0,0,4,3,0,3,3,7,0,0,1
+Topicals,Like Butter Mist,Face Serum,0,0,1,0,7,0,1,1,1,0,0,4,1,0,1,0,3,3,2,2,4,15,0,0,1
+Helia-D,RE Genero 26 Herbs Hair Strenghtening Shampoo Anti-Dandruff,Shampoo,0,0,1,0,4,0,2,1,0,0,0,3,4,0,0,0,6,5,1,1,4,12,0,0,6
+Lab Series Skincare for Men,Age Rescue+ Eye Therapy,Face Serum,0,0,1,0,10,0,1,4,1,2,0,6,3,0,0,0,1,3,2,4,3,4,0,0,4
+Elizavecca,Milky Piggy Gold Essence,Face Serum,0,0,1,0,2,0,1,2,2,1,0,5,1,0,0,0,1,2,1,2,5,6,0,0,2
+BOD,Express 4 In 1 Tan,Face Moisturizer,0,0,0,0,2,0,1,0,0,0,0,4,4,0,0,0,5,4,0,1,2,2,0,0,2
+Giovanni,Golden Wheat Deep Cleanse Shampoo,Shampoo,0,0,0,0,3,0,1,0,0,0,0,3,1,0,0,0,1,2,0,1,1,9,0,0,0
+The Creme Shop,Chococat Intense Hydration & Repairing Handy Dandy Cream,Face Moisturizer,0,0,0,0,3,0,0,0,1,0,0,7,4,0,0,0,1,0,0,2,4,5,0,0,2
+virtue,Curl Shampoo,Shampoo,0,0,0,0,8,0,3,0,4,0,0,11,7,0,1,0,9,7,0,1,6,5,0,0,10
+Darphin,Ideal Resource Perfecting Smoothing Serum,Face Serum,0,0,0,0,9,0,3,1,2,2,0,7,4,0,0,0,2,4,3,3,4,8,3,0,9
+CHI,Infra Keratin Mist Leave-in Strengthening Treatment,Hair Treatment,0,0,0,0,0,0,1,0,0,3,0,1,3,0,0,0,7,3,0,0,3,3,1,0,2
+Sungboon Editor,Meoru Podo Vita C Dark Spot Ampoule,Face Serum,0,0,1,0,9,0,2,2,1,0,0,3,0,0,0,0,1,2,4,3,5,7,0,0,3
+Giovanni,50:50 Balanced™ Hydrating-clarifying Shampoo,Shampoo,0,0,0,0,4,0,1,0,0,0,0,3,2,0,0,0,3,3,1,1,1,8,0,0,0
+Langsre,Blue Salt Cooling Toner Pad,Face Toner,0,0,0,0,5,0,1,0,1,0,0,1,1,0,3,0,3,1,0,2,6,8,0,0,2
+Clinique,Acne Solutions Acne + Line Correcting Serum,Face Serum,0,0,1,0,4,0,2,3,2,0,0,6,4,0,1,0,1,3,3,4,4,4,0,0,5
+Heveblue,Phyton Squa Hyal Blue Gel Cream,Face Moisturizer,0,0,0,0,5,0,0,0,1,0,0,1,0,0,0,0,1,1,1,4,4,6,0,0,1
+12 GRABS,Octuple Hyaluron Moist Toner,Face Toner,0,0,1,0,2,0,0,2,1,0,0,2,1,0,0,0,0,1,1,4,4,5,0,0,2
+MEDI-PEEL,Melanon X Ampoule,Face Serum,0,0,2,0,9,0,3,8,1,0,0,13,8,0,0,0,8,2,5,5,6,8,0,0,4
+MEDI-PEEL,Phyto Cica-nol Calming Pad,Face Serum,0,0,0,0,6,0,0,0,2,0,0,5,1,0,1,0,3,1,0,14,5,7,0,0,1
+Farm Stay,Dermacube Cica & Aloevera Daily Care Cream,Face Moisturizer,0,0,0,0,2,0,1,1,2,0,0,4,2,0,0,0,0,2,0,1,6,3,0,0,1
+Patricks,Sh1 | Daily Thickening Shampoo,Shampoo,0,0,0,0,4,0,1,1,1,0,0,5,5,0,0,0,5,2,0,0,4,3,0,0,6
+MIMU MIMU,Heating Calming I.n.g Cleansing Oil,Face Cleanser,0,0,0,0,9,0,0,0,0,0,0,3,2,0,0,0,2,2,1,4,4,7,0,0,0
+Naobay,Detox Energizing Facial Mist Toner,Face Toner,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,2,4,1,2,3,4,0,0,1
+Murdock London,Monmouth Sea Salt Spray,Face Moisturizer,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,7,2,0,0,3,1,0,0,3
+auau,Hyaluron Moisture Cream,Face Moisturizer,0,0,0,0,2,0,1,0,1,0,0,12,4,0,0,0,2,0,1,3,6,6,0,0,4
+Dr.Riva,Cleansing Gel,Face Cleanser,0,0,1,0,4,0,1,1,0,0,0,10,2,0,2,0,4,2,0,2,1,6,0,0,2
+Hanskin,Hyaluron Eye Serum,Face Serum,0,0,0,0,5,0,1,0,1,0,0,3,1,0,0,0,3,1,0,4,7,3,0,0,5
+Medicube,Red Serum,Face Serum,0,0,3,0,9,0,1,0,1,1,0,3,3,0,1,0,4,6,0,1,10,11,0,0,6
+DRMTLGY,Essential-11 Hydrating Cleanser,Face Moisturizer,0,0,0,0,0,0,2,0,1,0,0,4,4,0,0,0,6,2,0,2,1,4,0,0,3
+Helia-D,RE Genero 26 Herbs Regenerating Essence Against Hair Loss,Face Serum,0,0,1,0,4,0,0,1,0,0,0,2,0,0,0,0,2,1,1,0,2,12,0,0,1
+Pure Heals by Nature Village,Pore Clear Black Charcoal Cleansing Foam,Face Cleanser,0,0,1,0,4,0,1,0,1,0,0,6,6,0,0,0,3,3,0,2,5,6,0,0,3
+BIOSILK,Silk Therapy Shampoo,Shampoo,0,0,0,0,0,0,1,0,0,0,0,1,4,0,0,0,7,2,0,0,3,3,0,0,1
+Bobbi Brown,Extra Eye Repair Cream,Face Moisturizer,0,0,0,0,5,0,0,1,1,0,0,13,8,0,0,0,4,2,2,5,5,5,0,0,5
+Aveda,Recovery Serum,Face Serum,0,0,0,0,7,0,1,0,0,0,0,9,2,0,0,0,2,3,1,4,7,3,0,0,5
+RiRe,All Kill Refresh Body Scrub,Exfoliant/Scrub,0,0,0,0,1,0,1,0,1,0,0,5,2,0,0,0,1,2,0,1,5,1,0,0,3
+Darphin,L'Institut Youth Resurfacing Peel,Exfoliant/Scrub,0,0,1,0,1,0,1,0,1,0,0,0,0,0,2,0,5,4,1,1,4,3,0,0,1
+Dermal Therapy,Sensitive Skin Wash,Face Moisturizer,0,0,0,0,0,0,3,0,0,0,0,2,4,0,1,0,1,4,0,1,3,1,0,0,6
+G9 Skin,AC Solution Toner,Face Toner,0,0,4,0,3,0,1,2,1,0,0,1,0,0,1,0,3,6,1,1,5,8,0,0,3
+Burt's Bees,Hydrating Overnight Mask,Face Mask,0,0,1,0,2,0,0,0,0,0,0,13,5,0,0,0,8,3,0,2,3,1,0,0,5
+Fraijour,Retin-collagen 3d Core Cream,Face Moisturizer,0,0,0,0,6,0,1,11,1,0,0,19,4,0,0,0,3,1,1,4,6,4,0,0,3
+RiRe,All Kill Mud Stick Pack,Face Moisturizer,0,0,0,0,2,0,0,0,0,4,0,3,2,0,0,0,9,1,0,1,6,3,1,0,5
+TFIT,Micro Bubble Clear Foam,Face Serum,0,0,0,0,2,0,0,0,1,0,0,3,1,0,0,0,2,1,0,13,5,5,0,0,6
+Dewytree,Urban Shade Blue Tone Up Sun SPF 50+ Pa++++,Sunscreen,0,0,1,0,3,0,0,2,1,6,0,13,4,0,0,0,1,2,1,2,9,5,5,0,6
+CHI,Color Illuminate Platinum Blonde Purple Shampoo And Conditioner,Shampoo,0,0,0,0,0,0,1,0,1,1,0,2,5,0,0,0,6,2,0,0,3,3,0,0,4
+NUT Botanicals,Marinebio 5% Niacinamide Serum,Face Serum,0,0,1,0,2,0,0,1,1,0,0,1,0,0,0,0,0,2,2,1,2,9,0,0,1
+Origins,Make A Difference™ Night Overnight Hydrating Repair Cream,Face Moisturizer,0,0,0,0,5,0,2,0,1,0,0,12,5,0,0,0,9,2,0,4,6,2,0,0,6
+Anivagene,Shampoo Fortifying & Energizing Woman,Shampoo,0,0,1,0,2,0,1,1,1,1,0,3,4,0,0,0,4,2,1,0,3,4,0,0,0
+Bobbi Brown,Extra Repair Nourishing Milk Moisturizer,Face Moisturizer,0,0,0,0,3,0,0,1,1,0,0,12,4,0,0,0,7,2,0,5,3,2,0,0,3
+Feel free,Hydro Comfort Płyn Micelarny Do Oczyszczania Twarzy Z Aloesem,Face Serum,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,3,2,0,1,3,2,0,0,0
+dragonfly bath & body,Fragrance Free Body Wash,Body Wash,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,2,0,1,1,3,0,0,1
+Feel free,Facial Cleansing Milk,Face Cleanser,0,0,0,0,2,0,1,0,0,0,0,7,3,0,0,0,4,4,0,1,4,3,0,0,3
+torf tołpa,Moisturizing Enzyme Peeling Mask,Face Mask,0,0,1,0,1,0,3,0,2,0,0,5,2,0,1,0,2,9,0,3,5,4,0,0,4
+KEENONIKS,Potentilla Calming Cream Toner (Intensive Barrier Care Cream Toner),Face Toner,0,0,0,0,2,0,1,0,0,0,0,3,3,0,1,0,2,1,1,1,4,5,0,0,0
+Trader Joe's,Brazil Nut Body Butter,Body Moisturizer,0,0,0,0,5,0,1,0,1,0,0,11,3,0,0,0,5,4,0,1,1,7,0,0,4
+Sungboon Editor,Meoru Podo Vita C Dark Spot Cream,Brightening Treatment,0,0,1,0,7,0,0,2,1,0,0,12,8,0,0,0,1,2,4,4,4,7,0,0,5
+Dr. Althea,0.1% Gentle Retinol Serum,Face Serum,0,0,0,0,3,0,0,2,1,0,0,5,4,0,0,0,1,1,0,1,4,4,0,0,6
+REN Clean Skincare,Atlantic Kelp & Magnesium Anti-fatigue Body Cream,Body Moisturizer,0,0,0,0,3,0,1,0,1,0,0,9,3,0,1,0,8,3,0,2,3,1,0,0,7
+Scinic,Pure Calendula Calming Serum Mist,Face Serum,0,0,0,0,4,0,2,0,2,0,0,8,0,0,0,0,4,1,0,5,4,7,0,0,1
+Dermalogica,Age Bright Spot Fader,Face Moisturizer,0,0,2,0,2,0,5,1,2,0,0,6,1,0,2,0,5,6,2,1,5,4,0,0,7
+Topicals,Brightening & Clearing Mist,Brightening Treatment,0,0,1,0,6,0,1,1,1,0,0,2,1,0,1,0,2,2,6,2,3,9,0,0,1
+Coony,Multi-active Renewing Cream,Face Moisturizer,0,0,3,0,7,0,0,7,1,0,0,16,9,0,0,0,3,1,1,6,6,7,0,0,5
+Aveda,Tulasāra™ Bright Concentrate,Face Serum,0,0,0,0,8,0,3,1,2,2,0,9,3,0,0,0,5,3,2,3,4,9,0,0,6
+MEDI-PEEL,Red Lacto Collagen Pore Lifting Mask,Face Mask,0,0,1,0,6,0,0,2,1,0,0,2,0,0,0,0,0,2,1,13,4,7,0,0,3
+AOU,Tone-up Dazzling Cream,Face Moisturizer,0,0,1,0,3,0,0,1,1,1,0,5,1,0,0,0,1,1,1,2,6,3,1,0,3
+Pilot,Finest Face Cleanser,Face Cleanser,0,0,0,0,2,0,0,0,1,2,0,2,2,0,0,0,3,2,0,2,2,4,0,0,6
+REN,Atlantic Kelp And Magnesium Energising Hand Lotion,Face Moisturizer,0,0,0,0,4,0,2,0,0,0,0,10,2,0,0,0,7,2,0,1,2,3,0,0,5
+Epais,Eyelash Essential Serum,Face Serum,0,0,1,0,12,0,2,5,1,0,0,7,3,0,0,0,1,2,1,2,5,16,0,0,2
+BANOBAGI,Calming Care Moisturizing Cream,Face Moisturizer,0,0,1,0,4,0,1,2,1,0,0,12,4,0,0,0,1,1,1,6,7,4,0,0,3
+ma:nyo,Pure & Deep Cleansing Foam,Face Cleanser,0,0,1,0,1,0,2,0,1,0,0,8,9,0,0,0,6,3,0,4,3,2,0,0,2
+JEJU:EN,Foaming Cleanser,Face Moisturizer,0,0,1,0,4,0,1,0,1,0,0,6,6,0,0,0,3,3,0,2,5,6,0,0,3
+Botanics,Hydration Burst Day Cream,Face Moisturizer,0,0,0,0,3,0,1,0,1,0,0,4,1,0,0,0,2,6,0,2,5,3,0,0,3
+Lab Series,MAXELLENCE THE DUAL CONCENTRATE,Face Serum,0,0,0,0,7,0,3,3,1,2,0,8,9,0,0,0,2,2,3,5,5,4,0,0,7
+The Creme Shop X Hello Kitty,Moisturizing Hand Crème - Kawaii Peach,Face Moisturizer,0,0,0,0,1,0,0,0,1,0,0,6,4,0,0,0,3,2,0,2,5,2,0,0,2
+About Me,Soop Calming Aqua Serum,Face Serum,0,0,0,0,8,0,2,0,1,0,0,3,1,0,0,0,4,1,1,3,6,7,0,0,8
+BRTC,Vitalizer-C Ampoule,Face Serum,0,0,2,0,7,0,1,3,1,0,0,8,6,0,0,0,3,7,1,15,8,5,0,0,3
+The Mane Choice,The Alpha Easy On The Curls - Detangling Hydration Shampoo,Shampoo,0,0,0,0,6,0,1,0,0,1,0,5,2,0,0,0,6,4,0,1,4,7,1,0,6
+Fraijour,Pro-moisture Creamy,Face Serum,0,0,0,0,10,0,5,0,2,0,0,7,4,0,2,0,5,2,2,4,6,13,0,0,2
+Celeteque,Céleteque Skin Defense Soft Matte Moisturizer SPF57,Face Serum,0,0,0,0,6,0,1,0,1,0,0,6,4,0,0,0,2,2,1,2,3,6,4,0,7
+Ultrasun,Face Tinted Spf50+ Ivory,Sunscreen,0,0,0,0,6,0,2,0,0,6,0,7,4,0,0,0,0,0,1,2,6,1,6,0,5
+Cliniderm,Sollotion Spf50,Sunscreen,0,0,0,0,2,0,2,0,0,0,0,7,2,0,0,0,0,2,0,3,3,0,7,0,5
+Avene,Very High Protection Lotion Spf 50+,Sunscreen,0,0,0,0,1,0,0,0,1,1,0,13,3,0,0,0,1,1,0,1,4,0,5,0,4
+Needs Face,Protetor Solar Facial Needs Fps 30,Sunscreen,0,0,0,0,1,0,1,0,1,0,0,6,3,0,0,0,1,2,0,0,4,0,5,0,6
+Eveline,Retinol & Niacinamide Concentrated Ultralifting Cream 50+,Face Serum,0,0,1,0,5,0,1,3,1,0,0,9,2,0,0,0,6,4,1,2,4,0,4,0,4
+Bioderma,Photoderm Max Lait Spf100 Suncare For Face And Body (Sensitive Skin),Sunscreen,0,0,0,0,2,0,2,0,1,0,0,4,1,0,0,0,0,3,0,0,4,1,4,0,2
+Ella,Shine Bright Whitening Body Lotion,Brightening Treatment,0,0,1,0,1,0,1,1,0,2,0,3,1,0,0,0,1,2,2,1,3,1,3,0,3
+Angstrom,Protect Crema Solare Anti Età SPF 50+,Sunscreen,0,0,1,0,3,0,2,1,0,0,0,7,3,0,0,0,1,2,2,3,4,0,7,0,5
+Re'equil,O Free Sunscreen,Sunscreen,0,0,0,0,0,0,2,0,2,0,0,9,3,0,0,0,0,0,0,1,12,1,4,0,9
+A-Derma,Protect Cream SPF 50+,Sunscreen,0,0,0,0,2,0,1,0,1,0,0,10,4,0,0,0,1,1,0,0,5,0,4,0,3
+Avene,Solaire Fluid Spf50+ Dry Touch fragrance-free,Sunscreen,0,0,0,0,1,0,0,0,1,0,0,11,4,0,0,0,0,2,0,0,6,0,4,0,5
+Isispharma,Uveblock SPF50+ Spray Kids,Sunscreen,0,0,0,0,1,0,1,0,2,0,0,5,4,0,0,0,0,2,0,1,5,0,5,0,3
+Bandi,Pre-D3 Advanced Moisturising Cream Spf 50,Sunscreen,0,0,0,0,7,0,2,0,2,0,0,6,3,0,0,0,1,5,1,1,3,2,3,0,4
+Bioderma,Photoderm Kid Mousse,Face Moisturizer,0,0,0,0,2,0,2,0,1,0,0,4,1,0,0,0,0,0,0,1,6,1,3,0,4
+Target Pro By Watsons,Essential Daily Moisturiser SPF 27,Sunscreen,0,0,1,0,7,0,0,1,1,0,0,7,2,0,0,0,0,2,3,5,6,8,3,0,3
+Helia-D,Officina Youth Concept Facial Hydrating Cream SPF 45,Sunscreen,0,0,0,0,1,0,1,0,0,0,0,3,2,0,1,0,7,2,0,6,6,1,5,0,2
+Uriage,Bariésun Ultra-light Fluid SPF50+,Sunscreen,0,0,0,0,3,0,1,0,1,0,0,5,2,0,0,0,1,1,0,1,3,0,4,0,4
+Cover-3,Sunscreen UV Protection Lotion 5,Sunscreen,0,0,0,0,0,0,2,0,1,1,0,5,1,0,0,0,2,2,0,1,3,0,4,0,2
+Skin Aqua,UV Whitening Milk SPF 50,Sunscreen,0,0,0,0,2,0,0,0,1,1,0,4,3,0,0,0,1,4,1,6,4,1,3,0,4
+Bioderma,Photoderm  Max Crème Spf 100,Sunscreen,0,0,0,0,2,0,2,0,1,0,0,4,1,0,0,0,0,3,0,0,4,1,4,0,3
+Base,Undereye Cream With SPF,Sunscreen,0,0,0,0,3,0,1,0,1,0,0,6,6,0,1,0,1,3,0,1,5,1,5,0,5
+AestheticsRX,Daily Moisturiser,Face Moisturizer,0,0,0,0,4,0,0,0,1,0,0,5,3,0,0,0,5,3,2,3,5,0,3,0,6
+Uriage,Hyséac High Protection Emulsion For Combination To Oily Skin Spf50+,Sunscreen,0,0,0,0,1,0,2,0,1,0,0,2,1,0,0,0,1,3,0,2,5,0,3,0,5
+Arias by Lara Dutta,Superlight Daily Defense Sunscreen,Sunscreen,0,0,0,0,2,0,0,0,0,1,0,3,0,0,0,0,0,1,0,0,1,0,5,0,1
+Eveline,Vitamin C 3x Action Moisturizing Protective Face Cream SPF 50,Sunscreen,0,0,0,0,7,0,3,0,1,1,0,7,3,0,0,0,6,4,2,1,5,1,6,0,4
+Bioderma,Photoderm Kid Milk for Children SPF50+,Face Moisturizer,0,0,0,0,2,0,2,0,1,1,0,5,3,0,0,0,0,0,0,1,6,1,3,0,2
+Kemans,Daily UV ProTech Face & Body Sunscreen,Sunscreen,0,0,0,0,1,0,1,0,1,4,0,12,9,0,0,0,0,2,0,1,5,1,3,0,11
+Elyn’s Lab,Holy Grail,Sunscreen,0,0,0,0,1,0,1,0,0,0,0,4,3,0,0,0,0,2,0,1,2,2,5,0,1
+Fresh Skinlab,Jeju Aloe Ice 3 In 1 Niacinamide Dark Spot Serum Cream SPF 30,Sunscreen,0,0,2,0,3,0,0,1,0,1,0,5,1,0,0,0,2,2,1,0,4,2,6,0,8
+L'Oreal,UV Perfect City Resist Spf50+ Pa++++,Sunscreen,0,0,0,0,2,0,1,1,1,0,0,3,3,0,0,0,10,4,0,1,9,0,6,0,6
+Gramon Millet,Suncare 100 Skin-repair,Face Moisturizer,0,0,1,0,2,0,1,1,1,0,0,9,2,0,0,0,0,3,1,1,3,0,5,0,5
+Bioderma,Photoderm Sensitive SPF50+,Face Serum,0,0,1,0,4,0,2,1,1,0,0,6,5,0,0,0,0,1,1,0,9,2,4,0,3
+Ultrasun,Bodysun Gel 50,Sunscreen,0,0,0,0,5,0,2,0,0,1,0,6,4,0,0,0,0,0,1,2,6,0,6,0,4
+Recamier,Tanga Protect-o-sol. Bloqueador En Crema SPF 50,Sunscreen,0,0,0,0,1,0,2,0,0,1,0,9,6,0,0,0,1,3,0,0,2,1,5,0,5
+Arcutis,Cutiban Sunscreen,Sunscreen,0,0,1,0,3,0,1,0,1,1,0,3,2,0,0,0,2,1,1,1,4,0,8,0,3
+Avene,Mat Perfect FPS 60 Com Cor,Face Moisturizer,0,0,0,0,2,0,1,0,1,4,0,12,5,0,0,0,0,1,1,1,5,0,4,0,6
+A-Derma,Protect Lotion Very High Protection Spf 50+,Sunscreen,0,0,0,0,2,0,1,0,1,0,0,9,4,0,0,0,1,1,0,1,4,0,4,0,2
+MyIDi,Sun Touch SPF 30+,Sunscreen,0,0,0,0,6,0,2,0,0,0,0,7,3,0,0,0,2,1,1,6,4,3,3,0,3
+Ultrasun,Anti-aging And Anti-pigmentation Hand Cream,Brightening Treatment,0,0,1,0,3,0,4,1,0,1,0,15,7,0,0,0,1,1,1,4,5,2,6,0,7
+IQ,Dermaquench Anti-ageing Day Cream Dry & Sensitive Skin,Face Moisturizer,0,0,1,0,6,0,1,1,1,0,0,9,4,0,0,0,10,4,0,4,3,2,5,0,2
+Dermatouch,Matte Touch Sunscreen SPF 50 Pa+++,Sunscreen,0,0,0,0,5,0,0,0,0,1,0,4,1,0,0,0,0,3,2,2,4,1,6,0,4
+sunscreen  SPF 50,Saipo,Sunscreen,0,0,0,0,6,0,1,0,1,2,0,7,4,0,0,0,0,5,2,0,6,3,6,0,6
+Lotus Herbals,Safe Sun UV Screen Matte Gel Ultra Soothing Sunscreen। Pa+++ And SPF50,Sunscreen,0,0,0,0,1,0,1,0,0,0,0,4,1,0,0,0,1,3,0,0,3,1,5,0,3
+Dermina,Fluide Ultra-léger SPF50+,Sunscreen,0,0,0,0,1,0,2,0,1,0,0,6,2,0,1,0,1,2,0,1,6,1,6,0,3
+Acnemy,SPF,Sunscreen,0,0,3,0,2,0,2,1,0,2,0,4,3,0,1,0,1,4,1,3,3,1,5,0,5
+Sunplay Skin Aqua,UV Perfect Mild Milk SPF 50+ Pa++++,Sunscreen,0,0,0,0,5,0,5,1,2,0,0,8,4,0,0,0,1,3,0,4,6,3,8,0,8
+In2it,Hya Cica Expert Protection Serum SPF50 Pa+++,Face Serum,0,0,1,0,3,0,1,1,1,0,0,5,4,0,0,0,1,5,1,2,3,4,4,0,5
+Kojie san,Skin Lightening Body Lotion SPF 25,Sunscreen,0,0,1,0,3,0,2,1,2,0,0,9,5,0,0,0,1,5,3,0,2,3,5,0,4
+Ultrasun,Kids Spf50+,Sunscreen,0,0,0,0,7,0,2,0,0,1,0,8,5,0,0,0,0,0,1,2,6,1,6,0,4
+Ajanta Pharma Ltd,Sunstop Gold Sunscreen SPF 55,Sunscreen,0,0,0,0,1,0,0,0,0,0,0,5,1,0,0,0,0,4,0,1,3,0,5,0,5
+Meditopics,Zonbescherming SPF 50,Sunscreen,0,0,0,0,0,0,0,0,0,0,0,3,1,0,0,0,1,2,0,0,3,0,4,0,1
+Biodermal,Zonnemelk Gevoelige Huid SPF 30,Sunscreen,0,0,0,0,1,0,1,0,0,0,0,7,2,0,0,0,0,2,0,2,3,0,5,0,6
+Klorane,Sublime Sun Cream SPF 50,Sunscreen,0,0,0,0,3,0,0,0,1,3,0,13,7,0,0,0,3,1,0,1,4,0,4,0,5
+Boots,Collagen Day Cream,Face Moisturizer,0,0,0,0,1,0,3,1,2,0,0,6,4,0,0,0,4,2,0,1,8,0,6,0,6
+Bioderma,Photoderm Antioleosidade FPS 70,Sunscreen,0,0,0,0,2,0,1,0,1,0,0,3,4,0,0,0,2,1,0,1,3,1,5,0,7
+Acnemy,Zitcontrol SPF50,Sunscreen,0,0,3,0,2,0,2,1,0,2,0,5,3,0,1,0,1,4,1,3,3,1,5,0,5
+RiRe,Silky & Light Sun Milk SPF 50+,Sunscreen,0,0,1,0,1,0,0,2,1,0,0,7,1,0,0,0,1,4,1,1,8,5,5,0,3
+Ziaja Med,Tinted SPF 50 Cream Natural,Sunscreen,0,0,0,0,1,0,1,0,1,4,0,5,3,0,0,0,4,3,0,1,2,1,5,0,3
+Albion,Glaze Dew Foundation,Face Moisturizer,0,0,0,0,4,0,2,0,0,3,0,9,9,0,0,0,2,2,1,0,3,2,5,0,8
+Dot & Key,Swim + Sports Sunscreen SPF 50 Pa+++,Sunscreen,0,0,0,0,2,0,1,0,3,1,0,7,4,0,1,0,0,3,0,7,4,0,5,0,6
+Skin Aqua,Super Moisture Barrier UV Essence SPF 50+ Pa++++,Sunscreen,0,0,0,0,1,0,1,0,1,0,0,4,1,0,0,0,1,1,0,2,6,0,5,0,4
+Azclear,Action Day Moisturiser (2021 Reformulation),Sunscreen,0,0,1,0,1,0,1,1,0,1,0,4,3,0,0,0,0,2,1,1,3,0,3,0,3
+Sol-or,Protector Solar Piel Mixta,Sunscreen,0,0,0,0,4,0,0,0,1,1,0,6,2,0,0,0,0,4,0,1,3,2,5,0,5
+Neutrogena,Hydro Boost Face Lotion Sunscreen,Sunscreen,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,6,0,0
+Luxe Organix,Luxe Organix Bakuchiol + Niacinamide Nano-complex Serum Lotion SPF 50,Sunscreen,0,0,1,0,3,0,1,2,1,2,0,10,4,0,0,0,1,5,1,3,5,2,7,0,8
+Leeford,Sunshade Sunscreen Lotion,Sunscreen,0,0,0,0,1,0,0,0,1,0,0,4,3,0,0,0,3,1,0,0,4,0,3,0,3
+Daily dose,Sunscreen,Sunscreen,0,0,1,0,7,0,1,1,0,1,0,10,3,0,0,0,1,4,1,2,1,7,3,0,4
+Schrammek,Optimum Protection Cream,Sunscreen,0,0,0,0,5,0,3,0,2,0,0,5,4,0,1,0,1,6,0,2,4,2,6,0,4
+Island Tribe,SPF50 Light Lotion,Sunscreen,0,0,0,0,1,0,1,0,1,2,0,5,5,0,0,0,0,2,0,1,4,0,6,0,5
+ISDIN,Fotoprotetor Gel Cream,Face Moisturizer,0,0,0,0,2,0,0,0,1,0,0,4,2,0,0,0,2,1,0,0,6,1,5,0,9
+Bioderma,Photoderm Max SPF50+ Family Milk,Face Moisturizer,0,0,0,0,2,0,2,0,0,0,0,4,3,0,0,0,0,0,0,1,6,1,3,0,5
+Skintific,5x Ceramide Serum Sunscreen SPF 50+ Pa++++,Sunscreen,0,0,0,0,6,0,0,0,1,0,0,5,3,0,0,0,0,0,1,7,5,5,4,0,6
+Mecca Cosmetica,To Save Face Spf 30 Mineral Gel Cream,Sunscreen,0,0,0,0,1,0,0,0,1,4,0,4,1,0,0,0,0,0,0,1,3,1,3,0,3
+Clarins,Youth-Protecting Sunscreen SPF 50+,Sunscreen,0,0,0,0,2,0,0,0,1,0,0,6,2,0,0,0,1,2,0,1,5,1,6,0,5
+Clinicos,Sensitive Truth Sunscreen SPF 50 PA++++,Sunscreen,0,0,1,0,4,0,1,1,1,0,0,9,6,0,0,0,3,2,1,1,5,7,5,0,6
+Eiem Beauty,Sunsecure Brightening Sunscreen,Sunscreen,0,0,1,0,9,0,2,1,1,2,0,9,8,0,0,0,0,3,2,4,7,6,8,0,7
+Melano CC,® UV Milk SPF 50,Sunscreen,0,0,0,0,3,0,1,0,1,2,0,1,1,0,0,0,10,0,2,1,4,0,5,0,9
+Ultra Violette,Dream Screen SPF50 Tinted Veil,Sunscreen,0,0,0,0,1,0,2,0,2,2,0,4,3,0,0,0,1,2,0,1,4,0,4,0,6
+Principia,Protetor Solar Ps-01 FPS 60,Sunscreen,0,0,1,0,1,0,1,1,1,0,0,5,4,0,0,0,0,1,1,0,4,0,6,0,8
+Ultrasun Professional Protection,Face Anti-Pigmentation Spf50+,Brightening Treatment,0,0,0,0,7,0,3,0,1,1,0,7,4,0,0,0,1,0,3,2,6,1,6,0,4
+Needly,Vegan Mild Moisture Sun SPF 50+ Pa++++,Sunscreen,0,0,1,0,4,0,1,2,0,0,0,7,2,0,0,0,3,1,1,6,7,3,4,0,8
+Solved Labs,Sundrops Glow SPF 30 Pa+++,Sunscreen,0,0,0,0,4,0,1,0,1,0,0,3,3,0,0,0,1,3,1,3,6,3,4,0,5
+Mantecorp,Epidrat Mat FPS 30,Sunscreen,0,0,0,0,3,0,2,0,1,0,0,6,2,0,0,0,8,3,0,1,3,0,5,0,4
+M&S,Sensitive Moisture Protect Sun Lotion Spf30,Sunscreen,0,0,0,0,2,0,1,0,1,0,0,6,4,0,0,0,2,7,0,0,3,2,5,0,3
+Neutrogena,Sun Fresh Protector Solar Crema FPS90,Sunscreen,0,0,0,0,2,0,0,0,1,0,0,5,4,0,0,0,4,1,0,1,2,1,7,0,5
+Clensta,Red Aloevera Sunscreen,Sunscreen,0,0,1,0,0,0,0,1,0,1,0,4,0,0,0,0,1,2,1,1,3,1,5,0,3
+Bielenda,Youth Exosomes Concentrated Anti-Wrinkle Illuminating Serum SPF 50,Sunscreen,0,0,2,0,4,0,1,1,1,1,0,12,6,0,0,0,11,5,3,5,10,3,6,0,7
+RoC,Soleil Protect Fluide High Tolerance Comfort Fluid SPF 50,Sunscreen,0,0,0,0,1,0,1,0,2,0,0,6,7,0,0,0,0,1,1,1,3,0,5,0,6
+Creamy,Watery Lotion Protetor Solar,Sunscreen,0,0,0,0,2,0,1,0,1,0,0,3,1,0,0,0,0,3,0,1,4,0,6,0,2
+Helia-D,Sunscreen For Sensitive Skin,Sunscreen,0,0,0,0,0,0,2,0,0,0,0,7,5,0,0,0,1,4,0,2,3,3,5,0,6
+St. Botanica,Bulgarian Rose Otto Glow Mattifying Moisturizer SPF30,Brightening Treatment,0,0,0,0,1,0,0,0,1,2,0,5,2,0,0,0,1,2,0,1,3,2,6,0,4
+Skinsensual,BB Krem,Face Serum,0,0,1,0,4,0,0,1,1,1,0,6,4,0,0,0,2,2,3,4,5,3,6,0,2
+Etude House,UV Double Cut Aqua Sun Essence,Sunscreen,0,0,2,0,3,0,2,3,0,0,0,7,3,0,0,0,5,1,2,3,7,0,4,0,6
+Dr. Ceuracle,Cica Regen Waterproof Sun SPF50+ Pa++++,Face Serum,0,0,1,0,6,0,3,2,1,0,0,9,2,0,0,0,1,1,2,2,8,3,4,0,7
+Cépage,Filtres Fluide 50+,Sunscreen,0,0,0,0,1,0,1,0,0,0,0,5,3,0,0,0,2,5,0,0,7,0,4,0,4
+Shakeup Cosmetics,Let's Face It BB Tinted Moisturiser SPF 25,Sunscreen,0,0,0,0,2,0,2,0,1,5,0,13,8,0,0,0,3,3,0,2,7,0,4,0,8
+4U2,Everyday Tone Up UV Gel SPF 50+ Pa++++,Sunscreen,0,0,0,0,2,0,0,0,1,1,0,10,7,0,0,0,0,3,1,1,6,0,5,0,10
+Pet' it,Protect' It,Sunscreen,0,0,0,0,0,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,4,0,3,0,3
+Ultrasun,Face Fluid Tinted SPF 50 Pa++++,Sunscreen,0,0,0,0,6,0,0,0,0,6,0,6,4,0,0,0,0,0,1,2,6,1,6,0,5
+Ichikami,Smooth And Sleek Shampoo,Shampoo,0,0,0,0,1,0,1,0,1,1,0,3,3,0,0,0,1,2,0,0,4,0,0,0,7
+Dear Beaute,Himawari Smooth & Repair Oil In Shampoo,Shampoo,0,0,0,0,0,0,1,0,1,1,0,1,3,0,0,0,1,1,0,1,3,0,0,0,5
+Kracie,Smoothing Shampoo,Shampoo,0,0,0,0,1,0,1,0,1,1,0,3,4,0,0,0,1,1,0,0,4,0,0,0,7
+Ichikami,Soft Moisture Shampoo,Shampoo,0,0,0,0,2,0,1,0,1,1,0,4,2,0,0,0,2,1,0,0,4,0,0,0,7
+Pravana,Purify & Revive Cleanse Shampoo,Shampoo,0,0,0,0,0,0,1,0,2,0,0,2,5,0,1,0,5,6,0,1,2,0,0,0,4
+Kracie,Ichikami Smoothing Shampoo,Shampoo,0,0,0,0,1,0,1,0,1,1,0,3,4,0,0,0,1,2,0,0,4,0,0,0,7
+Milbon,Smoothing Shampoo Fine Hair,Shampoo,0,0,0,0,0,0,2,0,0,0,0,2,3,0,1,0,4,0,0,2,7,2,0,0,4
+Milbon,Moisture Shampoo,Shampoo,0,0,0,0,0,0,4,0,0,0,0,2,4,0,0,0,5,2,1,2,3,2,0,0,4
+Germaine de capuccini,B-calm | Fundamental Moisturizing Light Cream,Face Moisturizer,0,0,0,0,2,0,2,0,0,0,0,5,4,0,0,0,2,2,0,1,5,1,0,0,1
+Germaine de capuccini,B-Calm Sos Intensive Care Facial Balm,Face Moisturizer,0,0,0,0,1,0,1,0,0,0,0,4,1,0,0,0,2,2,0,2,5,1,0,0,1
+Germaine De Cappuccini,Fundamental Moisturizing Cream Light,Face Moisturizer,0,0,0,0,3,0,2,0,0,0,0,9,4,0,0,0,2,2,1,1,5,2,0,0,1
+Milbon,Restorative (Repair) Shampoo,Shampoo,0,0,0,0,0,0,3,0,0,0,0,4,5,0,1,0,3,3,0,1,4,2,0,0,5
+Canmake,Lash Care Essence,Face Serum,0,0,0,0,3,0,1,4,0,0,0,4,3,0,0,0,0,1,0,2,3,1,0,0,4
+iS Clinical,Cleansing Complex,Face Cleanser,0,0,0,0,5,0,0,1,0,0,0,1,1,0,0,0,1,2,0,2,2,3,0,0,1
+Garnier Green Labs,Pinea-C Brightening Gel Washable Cleanser,Brightening Treatment,0,0,0,0,2,0,2,0,0,0,0,0,1,0,1,0,1,2,1,1,4,1,0,0,3
+Brevena,Night Renewal Serum,Face Serum,0,0,1,0,2,0,0,1,1,0,0,0,1,0,0,0,1,3,3,2,1,3,0,0,1
+Dr.ci labo,Vc100 Essence Lotion Ex Special,Face Serum,0,0,1,0,2,0,3,1,1,1,0,3,4,0,1,0,2,1,3,4,7,0,0,0,1
+La Roche-Posay,Effaclar Pore-Refining Anti-Aging Face Serum,Face Serum,0,0,0,0,0,0,4,0,1,0,0,1,2,0,2,0,0,1,0,0,5,0,0,0,2
+SkinCeuticals,Purifying Cleanser With Glycolic Acid,Acne Treatment,0,0,0,0,1,0,2,0,0,0,0,0,1,0,1,0,0,2,0,1,2,0,0,0,3
+iS Clinical,Cleansing Complex,Face Cleanser,0,0,0,0,5,0,0,1,0,0,0,1,1,0,0,0,1,2,0,2,2,3,0,0,1
+La Roche-Posay,Effaclar Sérum Antiacne Ultra Concentrado,Face Serum,0,0,2,0,0,0,4,1,1,0,0,0,3,0,3,0,1,1,1,0,5,2,0,0,3
+La Roche-Posay,Effaclar Serum Anti Imperfections,Face Serum,0,0,2,0,0,0,4,1,1,0,0,0,3,0,3,0,1,1,1,0,5,2,0,0,3
+Vichy,Mousse Nettoyante Eclat,Face Serum,0,0,0,0,0,0,1,0,1,0,0,0,4,0,0,0,1,1,0,1,4,0,0,0,3
+Skin for life,Salicylic gel cleanser,Face Cleanser,0,0,1,0,0,0,0,0,1,0,0,1,1,0,1,0,0,2,0,0,2,1,0,0,1
+La Roche-Posay,Foaming Micellar Water,Face Cleanser,0,0,0,0,0,0,1,0,1,0,0,0,5,0,0,0,1,1,0,1,3,0,0,0,3
+iS Clinical,Cleansing Complex Polish,Face Cleanser,0,0,1,0,5,0,2,1,1,0,0,2,1,0,1,0,1,2,0,2,3,5,0,0,3
+Dr.ci labo,Labo Labo Super Keana Lotion,Face Serum,0,0,0,0,8,0,8,0,2,0,0,6,4,0,3,0,3,1,3,15,7,3,0,0,3
+Kiehl’s,Coriander Bath & Shower Liquid Body Cleanser,Face Serum,0,0,0,0,0,0,3,0,1,0,0,1,6,0,0,0,9,3,0,2,5,1,0,0,2
+Vichy,Pureté Thermale Cleansing Foam Radiance Revealer,Face Cleanser,0,0,0,0,0,0,2,0,1,0,0,0,4,0,0,0,1,1,0,1,4,0,0,0,3
+La Roche-Posay,Effaclar Salicylic Acid Acne Treatment,Acne Treatment,0,0,2,0,0,0,4,1,1,0,0,0,3,0,3,0,1,1,1,0,5,2,0,0,3
+Aphogee,Keratin And Green Tea Shampoo,Shampoo,0,0,0,0,2,0,1,0,0,0,0,1,7,0,0,0,6,3,0,1,2,2,0,0,3
+La Roche-Posay,Effaclar Serum Ultra Concentré,Face Serum,0,0,2,0,0,0,4,1,1,0,0,0,2,0,3,0,1,1,1,0,5,2,0,0,3
+Aphogee,Deep Moisture Shampoo,Shampoo,0,0,0,0,1,0,1,0,0,0,0,1,8,0,0,0,7,4,0,1,3,1,0,0,3
+Photozyme,Probiotic P291 Gentle Cleanser,Face Serum,0,0,0,0,2,0,1,0,1,0,0,2,2,0,0,0,2,1,0,1,5,5,0,0,2
+Supergoop!,Play Body Mousse Spf 50 With Blue Sea Kale,Sunscreen,0,0,0,0,5,0,0,0,1,0,0,16,4,0,0,0,4,2,0,1,2,5,3,0,4
+Soul tree,BB Cream,Face Moisturizer,0,0,0,0,1,0,1,0,1,0,0,8,1,0,0,0,2,2,2,1,1,4,0,0,5
+Jovees,Anti Ageing Face Mask,Face Mask,0,0,0,0,1,0,0,0,0,0,0,4,1,0,0,0,1,0,0,1,1,2,0,0,1
+Photozyme,Vitamin Ce + Ferulic Acid Lotion,Face Serum,0,0,1,0,5,0,1,0,1,0,0,5,1,0,0,0,0,2,1,3,3,2,0,0,2
+Sanitas Skincare,Oil Free Moisturizer,Face Moisturizer,0,0,1,0,2,0,0,1,1,0,0,5,1,0,0,0,0,1,0,3,3,2,0,0,2
+Freeman,Refining Peel-off Mask,Face Mask,0,0,0,0,3,0,1,0,2,4,0,2,1,0,0,0,3,3,1,1,5,8,0,0,4
+Kokua Sun Care,Hawaiian Natural Zinc Sunscreen,Sunscreen,0,0,0,0,5,0,0,0,1,1,0,10,3,0,0,0,1,0,0,1,3,5,1,0,2
+Lycogel,Breathable Tint Nr. 4,Face Moisturizer,0,0,2,0,3,0,1,1,1,4,0,13,5,0,0,0,2,3,0,4,6,4,0,0,5
+Apsara Skin Care,Krishna Sandalwood Facial Mask,Face Mask,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,1,0,1,0,0,3,0,0,0
+Natùrys,Essential Milk Tonic 2 In 1,Face Moisturizer,0,0,1,0,1,0,1,0,0,1,0,7,2,0,0,0,3,5,0,1,2,6,0,0,3
+Dermodality Skin Solutions,Peptide Plus Moisturizer,Face Moisturizer,0,0,1,0,13,0,2,3,1,0,0,7,1,0,0,0,1,3,6,2,0,8,0,0,1
+Rebels Refinery,Detoxifying 2-In-1 Mask + Scrub,Face Mask,0,0,0,0,2,0,0,0,1,1,0,10,5,0,0,0,7,1,0,1,1,8,0,0,7
+Ole Henriksen,Wrinkle Blur Bakuchiol Eye Gel Creme,Face Serum,0,0,0,0,4,0,5,3,4,2,0,3,3,0,1,0,4,6,1,1,5,6,0,0,5
+Boroplus,Antiseptic Cream,Face Moisturizer,0,0,0,0,2,0,1,0,0,0,0,2,0,0,0,0,1,1,1,1,1,3,1,0,0
+Khadi Natural,Woody Sandal & Honey Hair Cleanser,Face Cleanser,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,3,0,0,0
+Freeman,Golden Grain Brightening Mask,Face Mask,0,0,2,0,3,0,1,1,1,3,0,1,0,0,0,0,3,3,1,1,3,6,1,0,1
+Yon-Ka,Hydra No 1 Masque,Face Mask,0,0,2,0,3,0,1,1,0,0,0,4,3,0,1,0,4,5,1,2,3,7,0,0,5
+Forever Living,Aloe First® Spray,Face Serum,0,0,0,0,3,0,1,0,1,0,0,1,1,0,0,0,3,2,0,1,1,8,0,0,0
+Image Skincare,I Mask Purifying Probiotic Masque,Face Mask,0,0,0,0,7,0,2,0,0,5,0,12,3,0,1,0,7,5,0,2,3,6,0,0,9
+Roccoco,Radiance,Brightening Treatment,0,0,1,0,2,0,0,0,0,0,0,6,2,0,0,0,2,1,2,1,1,6,0,0,2
+Lacto Calamine,Ubtan Facewash,Face Cleanser,0,0,1,0,1,0,2,0,1,3,0,1,3,0,0,0,5,2,1,1,1,2,0,0,4
+Oribe,Gold Lust Transformative Hair Mask,Face Mask,0,0,1,0,8,0,3,1,3,0,0,15,9,0,1,0,9,11,1,1,7,4,1,0,8
+St. Botanica,Vitamic C SPF 30 Pa +++ Sunscreen,Sunscreen,0,0,2,0,7,0,0,1,2,4,0,7,5,0,0,0,5,0,6,1,3,5,5,0,2
+Freeman beauty,Plumping gel mask,Face Mask,0,0,1,0,3,0,0,1,0,2,0,2,1,0,0,0,9,2,1,2,2,8,0,0,1
+hide&seek skin,CBD Infused Supreme Cream,Face Moisturizer,0,0,1,0,4,0,0,0,1,0,0,9,2,0,1,0,1,1,0,3,1,5,0,0,2
+Ban,Roll-On Antiperspirant Deodorant,Deodorant,0,0,1,0,0,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0,1,2,0,0,0
+Aspect,Super Pd Complex,Face Serum,0,0,1,0,3,0,1,0,1,0,0,3,1,0,0,0,0,3,0,2,3,2,0,0,2
+Sanitas,Lemon Cream Cleanser,Face Moisturizer,0,0,1,0,2,0,1,0,1,0,0,7,3,0,1,0,1,1,1,3,4,2,0,0,4
+Bel Lab,Oil & Extract Pulpa De Limpieza,Face Moisturizer,0,0,1,0,8,0,2,0,0,0,0,9,3,0,0,0,9,2,1,1,1,12,0,0,2
+Volition,Turmeric Brightening Polish,Brightening Treatment,0,0,0,0,3,0,0,0,0,0,0,6,3,0,0,0,1,2,1,1,1,2,0,0,1
+Mamaearth,Ubtan Nourishing Hair Removal Cream,Face Moisturizer,0,0,0,0,3,0,5,0,0,0,0,3,1,0,0,0,4,0,2,0,1,5,0,0,0
+Sanitas,Pumpkin Enzyme Mask,Face Mask,0,0,1,0,3,0,0,0,0,0,0,7,2,0,0,0,2,2,1,4,3,2,0,0,2
+Khadi Natural,Sandalwood Soap,Face Cleanser,0,0,0,0,0,0,0,0,0,0,0,1,3,0,0,0,1,0,0,1,2,2,0,0,1
+OLEHENRIKSEN,Glow Cycle Retin-Alt Power Serum,Face Serum,0,0,0,0,4,0,4,2,1,4,0,4,3,0,2,0,4,3,1,2,3,4,0,0,6
+Earthly Wellness,Essence Sun Gel Sunscreen SPF 50 Pa++++,Sunscreen,0,0,1,0,3,0,0,1,1,1,0,3,0,0,0,0,1,5,2,1,1,6,3,0,3
+Freeman,Charcoal & Black Sugar Gel Mask & Scrub,Face Mask,0,0,0,0,2,0,0,0,0,2,0,0,0,0,0,0,3,0,0,0,1,5,0,0,1
+MyChelle Dermaceuticals,Replenishing Solar Defense Spf 30,Sunscreen,0,0,1,0,3,0,4,0,1,0,0,10,9,0,1,0,1,0,0,1,2,6,1,0,6
+Cellular MD,Intensive Eye Balm,Face Moisturizer,0,0,2,0,4,0,0,1,1,0,0,14,5,0,0,0,1,2,1,4,4,9,0,0,2
+Freeman beauty,Warming Gel-to-oil Beauty Mask,Face Mask,0,0,0,0,2,0,1,0,0,0,0,1,0,0,0,0,4,1,0,1,2,4,0,0,1
+Radical Skincare,Express Delivery Enzyme Peel,Exfoliant/Scrub,0,0,1,0,5,0,2,1,0,2,0,7,1,0,2,0,8,5,2,2,4,6,0,0,3
+Hale & Hush,Broad Spectrum Natural SPF30,Sunscreen,0,0,1,0,3,0,4,0,1,0,0,10,9,0,1,0,1,0,0,1,2,5,0,0,6
+Vivreen,SPF 50 PA+++ 22 Suscreen Lotion,Sunscreen,0,0,0,0,0,0,1,0,0,1,0,5,5,0,0,0,2,2,0,0,3,2,6,0,6
+Oribe,Gold Lust Repair & Restore Conditioner,Conditioner,0,0,1,0,9,0,4,1,3,0,0,15,8,0,1,0,9,11,1,1,7,4,1,0,8
+Ole Henriksen,PHAT Glow Facial,Brightening Treatment,0,0,1,0,3,0,1,1,2,2,0,4,6,0,1,0,6,5,2,2,4,4,0,0,4
+Santhoor,Sandal And Turmeric Soap,Face Cleanser,0,0,0,0,0,0,1,0,2,3,0,0,2,0,0,0,0,0,0,0,1,1,1,0,2
+Diane,Extra Fresh And Hydrate Treatment,Face Moisturizer,0,0,0,0,5,0,3,0,0,0,0,9,3,0,1,0,4,3,0,2,3,3,0,0,2
+Mamaearth,Ubtan Moisturizing Lotion Soap,Face Cleanser,0,0,0,0,2,0,2,0,2,3,0,5,4,0,0,0,2,1,1,1,1,2,1,0,6
+Sanitas Skincare,Vitarich Mask,Face Mask,0,0,1,0,2,0,0,1,1,0,0,4,1,0,0,0,0,1,1,4,3,2,0,0,2
+Photozyme,DNA Youth Recovery Facial Serum,Face Serum,0,0,1,0,3,0,1,0,1,0,0,3,1,0,0,0,0,3,0,2,3,2,0,0,2
+BE THE SKIN,Botanical Nutrition Power Cream,Face Moisturizer,0,0,1,0,1,0,0,0,0,0,0,11,6,0,0,0,3,0,1,4,3,10,0,0,5
+Freeman,Exfoliating Charcoal & Coconut Facial Scrub Mask,Face Mask,0,0,0,0,2,0,1,0,0,2,0,1,0,0,0,0,3,1,0,1,2,5,0,0,1
+Mamaearth,Ubtan Body Wash New,Body Wash,0,0,1,0,1,0,0,1,1,2,0,2,4,0,0,0,2,2,2,1,2,2,1,0,5
+Sanitas,Peptiderm Moisturizing Cream,Face Moisturizer,0,0,1,0,3,0,0,5,1,0,0,8,5,0,0,0,0,1,1,4,6,4,0,0,5
+Beauty Society,Liquid Luxury,Face Serum,0,0,1,0,4,0,0,1,0,0,0,7,1,0,0,0,6,0,1,1,0,6,0,0,0
+Mediheal,Bt21 Face Point Mask Set,Face Mask,0,0,2,0,9,0,0,2,1,0,0,4,4,0,0,0,3,4,1,3,6,11,0,0,5
+Revision Skincare,DEJ Facial Cream,Face Moisturizer,0,0,2,0,7,0,1,6,1,0,0,18,7,0,0,0,1,6,2,9,5,5,0,0,4
+DNA renewal,Dna Eye Balm,Face Moisturizer,0,0,2,0,4,0,0,2,1,0,0,14,5,0,0,0,1,2,1,4,4,9,0,0,2
+OLEHENRIKSEN,Glow2Oh Dark Spot Toner,Face Toner,0,0,0,0,2,0,3,0,1,0,0,0,1,0,2,0,4,4,1,1,2,4,0,0,0
+Parachute,Skinpure Natural White,Face Moisturizer,0,0,1,0,0,0,0,1,0,2,0,3,0,0,0,0,2,3,1,1,1,1,0,0,1
+Sarah Chapman,Skinesis Age Repair Serum,Face Serum,0,0,1,0,10,0,3,5,1,2,0,12,6,0,0,0,16,3,3,5,7,4,0,0,6
+Rebels Refinery,Activated Charcoal Face Scrub,Exfoliant/Scrub,0,0,0,0,2,0,0,0,1,1,0,10,5,0,0,0,6,1,0,1,1,8,0,0,7
+Supergoop!,Super Power Sunscreen Mousse Broad Spectrum Spf 50,Sunscreen,0,0,0,0,4,0,0,0,1,0,0,17,4,0,0,0,4,2,0,1,2,5,4,0,4
+Oribe,Shampoo For Brilliance & Shine,Shampoo,0,0,2,0,8,0,2,1,4,2,0,9,11,0,2,0,9,10,1,1,9,4,0,0,10
+Bel Lab,Oil & Extract Serum Facial,Face Serum,0,0,1,0,9,0,1,1,0,0,0,9,1,0,0,0,8,2,1,1,1,11,0,0,1
+Freeman,Clearing Sweet Tea + Lemon Peel-off Clay Mask,Face Mask,0,0,1,0,4,0,0,0,0,2,0,2,1,0,0,0,3,3,1,1,4,9,1,0,4
+Mary Kay,Velocity Lightweight Moisturizer,Face Moisturizer,0,0,1,0,2,0,0,0,1,0,0,5,1,0,1,0,2,4,0,8,7,5,0,0,5
