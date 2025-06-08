@@ -470,5 +470,169 @@
       "support": 75.0
     }
   },
-  "timestamp": "2025-06-08T13:45:41.894094"
+  "category_distribution": {
+    "Sunscreen": {
+      "count": 7,
+      "percentage": 9.333333333333334
+    },
+    "Face Mask": {
+      "count": 6,
+      "percentage": 8.0
+    },
+    "Face Serum": {
+      "count": 3,
+      "percentage": 4.0
+    },
+    "Brightening Treatment": {
+      "count": 6,
+      "percentage": 8.0
+    },
+    "Hair Treatment": {
+      "count": 3,
+      "percentage": 4.0
+    },
+    "Body Moisturizer": {
+      "count": 4,
+      "percentage": 5.333333333333334
+    },
+    "Face Cleanser": {
+      "count": 8,
+      "percentage": 10.666666666666668
+    },
+    "Body Wash": {
+      "count": 2,
+      "percentage": 2.666666666666667
+    },
+    "Exfoliant/Scrub": {
+      "count": 6,
+      "percentage": 8.0
+    },
+    "Deodorant": {
+      "count": 1,
+      "percentage": 1.3333333333333335
+    },
+    "Conditioner": {
+      "count": 6,
+      "percentage": 8.0
+    },
+    "Uncategorized": {
+      "count": 1,
+      "percentage": 1.3333333333333335
+    },
+    "Shampoo": {
+      "count": 6,
+      "percentage": 8.0
+    },
+    "Acne Treatment": {
+      "count": 5,
+      "percentage": 6.666666666666667
+    },
+    "Face Toner": {
+      "count": 4,
+      "percentage": 5.333333333333334
+    },
+    "Face Moisturizer": {
+      "count": 7,
+      "percentage": 9.333333333333334
+    }
+  },
+  "detailed_metrics": {
+    "Acne Treatment": {
+      "precision": 0.8333333333333334,
+      "recall": 1.0,
+      "f1": 0.9090909090909091,
+      "support": 5
+    },
+    "Body Moisturizer": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 4
+    },
+    "Body Wash": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 2
+    },
+    "Brightening Treatment": {
+      "precision": 0.8333333333333334,
+      "recall": 0.8333333333333334,
+      "f1": 0.8333333333333334,
+      "support": 6
+    },
+    "Conditioner": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 6
+    },
+    "Deodorant": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 1
+    },
+    "Exfoliant/Scrub": {
+      "precision": 1.0,
+      "recall": 0.8333333333333334,
+      "f1": 0.9090909090909091,
+      "support": 6
+    },
+    "Face Cleanser": {
+      "precision": 0.8333333333333334,
+      "recall": 0.625,
+      "f1": 0.7142857142857143,
+      "support": 8
+    },
+    "Face Mask": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 6
+    },
+    "Face Moisturizer": {
+      "precision": 0.8333333333333334,
+      "recall": 0.7142857142857143,
+      "f1": 0.7692307692307693,
+      "support": 7
+    },
+    "Face Serum": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "support": 3
+    },
+    "Face Toner": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 4
+    },
+    "Hair Treatment": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 3
+    },
+    "Shampoo": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 6
+    },
+    "Sunscreen": {
+      "precision": 1.0,
+      "recall": 0.8571428571428571,
+      "f1": 0.9230769230769231,
+      "support": 7
+    },
+    "Uncategorized": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "support": 1
+    }
+  },
+  "timestamp": "2025-06-08T14:28:54.086753"
 }
