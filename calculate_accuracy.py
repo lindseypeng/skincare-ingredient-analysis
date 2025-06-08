@@ -1,6 +1,8 @@
 import json
 from typing import Dict, List
-from sklearn.metrics import confusion_matrix, classification_report
+from sklearn.metrics import confusion_matrix, classification_report, precision_recall_fscore_support
+from sklearn.model_selection import KFold
+import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -10,6 +12,18 @@ def load_json_file(file_path: str) -> Dict:
     """Load and parse a JSON file."""
     with open(file_path, 'r', encoding='utf-8') as f:
         return json.load(f)
+
+def calculate_class_distribution(categories: List[str]) -> Dict:
+    """Calculate distribution of categories to check for class imbalance."""
+    total = len(categories)
+    distribution = {}
+    for category in set(categories):
+        count = categories.count(category)
+        distribution[category] = {
+            'count': count,
+            'percentage': count/total * 100
+        }
+    return distribution
 
 def calculate_categorization_accuracy(gold_standard: Dict, predictions: Dict) -> Dict:
     """
@@ -87,14 +101,37 @@ def calculate_categorization_accuracy(gold_standard: Dict, predictions: Dict) ->
     plt.savefig('confusion_matrix.png')
     plt.close()
 
+    # Add class distribution analysis
+    category_distribution = calculate_class_distribution(true_categories)
+    
+    # Calculate precision, recall, and F1 scores per category
+    precision, recall, f1, support = precision_recall_fscore_support(
+        true_categories, 
+        pred_categories, 
+        average=None,
+        labels=unique_categories
+    )
+    
+    # Convert numpy types to Python native types for JSON serialization
+    detailed_metrics = {
+        str(cat): {
+            'precision': float(p),
+            'recall': float(r),
+            'f1': float(f),
+            'support': int(s)
+        } for cat, p, r, f, s in zip(unique_categories, precision, recall, f1, support)
+    }
+
     return {
-        'overall_accuracy': overall_accuracy,
-        'total_samples': total_samples,
-        'correct_predictions': correct_predictions,
+        'overall_accuracy': float(overall_accuracy),
+        'total_samples': int(total_samples),
+        'correct_predictions': int(correct_predictions),
         'category_accuracy': category_accuracy,
-        'average_confidence': avg_confidence,
+        'average_confidence': float(avg_confidence),
         'confusion_matrix': conf_matrix.tolist(),
         'classification_report': class_report,
+        'category_distribution': category_distribution,
+        'detailed_metrics': detailed_metrics,
         'timestamp': datetime.now().isoformat()
     }
 
@@ -106,7 +143,7 @@ def main():
     # Calculate accuracy metrics
     results = calculate_categorization_accuracy(gold_standard, predictions)
     
-    # Print results
+    # Print enhanced results
     print("\nCategorization Accuracy Results")
     print("==============================")
     print(f"Overall Accuracy: {results['overall_accuracy']:.2%}")
@@ -114,11 +151,20 @@ def main():
     print(f"Correct Predictions: {results['correct_predictions']}")
     print(f"Average Confidence: {results['average_confidence']:.2%}")
     
-    print("\nPer-Category Accuracy:")
+    print("\nCategory Distribution:")
     print("---------------------")
-    for category, stats in results['category_accuracy'].items():
-        print(f"{category}: {stats['accuracy']:.2%} ({stats['total_samples']} samples)")
+    for category, stats in results['category_distribution'].items():
+        print(f"{category}: {stats['count']} samples ({stats['percentage']:.1f}%)")
     
+    print("\nDetailed Metrics per Category:")
+    print("-----------------------------")
+    for category, metrics in results['detailed_metrics'].items():
+        print(f"\n{category}:")
+        print(f"  Precision: {metrics['precision']:.2%}")
+        print(f"  Recall: {metrics['recall']:.2%}")
+        print(f"  F1 Score: {metrics['f1']:.2%}")
+        print(f"  Support: {metrics['support']}")
+
     # Save detailed results
     with open('accuracy_results.json', 'w') as f:
         json.dump(results, f, indent=2)
