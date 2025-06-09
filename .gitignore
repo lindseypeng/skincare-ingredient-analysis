@@ -1,13 +1,12 @@
-debug_product_data.json
+
 __pycache__/
 data/.ipynb_checkpoints/
-data/Untitled.ipynb
 data/skincare_products_clean.csv
-dynamic_skincare_scraper.py
-incidecoder_function_scrape_partial.json
-incidecoder_products.csv
-incidecoder_products.json
-ingredients-skimthrough-table.html
-ingredients_list_page_based_on_funct.html
-product.html
+
+
+
+
+
+
+
 
